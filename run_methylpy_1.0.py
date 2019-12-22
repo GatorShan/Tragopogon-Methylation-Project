@@ -33,3 +33,5 @@ call_methylated_sites_pe(output_bam_file,
                          path_to_samtools="",
                          min_base_quality=1,
                          keep_temp_files=True)
+
+
