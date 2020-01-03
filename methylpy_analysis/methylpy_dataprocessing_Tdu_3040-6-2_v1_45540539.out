@@ -1,0 +1,26 @@
+Sun Dec 29 10:48:07 EST 2019
+c3a-s19.ufhpc
+/ufrc/soltis/shan158538/Methylation/SLURM
+TMPDIR is: /orange/soltis/shan158538/methylpy_temp
+Begin splitting reads for libA
+Sun Dec 29 10:48:21 2019
+
+Begin trimming reads for libA
+Sun Dec 29 21:01:22 2019
+
+Begin converting reads for libA
+Sun Dec 29 22:06:20 2019
+
+Begin Running Bowtie2 for libA
+Sun Dec 29 22:42:29 2019
+
+Processing forward strand hits
+Tue Dec 31 07:49:16 2019
+
+Processing reverse strand hits
+Wed Jan  1 19:31:16 2020
+
+Finding multimappers
+Wed Jan  1 23:08:40 2020
+
+Thu Jan  2 05:57:09 EST 2020
