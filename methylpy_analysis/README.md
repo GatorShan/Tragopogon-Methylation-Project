@@ -3,7 +3,7 @@
 The method is adapted from [here](https://github.com/yupenghe/methylpy/blob/methylpy/tutorial/tutorial.md).
 
 ## 2. Analysis of T.dubius (3040-6-2; Pullman)
-The raw data contains 615 million paired-end 150-bp reads.
+The raw data contains ~615 million paired-end 150-bp reads.
 
 ### 2.1
 Script `methylpy_dataprocessing_Tdu_3040-6-2_v1.sh` was used.
@@ -42,5 +42,32 @@ Mapping results:
 ```
 ### 2.2
 Script `methylpy_dataprocessing_Tdu_3040-6-2_v1_Picard.sh` was used for mark duplicate analysis.
+
+## 3. Analysis of T. pratensis (3058-1-2; Garfield)
+The raw data contains ~259 million paired-end 150-bp reads. Script `methylpy_dataprocessing_Tpr_3058-1-2_v1.sh` was used.
+
+Output:
+  - `methylpy_dataprocessing_Tpr_3058-1-2_v1_45430393.out`
+  - `methylpy_dataprocessing_Tpr_3058-1-2_v1_45430393.error`
+  - `T.pratensis_3058-1-2_processed_reads_no_clonal.bam`
+  - `T.pratensis_3058-1-2_libA.metric`
+  - `allc_T.pratensis_3058-1-2.tsv.gz.idx`
+  - `allc_T.pratensis_3058-1-2.tsv.gz`
+
+```
+There are 258651069 total input read pairs
+Wed Dec 25 08:40:05 2019
+
+There are 15891937 uniquely mapping read pairs, 6.14416057179 percent remaining
+Wed Dec 25 08:40:05 2019
+
+There are 13360495 non-clonal read pairs, 5.16545129763 percent remaining
+Wed Dec 25 08:40:05 2019
+...
+The non-conversion rate is 0.242098066597%
+Wed Dec 25 10:05:32 2019
+...
+Done
+```
 
 
