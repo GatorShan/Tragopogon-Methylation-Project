@@ -5,7 +5,7 @@ The method is adapted from [here](https://github.com/yupenghe/methylpy/blob/meth
 ## 2. Analysis of T.dubius (3040-6-2; Pullman)
 The raw data contains ~615 million paired-end 150-bp reads.
 
-### 2.1
+### 2.1 Start analysis
 Script `methylpy_dataprocessing_Tdu_3040-6-2_v1.sh` was used.
   - The job ended after running ~4 days
   - Error message below:
@@ -40,7 +40,7 @@ Mapping results:
     314364143 (51.11%) aligned concordantly >1 times
 65.94% overall alignment rate
 ```
-### 2.2
+### 2.2 Remove duplicates
 Script `methylpy_dataprocessing_Tdu_3040-6-2_v1_Picard.sh` was used for mark duplicate analysis.
 
 Output:
@@ -48,6 +48,9 @@ Output:
     - `MarkDuplicates	Marking 93,694,590 records as duplicates`
   - **`T.dubius_3040-6-2_libA_processed_reads_no_clonal.bam`**, which is 15 G
   - `T.dubius_3040-6-2_libA.metric`
+  
+### 2.3 Generate allC files
+Scripts `methylpy_dataprocessing_calling_3040-6-2.sh` and `run_methylpy_3040-6-2.py` was used.
 
 ## 3. Analysis of T. pratensis (3058-1-2; Garfield)
 The raw data contains ~259 million paired-end 150-bp reads. Script `methylpy_dataprocessing_Tpr_3058-1-2_v1.sh` was used.
