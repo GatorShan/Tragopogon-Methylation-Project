@@ -43,6 +43,12 @@ Mapping results:
 ### 2.2
 Script `methylpy_dataprocessing_Tdu_3040-6-2_v1_Picard.sh` was used for mark duplicate analysis.
 
+Output:
+  - `methylpy_dataprocessing_Tdu_3040-6-2_v1_Picard_45599907.error`
+    - `MarkDuplicates	Marking 93,694,590 records as duplicates`
+  - **`T.dubius_3040-6-2_libA_processed_reads_no_clonal.bam`**, which is 15 G
+  - `T.dubius_3040-6-2_libA.metric`
+
 ## 3. Analysis of T. pratensis (3058-1-2; Garfield)
 The raw data contains ~259 million paired-end 150-bp reads. Script `methylpy_dataprocessing_Tpr_3058-1-2_v1.sh` was used.
 
