@@ -1,0 +1,727 @@
+15:42:26.635 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/apps/picard/2.18.3/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+INFO	2020-01-03 15:42:26	MarkDuplicates	Start of doWork freeMemory: 1996161848; totalMemory: 2015887360; maxMemory: 19088801792
+INFO	2020-01-03 15:42:26	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2020-01-03 15:42:26	MarkDuplicates	Will retain up to 69162325 data points before spilling to disk.
+INFO	2020-01-03 15:42:33	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_9:110,461
+INFO	2020-01-03 15:42:33	MarkDuplicates	Tracking 72 as yet unmatched pairs. 72 records in RAM.
+INFO	2020-01-03 15:42:39	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_11:452,447
+INFO	2020-01-03 15:42:39	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:42:44	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_17:9,028
+INFO	2020-01-03 15:42:44	MarkDuplicates	Tracking 58 as yet unmatched pairs. 58 records in RAM.
+INFO	2020-01-03 15:42:53	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_23:16,392
+INFO	2020-01-03 15:42:53	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:42:57	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:30s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_28:252,351
+INFO	2020-01-03 15:42:57	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:43:05	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_34:438,793
+INFO	2020-01-03 15:43:05	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 15:43:10	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_40:359,382
+INFO	2020-01-03 15:43:10	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:43:16	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_47:232,603
+INFO	2020-01-03 15:43:16	MarkDuplicates	Tracking 48 as yet unmatched pairs. 48 records in RAM.
+INFO	2020-01-03 15:43:19	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_53:355,935
+INFO	2020-01-03 15:43:19	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 15:43:33	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:   13s.  Last read position: Tdub_V1_scaffold_60:27,414
+INFO	2020-01-03 15:43:33	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 15:43:37	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:01:09s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_66:270,083
+INFO	2020-01-03 15:43:37	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:43:48	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:01:21s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_73:43,830
+INFO	2020-01-03 15:43:48	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:43:53	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_79:325,828
+INFO	2020-01-03 15:43:53	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:43:59	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_87:78,635
+INFO	2020-01-03 15:43:59	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:44:03	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_95:120,324
+INFO	2020-01-03 15:44:03	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 15:44:17	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:50s.  Time for last 1,000,000:   13s.  Last read position: Tdub_V1_scaffold_102:139,657
+INFO	2020-01-03 15:44:17	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:44:21	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_110:58,575
+INFO	2020-01-03 15:44:21	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 15:44:30	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_117:140,351
+INFO	2020-01-03 15:44:30	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 15:44:33	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_122:406,180
+INFO	2020-01-03 15:44:33	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 15:44:38	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:02:11s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_128:110,448
+INFO	2020-01-03 15:44:38	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 15:44:42	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:02:14s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_146:253,815
+INFO	2020-01-03 15:44:42	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 15:44:48	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:02:21s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_159:213,462
+INFO	2020-01-03 15:44:48	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 15:44:52	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:02:24s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_170:66,455
+INFO	2020-01-03 15:44:52	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2020-01-03 15:45:02	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:02:34s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_182:165,370
+INFO	2020-01-03 15:45:02	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:45:06	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_196:37,131
+INFO	2020-01-03 15:45:06	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2020-01-03 15:45:14	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:02:47s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_210:86,832
+INFO	2020-01-03 15:45:14	MarkDuplicates	Tracking 3822 as yet unmatched pairs. 3822 records in RAM.
+INFO	2020-01-03 15:45:18	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:02:50s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_221:20,848
+INFO	2020-01-03 15:45:18	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 15:45:25	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:02:58s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_233:130,442
+INFO	2020-01-03 15:45:25	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:45:29	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_247:18,886
+INFO	2020-01-03 15:45:29	MarkDuplicates	Tracking 58 as yet unmatched pairs. 58 records in RAM.
+INFO	2020-01-03 15:45:38	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:03:10s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_259:133,033
+INFO	2020-01-03 15:45:38	MarkDuplicates	Tracking 346 as yet unmatched pairs. 346 records in RAM.
+INFO	2020-01-03 15:45:42	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:03:14s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_271:39,900
+INFO	2020-01-03 15:45:42	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 15:45:51	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_281:126,111
+INFO	2020-01-03 15:45:51	MarkDuplicates	Tracking 112 as yet unmatched pairs. 112 records in RAM.
+INFO	2020-01-03 15:45:55	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:03:27s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_290:301,835
+INFO	2020-01-03 15:45:55	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:46:06	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:03:39s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_302:164,112
+INFO	2020-01-03 15:46:06	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 15:46:10	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:03:42s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_314:12,585
+INFO	2020-01-03 15:46:10	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:46:19	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:03:52s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_328:45,664
+INFO	2020-01-03 15:46:19	MarkDuplicates	Tracking 162 as yet unmatched pairs. 162 records in RAM.
+INFO	2020-01-03 15:46:22	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:03:55s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_338:198
+INFO	2020-01-03 15:46:22	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 15:46:28	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_350:323,284
+INFO	2020-01-03 15:46:28	MarkDuplicates	Tracking 58 as yet unmatched pairs. 58 records in RAM.
+INFO	2020-01-03 15:46:31	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:04:04s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_360:151,359
+INFO	2020-01-03 15:46:31	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 15:46:37	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:04:09s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_371:243,517
+INFO	2020-01-03 15:46:37	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 15:46:40	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:04:13s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_386:28,732
+INFO	2020-01-03 15:46:40	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 15:46:44	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:04:16s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_397:182,140
+INFO	2020-01-03 15:46:44	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:46:50	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:04:22s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_407:243,239
+INFO	2020-01-03 15:46:50	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:46:53	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:04:26s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_418:34,413
+INFO	2020-01-03 15:46:53	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2020-01-03 15:47:11	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:04:43s.  Time for last 1,000,000:   17s.  Last read position: Tdub_V1_scaffold_429:172,896
+INFO	2020-01-03 15:47:11	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 15:47:15	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:04:48s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_435:207,375
+INFO	2020-01-03 15:47:15	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:47:22	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:04:54s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_443:193,913
+INFO	2020-01-03 15:47:22	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:47:25	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_454:9,224
+INFO	2020-01-03 15:47:25	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 15:47:32	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:05:04s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_463:315,999
+INFO	2020-01-03 15:47:32	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:47:35	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:05:08s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_471:391,101
+INFO	2020-01-03 15:47:35	MarkDuplicates	Tracking 72 as yet unmatched pairs. 72 records in RAM.
+INFO	2020-01-03 15:47:41	MarkDuplicates	Read    51,000,000 records.  Elapsed time: 00:05:14s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_482:15,248
+INFO	2020-01-03 15:47:41	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 15:47:44	MarkDuplicates	Read    52,000,000 records.  Elapsed time: 00:05:17s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_491:182,702
+INFO	2020-01-03 15:47:44	MarkDuplicates	Tracking 46 as yet unmatched pairs. 46 records in RAM.
+INFO	2020-01-03 15:47:50	MarkDuplicates	Read    53,000,000 records.  Elapsed time: 00:05:23s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_499:33,616
+INFO	2020-01-03 15:47:50	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:47:53	MarkDuplicates	Read    54,000,000 records.  Elapsed time: 00:05:26s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_507:128,457
+INFO	2020-01-03 15:47:53	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:48:09	MarkDuplicates	Read    55,000,000 records.  Elapsed time: 00:05:41s.  Time for last 1,000,000:   15s.  Last read position: Tdub_V1_scaffold_516:7,595
+INFO	2020-01-03 15:48:09	MarkDuplicates	Tracking 88 as yet unmatched pairs. 88 records in RAM.
+INFO	2020-01-03 15:48:13	MarkDuplicates	Read    56,000,000 records.  Elapsed time: 00:05:46s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_524:69,719
+INFO	2020-01-03 15:48:13	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 15:48:20	MarkDuplicates	Read    57,000,000 records.  Elapsed time: 00:05:53s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_532:86,304
+INFO	2020-01-03 15:48:20	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 15:48:23	MarkDuplicates	Read    58,000,000 records.  Elapsed time: 00:05:56s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_548:155,879
+INFO	2020-01-03 15:48:23	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 15:48:34	MarkDuplicates	Read    59,000,000 records.  Elapsed time: 00:06:06s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_584:16,565
+INFO	2020-01-03 15:48:34	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2020-01-03 15:48:37	MarkDuplicates	Read    60,000,000 records.  Elapsed time: 00:06:10s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_617:50,926
+INFO	2020-01-03 15:48:37	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 15:48:48	MarkDuplicates	Read    61,000,000 records.  Elapsed time: 00:06:20s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_647:194,930
+INFO	2020-01-03 15:48:48	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 15:48:52	MarkDuplicates	Read    62,000,000 records.  Elapsed time: 00:06:24s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_675:14,999
+INFO	2020-01-03 15:48:52	MarkDuplicates	Tracking 46 as yet unmatched pairs. 46 records in RAM.
+INFO	2020-01-03 15:48:58	MarkDuplicates	Read    63,000,000 records.  Elapsed time: 00:06:31s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_704:126,655
+INFO	2020-01-03 15:48:58	MarkDuplicates	Tracking 62 as yet unmatched pairs. 62 records in RAM.
+INFO	2020-01-03 15:49:02	MarkDuplicates	Read    64,000,000 records.  Elapsed time: 00:06:34s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_731:65,657
+INFO	2020-01-03 15:49:02	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:49:08	MarkDuplicates	Read    65,000,000 records.  Elapsed time: 00:06:40s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_761:16,006
+INFO	2020-01-03 15:49:08	MarkDuplicates	Tracking 228 as yet unmatched pairs. 228 records in RAM.
+INFO	2020-01-03 15:49:11	MarkDuplicates	Read    66,000,000 records.  Elapsed time: 00:06:44s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_791:36,085
+INFO	2020-01-03 15:49:11	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:49:14	MarkDuplicates	Read    67,000,000 records.  Elapsed time: 00:06:47s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_817:40,060
+INFO	2020-01-03 15:49:14	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 15:49:32	MarkDuplicates	Read    68,000,000 records.  Elapsed time: 00:07:04s.  Time for last 1,000,000:   17s.  Last read position: Tdub_V1_scaffold_852:68,382
+INFO	2020-01-03 15:49:32	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:49:36	MarkDuplicates	Read    69,000,000 records.  Elapsed time: 00:07:08s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_891:66,659
+INFO	2020-01-03 15:49:36	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:50:13	MarkDuplicates	Read    70,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:   37s.  Last read position: Tdub_V1_scaffold_924:32,843
+INFO	2020-01-03 15:50:13	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 15:50:17	MarkDuplicates	Read    71,000,000 records.  Elapsed time: 00:07:49s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_953:16,405
+INFO	2020-01-03 15:50:17	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:50:23	MarkDuplicates	Read    72,000,000 records.  Elapsed time: 00:07:55s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_982:71,559
+INFO	2020-01-03 15:50:23	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 15:50:26	MarkDuplicates	Read    73,000,000 records.  Elapsed time: 00:07:59s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1010:215,483
+INFO	2020-01-03 15:50:26	MarkDuplicates	Tracking 56 as yet unmatched pairs. 56 records in RAM.
+INFO	2020-01-03 15:50:31	MarkDuplicates	Read    74,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_1043:15,225
+INFO	2020-01-03 15:50:31	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:50:35	MarkDuplicates	Read    75,000,000 records.  Elapsed time: 00:08:07s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1064:195,513
+INFO	2020-01-03 15:50:35	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 15:50:43	MarkDuplicates	Read    76,000,000 records.  Elapsed time: 00:08:15s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_1091:21,218
+INFO	2020-01-03 15:50:43	MarkDuplicates	Tracking 76 as yet unmatched pairs. 76 records in RAM.
+INFO	2020-01-03 15:50:47	MarkDuplicates	Read    77,000,000 records.  Elapsed time: 00:08:19s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1111:64,734
+INFO	2020-01-03 15:50:47	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 15:50:58	MarkDuplicates	Read    78,000,000 records.  Elapsed time: 00:08:30s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_1132:88,807
+INFO	2020-01-03 15:50:58	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 15:51:01	MarkDuplicates	Read    79,000,000 records.  Elapsed time: 00:08:33s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1161:34,747
+INFO	2020-01-03 15:51:01	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 15:51:12	MarkDuplicates	Read    80,000,000 records.  Elapsed time: 00:08:45s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_1186:47,383
+INFO	2020-01-03 15:51:12	MarkDuplicates	Tracking 40 as yet unmatched pairs. 40 records in RAM.
+INFO	2020-01-03 15:51:16	MarkDuplicates	Read    81,000,000 records.  Elapsed time: 00:08:48s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1210:1,764
+INFO	2020-01-03 15:51:16	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 15:51:30	MarkDuplicates	Read    82,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:   14s.  Last read position: Tdub_V1_scaffold_1233:31,042
+INFO	2020-01-03 15:51:30	MarkDuplicates	Tracking 5348 as yet unmatched pairs. 5348 records in RAM.
+INFO	2020-01-03 15:51:34	MarkDuplicates	Read    83,000,000 records.  Elapsed time: 00:09:07s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1261:60,859
+INFO	2020-01-03 15:51:34	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:51:44	MarkDuplicates	Read    84,000,000 records.  Elapsed time: 00:09:16s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_1288:44,686
+INFO	2020-01-03 15:51:44	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:51:47	MarkDuplicates	Read    85,000,000 records.  Elapsed time: 00:09:20s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1305:163,177
+INFO	2020-01-03 15:51:47	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 15:51:57	MarkDuplicates	Read    86,000,000 records.  Elapsed time: 00:09:30s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_1330:22,820
+INFO	2020-01-03 15:51:57	MarkDuplicates	Tracking 50 as yet unmatched pairs. 50 records in RAM.
+INFO	2020-01-03 15:52:01	MarkDuplicates	Read    87,000,000 records.  Elapsed time: 00:09:34s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1362:38,375
+INFO	2020-01-03 15:52:01	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 15:52:05	MarkDuplicates	Read    88,000,000 records.  Elapsed time: 00:09:38s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1384:16,812
+INFO	2020-01-03 15:52:05	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:52:13	MarkDuplicates	Read    89,000,000 records.  Elapsed time: 00:09:46s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_1408:61,132
+INFO	2020-01-03 15:52:13	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 15:52:17	MarkDuplicates	Read    90,000,000 records.  Elapsed time: 00:09:49s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1431:96,298
+INFO	2020-01-03 15:52:17	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2020-01-03 15:52:24	MarkDuplicates	Read    91,000,000 records.  Elapsed time: 00:09:57s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_1449:64,659
+INFO	2020-01-03 15:52:24	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:52:27	MarkDuplicates	Read    92,000,000 records.  Elapsed time: 00:10:00s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1467:1,574
+INFO	2020-01-03 15:52:27	MarkDuplicates	Tracking 48 as yet unmatched pairs. 48 records in RAM.
+INFO	2020-01-03 15:52:33	MarkDuplicates	Read    93,000,000 records.  Elapsed time: 00:10:05s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_1489:94,116
+INFO	2020-01-03 15:52:33	MarkDuplicates	Tracking 58 as yet unmatched pairs. 58 records in RAM.
+INFO	2020-01-03 15:52:36	MarkDuplicates	Read    94,000,000 records.  Elapsed time: 00:10:08s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1513:87,972
+INFO	2020-01-03 15:52:36	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:52:53	MarkDuplicates	Read    95,000,000 records.  Elapsed time: 00:10:26s.  Time for last 1,000,000:   17s.  Last read position: Tdub_V1_scaffold_1534:38,088
+INFO	2020-01-03 15:52:53	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 15:52:58	MarkDuplicates	Read    96,000,000 records.  Elapsed time: 00:10:30s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1556:89,118
+INFO	2020-01-03 15:52:58	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:53:03	MarkDuplicates	Read    97,000,000 records.  Elapsed time: 00:10:35s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_1579:7,317
+INFO	2020-01-03 15:53:03	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:53:06	MarkDuplicates	Read    98,000,000 records.  Elapsed time: 00:10:39s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1601:50,434
+INFO	2020-01-03 15:53:06	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 15:53:16	MarkDuplicates	Read    99,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_1629:156,563
+INFO	2020-01-03 15:53:16	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 15:53:21	MarkDuplicates	Read   100,000,000 records.  Elapsed time: 00:10:53s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1650:55,299
+INFO	2020-01-03 15:53:21	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 15:53:27	MarkDuplicates	Read   101,000,000 records.  Elapsed time: 00:10:59s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_1673:73,850
+INFO	2020-01-03 15:53:27	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 15:53:30	MarkDuplicates	Read   102,000,000 records.  Elapsed time: 00:11:03s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1693:81,266
+INFO	2020-01-03 15:53:30	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 15:53:41	MarkDuplicates	Read   103,000,000 records.  Elapsed time: 00:11:13s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_1712:74,738
+INFO	2020-01-03 15:53:41	MarkDuplicates	Tracking 80 as yet unmatched pairs. 80 records in RAM.
+INFO	2020-01-03 15:53:45	MarkDuplicates	Read   104,000,000 records.  Elapsed time: 00:11:17s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1730:2,128
+INFO	2020-01-03 15:53:45	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 15:53:49	MarkDuplicates	Read   105,000,000 records.  Elapsed time: 00:11:21s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1754:50,474
+INFO	2020-01-03 15:53:49	MarkDuplicates	Tracking 64 as yet unmatched pairs. 64 records in RAM.
+INFO	2020-01-03 15:53:57	MarkDuplicates	Read   106,000,000 records.  Elapsed time: 00:11:30s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_1775:26,866
+INFO	2020-01-03 15:53:57	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 15:54:01	MarkDuplicates	Read   107,000,000 records.  Elapsed time: 00:11:33s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1793:173,853
+INFO	2020-01-03 15:54:01	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:54:16	MarkDuplicates	Read   108,000,000 records.  Elapsed time: 00:11:49s.  Time for last 1,000,000:   15s.  Last read position: Tdub_V1_scaffold_1813:87,538
+INFO	2020-01-03 15:54:16	MarkDuplicates	Tracking 56 as yet unmatched pairs. 56 records in RAM.
+INFO	2020-01-03 15:54:21	MarkDuplicates	Read   109,000,000 records.  Elapsed time: 00:11:53s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1831:54,073
+INFO	2020-01-03 15:54:21	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:54:30	MarkDuplicates	Read   110,000,000 records.  Elapsed time: 00:12:02s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_1851:108,035
+INFO	2020-01-03 15:54:30	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:54:33	MarkDuplicates	Read   111,000,000 records.  Elapsed time: 00:12:06s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1868:77,343
+INFO	2020-01-03 15:54:33	MarkDuplicates	Tracking 266 as yet unmatched pairs. 266 records in RAM.
+INFO	2020-01-03 15:54:38	MarkDuplicates	Read   112,000,000 records.  Elapsed time: 00:12:11s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_1891:138,411
+INFO	2020-01-03 15:54:38	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2020-01-03 15:54:41	MarkDuplicates	Read   113,000,000 records.  Elapsed time: 00:12:14s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1915:37,808
+INFO	2020-01-03 15:54:41	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 15:54:47	MarkDuplicates	Read   114,000,000 records.  Elapsed time: 00:12:20s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_1938:34,583
+INFO	2020-01-03 15:54:47	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 15:54:50	MarkDuplicates	Read   115,000,000 records.  Elapsed time: 00:12:23s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1955:97,122
+INFO	2020-01-03 15:54:50	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2020-01-03 15:54:56	MarkDuplicates	Read   116,000,000 records.  Elapsed time: 00:12:29s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_1975:24,708
+INFO	2020-01-03 15:54:56	MarkDuplicates	Tracking 50 as yet unmatched pairs. 50 records in RAM.
+INFO	2020-01-03 15:55:00	MarkDuplicates	Read   117,000,000 records.  Elapsed time: 00:12:32s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_1994:69,456
+INFO	2020-01-03 15:55:00	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 15:55:10	MarkDuplicates	Read   118,000,000 records.  Elapsed time: 00:12:42s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_2014:138,436
+INFO	2020-01-03 15:55:10	MarkDuplicates	Tracking 40 as yet unmatched pairs. 40 records in RAM.
+INFO	2020-01-03 15:55:13	MarkDuplicates	Read   119,000,000 records.  Elapsed time: 00:12:45s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2030:55,368
+INFO	2020-01-03 15:55:13	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 15:55:18	MarkDuplicates	Read   120,000,000 records.  Elapsed time: 00:12:50s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2045:102,053
+INFO	2020-01-03 15:55:18	MarkDuplicates	Tracking 68 as yet unmatched pairs. 68 records in RAM.
+INFO	2020-01-03 15:55:22	MarkDuplicates	Read   121,000,000 records.  Elapsed time: 00:12:54s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2064:146,551
+INFO	2020-01-03 15:55:22	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:55:25	MarkDuplicates	Read   122,000,000 records.  Elapsed time: 00:12:58s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2084:26,935
+INFO	2020-01-03 15:55:25	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:55:47	MarkDuplicates	Read   123,000,000 records.  Elapsed time: 00:13:20s.  Time for last 1,000,000:   22s.  Last read position: Tdub_V1_scaffold_2098:14,671
+INFO	2020-01-03 15:55:47	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:55:51	MarkDuplicates	Read   124,000,000 records.  Elapsed time: 00:13:24s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2116:67,030
+INFO	2020-01-03 15:55:51	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 15:55:58	MarkDuplicates	Read   125,000,000 records.  Elapsed time: 00:13:30s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_2134:123,627
+INFO	2020-01-03 15:55:58	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:56:01	MarkDuplicates	Read   126,000,000 records.  Elapsed time: 00:13:34s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2150:246,364
+INFO	2020-01-03 15:56:01	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:56:10	MarkDuplicates	Read   127,000,000 records.  Elapsed time: 00:13:42s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_2166:215,298
+INFO	2020-01-03 15:56:10	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 15:56:13	MarkDuplicates	Read   128,000,000 records.  Elapsed time: 00:13:46s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2180:223,898
+INFO	2020-01-03 15:56:13	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2020-01-03 15:56:20	MarkDuplicates	Read   129,000,000 records.  Elapsed time: 00:13:53s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_2198:18,590
+INFO	2020-01-03 15:56:20	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:56:24	MarkDuplicates	Read   130,000,000 records.  Elapsed time: 00:13:56s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2211:119,872
+INFO	2020-01-03 15:56:24	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 15:56:35	MarkDuplicates	Read   131,000,000 records.  Elapsed time: 00:14:07s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_2227:6,353
+INFO	2020-01-03 15:56:35	MarkDuplicates	Tracking 46 as yet unmatched pairs. 46 records in RAM.
+INFO	2020-01-03 15:56:38	MarkDuplicates	Read   132,000,000 records.  Elapsed time: 00:14:10s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2239:192,030
+INFO	2020-01-03 15:56:38	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 15:56:49	MarkDuplicates	Read   133,000,000 records.  Elapsed time: 00:14:21s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_2258:90,103
+INFO	2020-01-03 15:56:49	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 15:56:53	MarkDuplicates	Read   134,000,000 records.  Elapsed time: 00:14:26s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2274:209,047
+INFO	2020-01-03 15:56:53	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 15:57:02	MarkDuplicates	Read   135,000,000 records.  Elapsed time: 00:14:34s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_2289:75,812
+INFO	2020-01-03 15:57:02	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:57:05	MarkDuplicates	Read   136,000,000 records.  Elapsed time: 00:14:38s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2303:86,560
+INFO	2020-01-03 15:57:05	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 15:57:22	MarkDuplicates	Read   137,000,000 records.  Elapsed time: 00:14:55s.  Time for last 1,000,000:   17s.  Last read position: Tdub_V1_scaffold_2316:142,651
+INFO	2020-01-03 15:57:22	MarkDuplicates	Tracking 98 as yet unmatched pairs. 98 records in RAM.
+INFO	2020-01-03 15:57:27	MarkDuplicates	Read   138,000,000 records.  Elapsed time: 00:15:00s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_2331:215,645
+INFO	2020-01-03 15:57:28	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 15:58:47	MarkDuplicates	Read   139,000,000 records.  Elapsed time: 00:16:19s.  Time for last 1,000,000:   79s.  Last read position: Tdub_V1_scaffold_2343:31,138
+INFO	2020-01-03 15:58:47	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 15:58:50	MarkDuplicates	Read   140,000,000 records.  Elapsed time: 00:16:23s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2354:148,017
+INFO	2020-01-03 15:58:50	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:58:54	MarkDuplicates	Read   141,000,000 records.  Elapsed time: 00:16:27s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2370:112,570
+INFO	2020-01-03 15:58:54	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 15:58:59	MarkDuplicates	Read   142,000,000 records.  Elapsed time: 00:16:31s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2383:212,796
+INFO	2020-01-03 15:58:59	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:59:02	MarkDuplicates	Read   143,000,000 records.  Elapsed time: 00:16:35s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2397:60,916
+INFO	2020-01-03 15:59:02	MarkDuplicates	Tracking 86 as yet unmatched pairs. 86 records in RAM.
+INFO	2020-01-03 15:59:08	MarkDuplicates	Read   144,000,000 records.  Elapsed time: 00:16:40s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_2410:348,887
+INFO	2020-01-03 15:59:08	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 15:59:11	MarkDuplicates	Read   145,000,000 records.  Elapsed time: 00:16:44s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2423:18,087
+INFO	2020-01-03 15:59:11	MarkDuplicates	Tracking 194 as yet unmatched pairs. 194 records in RAM.
+INFO	2020-01-03 15:59:16	MarkDuplicates	Read   146,000,000 records.  Elapsed time: 00:16:48s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2433:137,752
+INFO	2020-01-03 15:59:16	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 15:59:19	MarkDuplicates	Read   147,000,000 records.  Elapsed time: 00:16:52s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2443:73,223
+INFO	2020-01-03 15:59:19	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 15:59:25	MarkDuplicates	Read   148,000,000 records.  Elapsed time: 00:16:58s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_2454:21,127
+INFO	2020-01-03 15:59:25	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 15:59:29	MarkDuplicates	Read   149,000,000 records.  Elapsed time: 00:17:02s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2463:47,708
+INFO	2020-01-03 15:59:29	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 15:59:35	MarkDuplicates	Read   150,000,000 records.  Elapsed time: 00:17:08s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_2473:253,026
+INFO	2020-01-03 15:59:35	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 15:59:38	MarkDuplicates	Read   151,000,000 records.  Elapsed time: 00:17:11s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2482:14,898
+INFO	2020-01-03 15:59:38	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 15:59:47	MarkDuplicates	Read   152,000,000 records.  Elapsed time: 00:17:20s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_2493:22,412
+INFO	2020-01-03 15:59:47	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 15:59:52	MarkDuplicates	Read   153,000,000 records.  Elapsed time: 00:17:24s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_2502:7,595
+INFO	2020-01-03 15:59:52	MarkDuplicates	Tracking 66 as yet unmatched pairs. 66 records in RAM.
+INFO	2020-01-03 16:00:03	MarkDuplicates	Read   154,000,000 records.  Elapsed time: 00:17:36s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_2510:208,099
+INFO	2020-01-03 16:00:03	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:00:07	MarkDuplicates	Read   155,000,000 records.  Elapsed time: 00:17:39s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_2519:7,347
+INFO	2020-01-03 16:00:07	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:00:13	MarkDuplicates	Read   156,000,000 records.  Elapsed time: 00:17:45s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_2792:20,242
+INFO	2020-01-03 16:00:13	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:00:16	MarkDuplicates	Read   157,000,000 records.  Elapsed time: 00:17:49s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_3015:1,090
+INFO	2020-01-03 16:00:16	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:00:23	MarkDuplicates	Read   158,000,000 records.  Elapsed time: 00:17:55s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_3228:209
+INFO	2020-01-03 16:00:23	MarkDuplicates	Tracking 10 as yet unmatched pairs. 10 records in RAM.
+INFO	2020-01-03 16:00:26	MarkDuplicates	Read   159,000,000 records.  Elapsed time: 00:17:59s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_3437:15,809
+INFO	2020-01-03 16:00:26	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 16:00:29	MarkDuplicates	Read   160,000,000 records.  Elapsed time: 00:18:02s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_3632:3,371
+INFO	2020-01-03 16:00:29	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2020-01-03 16:00:38	MarkDuplicates	Read   161,000,000 records.  Elapsed time: 00:18:10s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_3821:6,199
+INFO	2020-01-03 16:00:38	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:00:42	MarkDuplicates	Read   162,000,000 records.  Elapsed time: 00:18:14s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_4000:4,880
+INFO	2020-01-03 16:00:42	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:00:47	MarkDuplicates	Read   163,000,000 records.  Elapsed time: 00:18:19s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_4157:112
+INFO	2020-01-03 16:00:47	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:00:50	MarkDuplicates	Read   164,000,000 records.  Elapsed time: 00:18:23s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_4325:622
+INFO	2020-01-03 16:00:50	MarkDuplicates	Tracking 66 as yet unmatched pairs. 66 records in RAM.
+INFO	2020-01-03 16:01:00	MarkDuplicates	Read   165,000,000 records.  Elapsed time: 00:18:33s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_4463:9,871
+INFO	2020-01-03 16:01:00	MarkDuplicates	Tracking 1090 as yet unmatched pairs. 1090 records in RAM.
+INFO	2020-01-03 16:01:04	MarkDuplicates	Read   166,000,000 records.  Elapsed time: 00:18:37s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_4595:16,387
+INFO	2020-01-03 16:01:04	MarkDuplicates	Tracking 834 as yet unmatched pairs. 834 records in RAM.
+INFO	2020-01-03 16:01:17	MarkDuplicates	Read   167,000,000 records.  Elapsed time: 00:18:49s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_4750:14,978
+INFO	2020-01-03 16:01:17	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 16:01:21	MarkDuplicates	Read   168,000,000 records.  Elapsed time: 00:18:53s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_4893:11,507
+INFO	2020-01-03 16:01:21	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:01:32	MarkDuplicates	Read   169,000,000 records.  Elapsed time: 00:19:05s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_5027:27,113
+INFO	2020-01-03 16:01:32	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 16:01:36	MarkDuplicates	Read   170,000,000 records.  Elapsed time: 00:19:09s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_5159:2,498
+INFO	2020-01-03 16:01:36	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:01:44	MarkDuplicates	Read   171,000,000 records.  Elapsed time: 00:19:17s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_5297:134
+INFO	2020-01-03 16:01:44	MarkDuplicates	Tracking 48 as yet unmatched pairs. 48 records in RAM.
+INFO	2020-01-03 16:01:48	MarkDuplicates	Read   172,000,000 records.  Elapsed time: 00:19:20s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_5417:12,005
+INFO	2020-01-03 16:01:48	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 16:01:57	MarkDuplicates	Read   173,000,000 records.  Elapsed time: 00:19:30s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_5524:7,895
+INFO	2020-01-03 16:01:57	MarkDuplicates	Tracking 1144 as yet unmatched pairs. 1144 records in RAM.
+INFO	2020-01-03 16:02:01	MarkDuplicates	Read   174,000,000 records.  Elapsed time: 00:19:33s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_5613:50,947
+INFO	2020-01-03 16:02:01	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 16:02:08	MarkDuplicates	Read   175,000,000 records.  Elapsed time: 00:19:40s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_5723:1,593
+INFO	2020-01-03 16:02:08	MarkDuplicates	Tracking 3222 as yet unmatched pairs. 3222 records in RAM.
+INFO	2020-01-03 16:02:12	MarkDuplicates	Read   176,000,000 records.  Elapsed time: 00:19:44s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_5832:48,533
+INFO	2020-01-03 16:02:12	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:02:15	MarkDuplicates	Read   177,000,000 records.  Elapsed time: 00:19:48s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_5933:13,759
+INFO	2020-01-03 16:02:15	MarkDuplicates	Tracking 718 as yet unmatched pairs. 718 records in RAM.
+INFO	2020-01-03 16:02:24	MarkDuplicates	Read   178,000,000 records.  Elapsed time: 00:19:57s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_6034:1,836
+INFO	2020-01-03 16:02:24	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 16:02:27	MarkDuplicates	Read   179,000,000 records.  Elapsed time: 00:20:00s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_6126:12,388
+INFO	2020-01-03 16:02:27	MarkDuplicates	Tracking 566 as yet unmatched pairs. 566 records in RAM.
+INFO	2020-01-03 16:02:33	MarkDuplicates	Read   180,000,000 records.  Elapsed time: 00:20:06s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_6227:47,411
+INFO	2020-01-03 16:02:33	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:02:36	MarkDuplicates	Read   181,000,000 records.  Elapsed time: 00:20:09s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_6321:16,541
+INFO	2020-01-03 16:02:36	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:02:41	MarkDuplicates	Read   182,000,000 records.  Elapsed time: 00:20:14s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_6417:7,554
+INFO	2020-01-03 16:02:41	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2020-01-03 16:02:45	MarkDuplicates	Read   183,000,000 records.  Elapsed time: 00:20:18s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_6523:12,703
+INFO	2020-01-03 16:02:45	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:02:54	MarkDuplicates	Read   184,000,000 records.  Elapsed time: 00:20:26s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_6611:2,436
+INFO	2020-01-03 16:02:54	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:02:57	MarkDuplicates	Read   185,000,000 records.  Elapsed time: 00:20:29s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_6693:87,897
+INFO	2020-01-03 16:02:57	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 16:03:14	MarkDuplicates	Read   186,000,000 records.  Elapsed time: 00:20:47s.  Time for last 1,000,000:   17s.  Last read position: Tdub_V1_scaffold_6776:8,575
+INFO	2020-01-03 16:03:14	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:03:17	MarkDuplicates	Read   187,000,000 records.  Elapsed time: 00:20:50s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_6847:23,675
+INFO	2020-01-03 16:03:17	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:03:25	MarkDuplicates	Read   188,000,000 records.  Elapsed time: 00:20:58s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_6926:10,174
+INFO	2020-01-03 16:03:25	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:03:29	MarkDuplicates	Read   189,000,000 records.  Elapsed time: 00:21:02s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_7004:52,312
+INFO	2020-01-03 16:03:29	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 16:03:36	MarkDuplicates	Read   190,000,000 records.  Elapsed time: 00:21:08s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_7078:9,958
+INFO	2020-01-03 16:03:36	MarkDuplicates	Tracking 582 as yet unmatched pairs. 582 records in RAM.
+INFO	2020-01-03 16:03:39	MarkDuplicates	Read   191,000,000 records.  Elapsed time: 00:21:12s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_7157:87
+INFO	2020-01-03 16:03:39	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:03:44	MarkDuplicates	Read   192,000,000 records.  Elapsed time: 00:21:17s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_7237:9,908
+INFO	2020-01-03 16:03:44	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 16:03:48	MarkDuplicates	Read   193,000,000 records.  Elapsed time: 00:21:20s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_7313:32,463
+INFO	2020-01-03 16:03:48	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 16:03:55	MarkDuplicates	Read   194,000,000 records.  Elapsed time: 00:21:28s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_7387:5,251
+INFO	2020-01-03 16:03:55	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:04:00	MarkDuplicates	Read   195,000,000 records.  Elapsed time: 00:21:32s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_7459:14,874
+INFO	2020-01-03 16:04:00	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 16:04:03	MarkDuplicates	Read   196,000,000 records.  Elapsed time: 00:21:36s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_7530:9,349
+INFO	2020-01-03 16:04:03	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:04:10	MarkDuplicates	Read   197,000,000 records.  Elapsed time: 00:21:42s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_7603:24,695
+INFO	2020-01-03 16:04:10	MarkDuplicates	Tracking 106 as yet unmatched pairs. 106 records in RAM.
+INFO	2020-01-03 16:04:13	MarkDuplicates	Read   198,000,000 records.  Elapsed time: 00:21:46s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_7674:37,226
+INFO	2020-01-03 16:04:13	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:04:21	MarkDuplicates	Read   199,000,000 records.  Elapsed time: 00:21:53s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_7739:16,980
+INFO	2020-01-03 16:04:21	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:04:24	MarkDuplicates	Read   200,000,000 records.  Elapsed time: 00:21:57s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_7804:35,598
+INFO	2020-01-03 16:04:24	MarkDuplicates	Tracking 76 as yet unmatched pairs. 76 records in RAM.
+INFO	2020-01-03 16:04:35	MarkDuplicates	Read   201,000,000 records.  Elapsed time: 00:22:07s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_7868:3,826
+INFO	2020-01-03 16:04:35	MarkDuplicates	Tracking 124 as yet unmatched pairs. 124 records in RAM.
+INFO	2020-01-03 16:04:38	MarkDuplicates	Read   202,000,000 records.  Elapsed time: 00:22:11s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_7930:14,966
+INFO	2020-01-03 16:04:38	MarkDuplicates	Tracking 78 as yet unmatched pairs. 78 records in RAM.
+INFO	2020-01-03 16:04:54	MarkDuplicates	Read   203,000,000 records.  Elapsed time: 00:22:26s.  Time for last 1,000,000:   15s.  Last read position: Tdub_V1_scaffold_7990:35,251
+INFO	2020-01-03 16:04:54	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 16:04:58	MarkDuplicates	Read   204,000,000 records.  Elapsed time: 00:22:31s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_8052:4,823
+INFO	2020-01-03 16:04:58	MarkDuplicates	Tracking 110 as yet unmatched pairs. 110 records in RAM.
+INFO	2020-01-03 16:05:04	MarkDuplicates	Read   205,000,000 records.  Elapsed time: 00:22:37s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_8109:25,451
+INFO	2020-01-03 16:05:04	MarkDuplicates	Tracking 50 as yet unmatched pairs. 50 records in RAM.
+INFO	2020-01-03 16:05:07	MarkDuplicates	Read   206,000,000 records.  Elapsed time: 00:22:40s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8167:27,246
+INFO	2020-01-03 16:05:07	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 16:05:13	MarkDuplicates	Read   207,000,000 records.  Elapsed time: 00:22:45s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_8224:31,770
+INFO	2020-01-03 16:05:13	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:05:47	MarkDuplicates	Read   208,000,000 records.  Elapsed time: 00:23:19s.  Time for last 1,000,000:   33s.  Last read position: Tdub_V1_scaffold_8283:18,125
+INFO	2020-01-03 16:05:47	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:05:53	MarkDuplicates	Read   209,000,000 records.  Elapsed time: 00:23:26s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_8342:84,080
+INFO	2020-01-03 16:05:53	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:05:56	MarkDuplicates	Read   210,000,000 records.  Elapsed time: 00:23:29s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8390:5,678
+INFO	2020-01-03 16:05:56	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 16:06:02	MarkDuplicates	Read   211,000,000 records.  Elapsed time: 00:23:34s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_8445:10,928
+INFO	2020-01-03 16:06:02	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 16:06:05	MarkDuplicates	Read   212,000,000 records.  Elapsed time: 00:23:38s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8497:65,592
+INFO	2020-01-03 16:06:05	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:06:08	MarkDuplicates	Read   213,000,000 records.  Elapsed time: 00:23:41s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8552:16,459
+INFO	2020-01-03 16:06:08	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 16:06:13	MarkDuplicates	Read   214,000,000 records.  Elapsed time: 00:23:46s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_8606:20,370
+INFO	2020-01-03 16:06:13	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2020-01-03 16:06:17	MarkDuplicates	Read   215,000,000 records.  Elapsed time: 00:23:50s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8663:1,435
+INFO	2020-01-03 16:06:17	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:06:24	MarkDuplicates	Read   216,000,000 records.  Elapsed time: 00:23:57s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_8715:53,593
+INFO	2020-01-03 16:06:24	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:06:28	MarkDuplicates	Read   217,000,000 records.  Elapsed time: 00:24:00s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8763:116,173
+INFO	2020-01-03 16:06:28	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:06:32	MarkDuplicates	Read   218,000,000 records.  Elapsed time: 00:24:05s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_8817:8,841
+INFO	2020-01-03 16:06:32	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:06:36	MarkDuplicates	Read   219,000,000 records.  Elapsed time: 00:24:08s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8868:10,378
+INFO	2020-01-03 16:06:36	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 16:06:48	MarkDuplicates	Read   220,000,000 records.  Elapsed time: 00:24:21s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_8914:18,447
+INFO	2020-01-03 16:06:48	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 16:06:51	MarkDuplicates	Read   221,000,000 records.  Elapsed time: 00:24:24s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_8962:69,898
+INFO	2020-01-03 16:06:51	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:07:06	MarkDuplicates	Read   222,000,000 records.  Elapsed time: 00:24:39s.  Time for last 1,000,000:   14s.  Last read position: Tdub_V1_scaffold_9008:695
+INFO	2020-01-03 16:07:06	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 16:07:10	MarkDuplicates	Read   223,000,000 records.  Elapsed time: 00:24:43s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_9056:1,409
+INFO	2020-01-03 16:07:10	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 16:07:17	MarkDuplicates	Read   224,000,000 records.  Elapsed time: 00:24:49s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_9099:126,807
+INFO	2020-01-03 16:07:17	MarkDuplicates	Tracking 636 as yet unmatched pairs. 636 records in RAM.
+INFO	2020-01-03 16:07:20	MarkDuplicates	Read   225,000,000 records.  Elapsed time: 00:24:53s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9144:12,710
+INFO	2020-01-03 16:07:20	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 16:07:27	MarkDuplicates	Read   226,000,000 records.  Elapsed time: 00:25:00s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_9192:67,590
+INFO	2020-01-03 16:07:27	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 16:07:31	MarkDuplicates	Read   227,000,000 records.  Elapsed time: 00:25:04s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9241:70,664
+INFO	2020-01-03 16:07:31	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 16:07:39	MarkDuplicates	Read   228,000,000 records.  Elapsed time: 00:25:11s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_9283:7,865
+INFO	2020-01-03 16:07:39	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:07:42	MarkDuplicates	Read   229,000,000 records.  Elapsed time: 00:25:14s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9328:28,288
+INFO	2020-01-03 16:07:42	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2020-01-03 16:07:45	MarkDuplicates	Read   230,000,000 records.  Elapsed time: 00:25:18s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9378:18,293
+INFO	2020-01-03 16:07:45	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:07:55	MarkDuplicates	Read   231,000,000 records.  Elapsed time: 00:25:28s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_9420:50,893
+INFO	2020-01-03 16:07:55	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:07:59	MarkDuplicates	Read   232,000,000 records.  Elapsed time: 00:25:32s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_9464:82,186
+INFO	2020-01-03 16:07:59	MarkDuplicates	Tracking 1210 as yet unmatched pairs. 1210 records in RAM.
+INFO	2020-01-03 16:08:04	MarkDuplicates	Read   233,000,000 records.  Elapsed time: 00:25:36s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_9506:7,125
+INFO	2020-01-03 16:08:04	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:08:07	MarkDuplicates	Read   234,000,000 records.  Elapsed time: 00:25:40s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9546:23,174
+INFO	2020-01-03 16:08:07	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 16:08:15	MarkDuplicates	Read   235,000,000 records.  Elapsed time: 00:25:47s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_9591:11,904
+INFO	2020-01-03 16:08:15	MarkDuplicates	Tracking 40 as yet unmatched pairs. 40 records in RAM.
+INFO	2020-01-03 16:08:18	MarkDuplicates	Read   236,000,000 records.  Elapsed time: 00:25:50s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9634:86,183
+INFO	2020-01-03 16:08:18	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:08:24	MarkDuplicates	Read   237,000,000 records.  Elapsed time: 00:25:57s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_9671:3,564
+INFO	2020-01-03 16:08:24	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:08:27	MarkDuplicates	Read   238,000,000 records.  Elapsed time: 00:26:00s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9714:34,031
+INFO	2020-01-03 16:08:27	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 16:08:40	MarkDuplicates	Read   239,000,000 records.  Elapsed time: 00:26:13s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_9756:19,811
+INFO	2020-01-03 16:08:40	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:08:44	MarkDuplicates	Read   240,000,000 records.  Elapsed time: 00:26:17s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_9795:33,280
+INFO	2020-01-03 16:08:44	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:08:49	MarkDuplicates	Read   241,000,000 records.  Elapsed time: 00:26:21s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_9836:63,494
+INFO	2020-01-03 16:08:49	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 16:08:52	MarkDuplicates	Read   242,000,000 records.  Elapsed time: 00:26:25s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_9873:2,552
+INFO	2020-01-03 16:08:52	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 16:09:02	MarkDuplicates	Read   243,000,000 records.  Elapsed time: 00:26:34s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_9909:43,036
+INFO	2020-01-03 16:09:02	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 16:09:06	MarkDuplicates	Read   244,000,000 records.  Elapsed time: 00:26:39s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_9948:49,431
+INFO	2020-01-03 16:09:06	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 16:09:12	MarkDuplicates	Read   245,000,000 records.  Elapsed time: 00:26:45s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_9989:68,131
+INFO	2020-01-03 16:09:12	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:09:16	MarkDuplicates	Read   246,000,000 records.  Elapsed time: 00:26:48s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10026:26,393
+INFO	2020-01-03 16:09:16	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:09:19	MarkDuplicates	Read   247,000,000 records.  Elapsed time: 00:26:51s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10060:52,784
+INFO	2020-01-03 16:09:19	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:09:32	MarkDuplicates	Read   248,000,000 records.  Elapsed time: 00:27:04s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_10095:82,041
+INFO	2020-01-03 16:09:32	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 16:09:35	MarkDuplicates	Read   249,000,000 records.  Elapsed time: 00:27:07s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10130:9,530
+INFO	2020-01-03 16:09:35	MarkDuplicates	Tracking 76 as yet unmatched pairs. 76 records in RAM.
+INFO	2020-01-03 16:09:40	MarkDuplicates	Read   250,000,000 records.  Elapsed time: 00:27:12s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_10165:70,025
+INFO	2020-01-03 16:09:40	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2020-01-03 16:09:43	MarkDuplicates	Read   251,000,000 records.  Elapsed time: 00:27:16s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10195:61,158
+INFO	2020-01-03 16:09:43	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 16:09:55	MarkDuplicates	Read   252,000,000 records.  Elapsed time: 00:27:28s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_10231:92,055
+INFO	2020-01-03 16:09:55	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 16:09:59	MarkDuplicates	Read   253,000,000 records.  Elapsed time: 00:27:31s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10269:77,582
+INFO	2020-01-03 16:09:59	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:10:07	MarkDuplicates	Read   254,000,000 records.  Elapsed time: 00:27:39s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_10304:31,219
+INFO	2020-01-03 16:10:07	MarkDuplicates	Tracking 56 as yet unmatched pairs. 56 records in RAM.
+INFO	2020-01-03 16:10:10	MarkDuplicates	Read   255,000,000 records.  Elapsed time: 00:27:43s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10341:12,240
+INFO	2020-01-03 16:10:10	MarkDuplicates	Tracking 56 as yet unmatched pairs. 56 records in RAM.
+INFO	2020-01-03 16:10:16	MarkDuplicates	Read   256,000,000 records.  Elapsed time: 00:27:48s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_10367:24,077
+INFO	2020-01-03 16:10:16	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:10:19	MarkDuplicates	Read   257,000,000 records.  Elapsed time: 00:27:52s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10403:75,274
+INFO	2020-01-03 16:10:19	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:10:38	MarkDuplicates	Read   258,000,000 records.  Elapsed time: 00:28:10s.  Time for last 1,000,000:   18s.  Last read position: Tdub_V1_scaffold_10439:36,985
+INFO	2020-01-03 16:10:38	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:10:42	MarkDuplicates	Read   259,000,000 records.  Elapsed time: 00:28:14s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_10471:12,250
+INFO	2020-01-03 16:10:42	MarkDuplicates	Tracking 258 as yet unmatched pairs. 258 records in RAM.
+INFO	2020-01-03 16:10:47	MarkDuplicates	Read   260,000,000 records.  Elapsed time: 00:28:19s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_10503:59,595
+INFO	2020-01-03 16:10:47	MarkDuplicates	Tracking 62 as yet unmatched pairs. 62 records in RAM.
+INFO	2020-01-03 16:10:50	MarkDuplicates	Read   261,000,000 records.  Elapsed time: 00:28:23s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10528:85,139
+INFO	2020-01-03 16:10:50	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:10:57	MarkDuplicates	Read   262,000,000 records.  Elapsed time: 00:28:29s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_10563:20,983
+INFO	2020-01-03 16:10:57	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:11:00	MarkDuplicates	Read   263,000,000 records.  Elapsed time: 00:28:33s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10592:6,654
+INFO	2020-01-03 16:11:00	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:11:03	MarkDuplicates	Read   264,000,000 records.  Elapsed time: 00:28:36s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10626:48,944
+INFO	2020-01-03 16:11:03	MarkDuplicates	Tracking 10 as yet unmatched pairs. 10 records in RAM.
+INFO	2020-01-03 16:11:12	MarkDuplicates	Read   265,000,000 records.  Elapsed time: 00:28:45s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_10656:66,971
+INFO	2020-01-03 16:11:12	MarkDuplicates	Tracking 40 as yet unmatched pairs. 40 records in RAM.
+INFO	2020-01-03 16:11:15	MarkDuplicates	Read   266,000,000 records.  Elapsed time: 00:28:48s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10691:11,005
+INFO	2020-01-03 16:11:15	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 16:11:22	MarkDuplicates	Read   267,000,000 records.  Elapsed time: 00:28:55s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_10718:29,216
+INFO	2020-01-03 16:11:22	MarkDuplicates	Tracking 18698 as yet unmatched pairs. 18698 records in RAM.
+INFO	2020-01-03 16:11:25	MarkDuplicates	Read   268,000,000 records.  Elapsed time: 00:28:58s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10747:77,003
+INFO	2020-01-03 16:11:25	MarkDuplicates	Tracking 1254 as yet unmatched pairs. 1254 records in RAM.
+INFO	2020-01-03 16:11:33	MarkDuplicates	Read   269,000,000 records.  Elapsed time: 00:29:05s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_10776:11,002
+INFO	2020-01-03 16:11:33	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:11:36	MarkDuplicates	Read   270,000,000 records.  Elapsed time: 00:29:09s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10807:53,339
+INFO	2020-01-03 16:11:36	MarkDuplicates	Tracking 48 as yet unmatched pairs. 48 records in RAM.
+INFO	2020-01-03 16:11:44	MarkDuplicates	Read   271,000,000 records.  Elapsed time: 00:29:17s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_10839:38,793
+INFO	2020-01-03 16:11:44	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 16:11:48	MarkDuplicates	Read   272,000,000 records.  Elapsed time: 00:29:20s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10871:51,767
+INFO	2020-01-03 16:11:48	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 16:12:00	MarkDuplicates	Read   273,000,000 records.  Elapsed time: 00:29:32s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_10901:34,650
+INFO	2020-01-03 16:12:00	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 16:12:03	MarkDuplicates	Read   274,000,000 records.  Elapsed time: 00:29:36s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10930:72,103
+INFO	2020-01-03 16:12:03	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 16:12:09	MarkDuplicates	Read   275,000,000 records.  Elapsed time: 00:29:42s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_10960:113,121
+INFO	2020-01-03 16:12:09	MarkDuplicates	Tracking 324 as yet unmatched pairs. 324 records in RAM.
+INFO	2020-01-03 16:12:12	MarkDuplicates	Read   276,000,000 records.  Elapsed time: 00:29:45s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_10987:57,352
+INFO	2020-01-03 16:12:12	MarkDuplicates	Tracking 42 as yet unmatched pairs. 42 records in RAM.
+INFO	2020-01-03 16:13:34	MarkDuplicates	Read   277,000,000 records.  Elapsed time: 00:31:07s.  Time for last 1,000,000:   81s.  Last read position: Tdub_V1_scaffold_11016:58,683
+INFO	2020-01-03 16:13:34	MarkDuplicates	Tracking 300 as yet unmatched pairs. 300 records in RAM.
+INFO	2020-01-03 16:13:38	MarkDuplicates	Read   278,000,000 records.  Elapsed time: 00:31:11s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11045:85,127
+INFO	2020-01-03 16:13:38	MarkDuplicates	Tracking 252 as yet unmatched pairs. 252 records in RAM.
+INFO	2020-01-03 16:13:42	MarkDuplicates	Read   279,000,000 records.  Elapsed time: 00:31:15s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_11076:33,794
+INFO	2020-01-03 16:13:42	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:13:46	MarkDuplicates	Read   280,000,000 records.  Elapsed time: 00:31:18s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11102:137,705
+INFO	2020-01-03 16:13:46	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:13:50	MarkDuplicates	Read   281,000,000 records.  Elapsed time: 00:31:22s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11128:71,901
+INFO	2020-01-03 16:13:50	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:14:03	MarkDuplicates	Read   282,000,000 records.  Elapsed time: 00:31:36s.  Time for last 1,000,000:   13s.  Last read position: Tdub_V1_scaffold_11151:230,137
+INFO	2020-01-03 16:14:03	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:14:07	MarkDuplicates	Read   283,000,000 records.  Elapsed time: 00:31:39s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11178:59,620
+INFO	2020-01-03 16:14:07	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:14:18	MarkDuplicates	Read   284,000,000 records.  Elapsed time: 00:31:51s.  Time for last 1,000,000:   11s.  Last read position: Tdub_V1_scaffold_11202:75,540
+INFO	2020-01-03 16:14:18	MarkDuplicates	Tracking 86 as yet unmatched pairs. 86 records in RAM.
+INFO	2020-01-03 16:14:22	MarkDuplicates	Read   285,000,000 records.  Elapsed time: 00:31:55s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11229:41,286
+INFO	2020-01-03 16:14:22	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 16:14:29	MarkDuplicates	Read   286,000,000 records.  Elapsed time: 00:32:02s.  Time for last 1,000,000:    7s.  Last read position: Tdub_V1_scaffold_11254:241,679
+INFO	2020-01-03 16:14:29	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:14:33	MarkDuplicates	Read   287,000,000 records.  Elapsed time: 00:32:05s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11278:36,480
+INFO	2020-01-03 16:14:33	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2020-01-03 16:14:42	MarkDuplicates	Read   288,000,000 records.  Elapsed time: 00:32:14s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_11304:40,051
+INFO	2020-01-03 16:14:42	MarkDuplicates	Tracking 16 as yet unmatched pairs. 16 records in RAM.
+INFO	2020-01-03 16:14:45	MarkDuplicates	Read   289,000,000 records.  Elapsed time: 00:32:18s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11328:60,891
+INFO	2020-01-03 16:14:45	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 16:14:51	MarkDuplicates	Read   290,000,000 records.  Elapsed time: 00:32:24s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_11352:40,243
+INFO	2020-01-03 16:14:51	MarkDuplicates	Tracking 32 as yet unmatched pairs. 32 records in RAM.
+INFO	2020-01-03 16:14:54	MarkDuplicates	Read   291,000,000 records.  Elapsed time: 00:32:27s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11374:140,439
+INFO	2020-01-03 16:14:54	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:15:00	MarkDuplicates	Read   292,000,000 records.  Elapsed time: 00:32:33s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_11397:146,962
+INFO	2020-01-03 16:15:00	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:15:04	MarkDuplicates	Read   293,000,000 records.  Elapsed time: 00:32:36s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11422:48,545
+INFO	2020-01-03 16:15:04	MarkDuplicates	Tracking 62 as yet unmatched pairs. 62 records in RAM.
+INFO	2020-01-03 16:15:12	MarkDuplicates	Read   294,000,000 records.  Elapsed time: 00:32:45s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_11447:98,752
+INFO	2020-01-03 16:15:12	MarkDuplicates	Tracking 1744 as yet unmatched pairs. 1744 records in RAM.
+INFO	2020-01-03 16:15:17	MarkDuplicates	Read   295,000,000 records.  Elapsed time: 00:32:49s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_11473:8,057
+INFO	2020-01-03 16:15:17	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:15:35	MarkDuplicates	Read   296,000,000 records.  Elapsed time: 00:33:07s.  Time for last 1,000,000:   18s.  Last read position: Tdub_V1_scaffold_11496:23,564
+INFO	2020-01-03 16:15:35	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 16:15:39	MarkDuplicates	Read   297,000,000 records.  Elapsed time: 00:33:11s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_11517:28,021
+INFO	2020-01-03 16:15:39	MarkDuplicates	Tracking 46 as yet unmatched pairs. 46 records in RAM.
+INFO	2020-01-03 16:15:45	MarkDuplicates	Read   298,000,000 records.  Elapsed time: 00:33:18s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_11542:42,237
+INFO	2020-01-03 16:15:45	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 16:15:49	MarkDuplicates	Read   299,000,000 records.  Elapsed time: 00:33:21s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11563:42,790
+INFO	2020-01-03 16:15:49	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:15:54	MarkDuplicates	Read   300,000,000 records.  Elapsed time: 00:33:27s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_11586:49,919
+INFO	2020-01-03 16:15:54	MarkDuplicates	Tracking 48 as yet unmatched pairs. 48 records in RAM.
+INFO	2020-01-03 16:15:58	MarkDuplicates	Read   301,000,000 records.  Elapsed time: 00:33:30s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11608:2,035
+INFO	2020-01-03 16:15:58	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2020-01-03 16:16:01	MarkDuplicates	Read   302,000,000 records.  Elapsed time: 00:33:34s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11624:16,227
+INFO	2020-01-03 16:16:01	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:16:08	MarkDuplicates	Read   303,000,000 records.  Elapsed time: 00:33:41s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_11653:72,239
+INFO	2020-01-03 16:16:08	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:16:12	MarkDuplicates	Read   304,000,000 records.  Elapsed time: 00:33:44s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11673:103,251
+INFO	2020-01-03 16:16:12	MarkDuplicates	Tracking 80 as yet unmatched pairs. 80 records in RAM.
+INFO	2020-01-03 16:16:18	MarkDuplicates	Read   305,000,000 records.  Elapsed time: 00:33:50s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_11699:147,730
+INFO	2020-01-03 16:16:18	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2020-01-03 16:16:21	MarkDuplicates	Read   306,000,000 records.  Elapsed time: 00:33:53s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11720:135,297
+INFO	2020-01-03 16:16:21	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2020-01-03 16:16:31	MarkDuplicates	Read   307,000,000 records.  Elapsed time: 00:34:03s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_11743:54,019
+INFO	2020-01-03 16:16:31	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 16:16:34	MarkDuplicates	Read   308,000,000 records.  Elapsed time: 00:34:06s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11767:53,764
+INFO	2020-01-03 16:16:34	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 16:16:40	MarkDuplicates	Read   309,000,000 records.  Elapsed time: 00:34:12s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_11787:81,750
+INFO	2020-01-03 16:16:40	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 16:16:43	MarkDuplicates	Read   310,000,000 records.  Elapsed time: 00:34:15s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11803:116,037
+INFO	2020-01-03 16:16:43	MarkDuplicates	Tracking 36 as yet unmatched pairs. 36 records in RAM.
+INFO	2020-01-03 16:16:48	MarkDuplicates	Read   311,000,000 records.  Elapsed time: 00:34:21s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_11823:74,165
+INFO	2020-01-03 16:16:48	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 16:16:52	MarkDuplicates	Read   312,000,000 records.  Elapsed time: 00:34:25s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11841:291,498
+INFO	2020-01-03 16:16:52	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2020-01-03 16:16:59	MarkDuplicates	Read   313,000,000 records.  Elapsed time: 00:34:32s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_11863:266,860
+INFO	2020-01-03 16:16:59	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:17:02	MarkDuplicates	Read   314,000,000 records.  Elapsed time: 00:34:35s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11883:91,637
+INFO	2020-01-03 16:17:02	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:17:15	MarkDuplicates	Read   315,000,000 records.  Elapsed time: 00:34:48s.  Time for last 1,000,000:   12s.  Last read position: Tdub_V1_scaffold_11901:221,119
+INFO	2020-01-03 16:17:15	MarkDuplicates	Tracking 44 as yet unmatched pairs. 44 records in RAM.
+INFO	2020-01-03 16:17:20	MarkDuplicates	Read   316,000,000 records.  Elapsed time: 00:34:52s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_11924:139,888
+INFO	2020-01-03 16:17:20	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 16:17:26	MarkDuplicates	Read   317,000,000 records.  Elapsed time: 00:34:58s.  Time for last 1,000,000:    6s.  Last read position: Tdub_V1_scaffold_11944:57,384
+INFO	2020-01-03 16:17:26	MarkDuplicates	Tracking 10 as yet unmatched pairs. 10 records in RAM.
+INFO	2020-01-03 16:17:30	MarkDuplicates	Read   318,000,000 records.  Elapsed time: 00:35:02s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11961:136,643
+INFO	2020-01-03 16:17:30	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 16:17:39	MarkDuplicates	Read   319,000,000 records.  Elapsed time: 00:35:12s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_11978:166,089
+INFO	2020-01-03 16:17:39	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2020-01-03 16:17:42	MarkDuplicates	Read   320,000,000 records.  Elapsed time: 00:35:15s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_11995:7,940
+INFO	2020-01-03 16:17:42	MarkDuplicates	Tracking 46 as yet unmatched pairs. 46 records in RAM.
+INFO	2020-01-03 16:17:46	MarkDuplicates	Read   321,000,000 records.  Elapsed time: 00:35:18s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12009:22,706
+INFO	2020-01-03 16:17:46	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2020-01-03 16:17:55	MarkDuplicates	Read   322,000,000 records.  Elapsed time: 00:35:27s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_12026:32,579
+INFO	2020-01-03 16:17:55	MarkDuplicates	Tracking 60 as yet unmatched pairs. 60 records in RAM.
+INFO	2020-01-03 16:17:58	MarkDuplicates	Read   323,000,000 records.  Elapsed time: 00:35:31s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12042:93,611
+INFO	2020-01-03 16:17:58	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:18:08	MarkDuplicates	Read   324,000,000 records.  Elapsed time: 00:35:40s.  Time for last 1,000,000:    9s.  Last read position: Tdub_V1_scaffold_12057:100,051
+INFO	2020-01-03 16:18:08	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2020-01-03 16:18:11	MarkDuplicates	Read   325,000,000 records.  Elapsed time: 00:35:44s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12074:299,771
+INFO	2020-01-03 16:18:11	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2020-01-03 16:18:19	MarkDuplicates	Read   326,000,000 records.  Elapsed time: 00:35:52s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_12089:246,466
+INFO	2020-01-03 16:18:19	MarkDuplicates	Tracking 38 as yet unmatched pairs. 38 records in RAM.
+INFO	2020-01-03 16:18:23	MarkDuplicates	Read   327,000,000 records.  Elapsed time: 00:35:55s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12104:206,565
+INFO	2020-01-03 16:18:23	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:18:28	MarkDuplicates	Read   328,000,000 records.  Elapsed time: 00:36:00s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_12117:205,110
+INFO	2020-01-03 16:18:28	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:18:31	MarkDuplicates	Read   329,000,000 records.  Elapsed time: 00:36:04s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12134:12,629
+INFO	2020-01-03 16:18:31	MarkDuplicates	Tracking 70 as yet unmatched pairs. 70 records in RAM.
+INFO	2020-01-03 16:18:41	MarkDuplicates	Read   330,000,000 records.  Elapsed time: 00:36:14s.  Time for last 1,000,000:   10s.  Last read position: Tdub_V1_scaffold_12149:73,687
+INFO	2020-01-03 16:18:41	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2020-01-03 16:18:45	MarkDuplicates	Read   331,000,000 records.  Elapsed time: 00:36:17s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12159:124,789
+INFO	2020-01-03 16:18:45	MarkDuplicates	Tracking 26 as yet unmatched pairs. 26 records in RAM.
+INFO	2020-01-03 16:18:50	MarkDuplicates	Read   332,000,000 records.  Elapsed time: 00:36:22s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_12172:126,448
+INFO	2020-01-03 16:18:50	MarkDuplicates	Tracking 52 as yet unmatched pairs. 52 records in RAM.
+INFO	2020-01-03 16:18:53	MarkDuplicates	Read   333,000,000 records.  Elapsed time: 00:36:26s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12189:194,876
+INFO	2020-01-03 16:18:53	MarkDuplicates	Tracking 58 as yet unmatched pairs. 58 records in RAM.
+INFO	2020-01-03 16:18:58	MarkDuplicates	Read   334,000,000 records.  Elapsed time: 00:36:31s.  Time for last 1,000,000:    5s.  Last read position: Tdub_V1_scaffold_12206:67,333
+INFO	2020-01-03 16:18:58	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2020-01-03 16:19:02	MarkDuplicates	Read   335,000,000 records.  Elapsed time: 00:36:35s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12227:155,807
+INFO	2020-01-03 16:19:02	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2020-01-03 16:19:20	MarkDuplicates	Read   336,000,000 records.  Elapsed time: 00:36:52s.  Time for last 1,000,000:   17s.  Last read position: Tdub_V1_scaffold_12240:68,210
+INFO	2020-01-03 16:19:20	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 16:19:25	MarkDuplicates	Read   337,000,000 records.  Elapsed time: 00:36:57s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_12254:285,901
+INFO	2020-01-03 16:19:25	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2020-01-03 16:19:29	MarkDuplicates	Read   338,000,000 records.  Elapsed time: 00:37:01s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_12267:232,234
+INFO	2020-01-03 16:19:29	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2020-01-03 16:19:34	MarkDuplicates	Read   339,000,000 records.  Elapsed time: 00:37:06s.  Time for last 1,000,000:    4s.  Last read position: Tdub_V1_scaffold_12280:125,843
+INFO	2020-01-03 16:19:34	MarkDuplicates	Tracking 54 as yet unmatched pairs. 54 records in RAM.
+INFO	2020-01-03 16:19:37	MarkDuplicates	Read   340,000,000 records.  Elapsed time: 00:37:09s.  Time for last 1,000,000:    3s.  Last read position: Tdub_V1_scaffold_12292:101,867
+INFO	2020-01-03 16:19:37	MarkDuplicates	Tracking 34 as yet unmatched pairs. 34 records in RAM.
+INFO	2020-01-03 16:19:46	MarkDuplicates	Read   341,000,000 records.  Elapsed time: 00:37:18s.  Time for last 1,000,000:    8s.  Last read position: Tdub_V1_scaffold_12303:58,390
+INFO	2020-01-03 16:19:46	MarkDuplicates	Tracking 18 as yet unmatched pairs. 18 records in RAM.
+INFO	2020-01-03 16:19:49	MarkDuplicates	Read   342,000,000 records.  Elapsed time: 00:37:22s.  Time for last 1,000,000:    3s.  Last read position: NC_001416.1_lambda:7,905
+INFO	2020-01-03 16:19:49	MarkDuplicates	Tracking 1104 as yet unmatched pairs. 1104 records in RAM.
+INFO	2020-01-03 16:19:54	MarkDuplicates	Read   343,000,000 records.  Elapsed time: 00:37:26s.  Time for last 1,000,000:    4s.  Last read position: NC_001416.1_lambda:30,798
+INFO	2020-01-03 16:19:54	MarkDuplicates	Tracking 2200 as yet unmatched pairs. 2200 records in RAM.
+INFO	2020-01-03 16:19:57	MarkDuplicates	Read 343848610 records. 0 pairs never matched.
+INFO	2020-01-03 16:20:47	MarkDuplicates	After buildSortedReadEndLists freeMemory: 15676808600; totalMemory: 15818817536; maxMemory: 19088801792
+INFO	2020-01-03 16:20:47	MarkDuplicates	Will retain up to 596525056 duplicate indices before spilling to disk.
+INFO	2020-01-03 16:20:47	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2020-01-03 16:21:53	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2020-01-03 16:23:32	MarkDuplicates	Sorting list of duplicate records.
+INFO	2020-01-03 16:23:39	MarkDuplicates	After generateDuplicateIndexes freeMemory: 10717313552; totalMemory: 15627452416; maxMemory: 19088801792
+INFO	2020-01-03 16:23:39	MarkDuplicates	Marking 93694590 records as duplicates.
+INFO	2020-01-03 16:23:39	MarkDuplicates	Found 2715866 optical duplicate clusters.
+INFO	2020-01-03 16:23:39	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2020-01-03 16:25:33	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:53s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_86:28,358
+INFO	2020-01-03 16:27:27	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:47s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_231:67,558
+INFO	2020-01-03 16:29:22	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:05:42s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_393:296,993
+INFO	2020-01-03 16:31:17	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:07:37s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_520:9,032
+INFO	2020-01-03 16:33:11	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:09:31s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_904:8,283
+INFO	2020-01-03 16:35:05	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:11:25s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_1267:81,674
+INFO	2020-01-03 16:36:58	MarkDuplicates	Written    70,000,000 records.  Elapsed time: 00:13:19s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_1580:121,122
+INFO	2020-01-03 16:38:53	MarkDuplicates	Written    80,000,000 records.  Elapsed time: 00:15:13s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_1867:135,508
+INFO	2020-01-03 16:40:47	MarkDuplicates	Written    90,000,000 records.  Elapsed time: 00:17:07s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_2131:111,055
+INFO	2020-01-03 16:42:40	MarkDuplicates	Written   100,000,000 records.  Elapsed time: 00:19:00s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_2337:85,238
+INFO	2020-01-03 16:44:34	MarkDuplicates	Written   110,000,000 records.  Elapsed time: 00:20:54s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_2496:169,579
+INFO	2020-01-03 16:46:28	MarkDuplicates	Written   120,000,000 records.  Elapsed time: 00:22:48s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_4593:575
+INFO	2020-01-03 16:48:20	MarkDuplicates	Written   130,000,000 records.  Elapsed time: 00:24:40s.  Time for last 10,000,000:  112s.  Last read position: Tdub_V1_scaffold_6190:2,134
+INFO	2020-01-03 16:50:15	MarkDuplicates	Written   140,000,000 records.  Elapsed time: 00:26:35s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_7326:1,788
+INFO	2020-01-03 16:52:08	MarkDuplicates	Written   150,000,000 records.  Elapsed time: 00:28:28s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_8211:5,288
+INFO	2020-01-03 16:54:01	MarkDuplicates	Written   160,000,000 records.  Elapsed time: 00:30:21s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_8938:43,211
+INFO	2020-01-03 16:55:56	MarkDuplicates	Written   170,000,000 records.  Elapsed time: 00:32:16s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_9549:38,890
+INFO	2020-01-03 16:57:49	MarkDuplicates	Written   180,000,000 records.  Elapsed time: 00:34:09s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_10085:16,458
+INFO	2020-01-03 16:59:42	MarkDuplicates	Written   190,000,000 records.  Elapsed time: 00:36:02s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_10540:68,491
+INFO	2020-01-03 17:01:37	MarkDuplicates	Written   200,000,000 records.  Elapsed time: 00:37:57s.  Time for last 10,000,000:  114s.  Last read position: Tdub_V1_scaffold_10962:51,554
+INFO	2020-01-03 17:03:29	MarkDuplicates	Written   210,000,000 records.  Elapsed time: 00:39:49s.  Time for last 10,000,000:  112s.  Last read position: Tdub_V1_scaffold_11321:14,116
+INFO	2020-01-03 17:05:25	MarkDuplicates	Written   220,000,000 records.  Elapsed time: 00:41:45s.  Time for last 10,000,000:  115s.  Last read position: Tdub_V1_scaffold_11639:32,063
+INFO	2020-01-03 17:07:19	MarkDuplicates	Written   230,000,000 records.  Elapsed time: 00:43:39s.  Time for last 10,000,000:  113s.  Last read position: Tdub_V1_scaffold_11926:183,988
+INFO	2020-01-03 17:09:11	MarkDuplicates	Written   240,000,000 records.  Elapsed time: 00:45:31s.  Time for last 10,000,000:  112s.  Last read position: Tdub_V1_scaffold_12145:237,990
+INFO	2020-01-03 17:11:06	MarkDuplicates	Written   250,000,000 records.  Elapsed time: 00:47:26s.  Time for last 10,000,000:  114s.  Last read position: NC_001416.1_lambda:43,505
+INFO	2020-01-03 17:11:08	MarkDuplicates	Before output close freeMemory: 16140733216; totalMemory: 16298016768; maxMemory: 19088801792
+INFO	2020-01-03 17:11:08	MarkDuplicates	After output close freeMemory: 16140733216; totalMemory: 16298016768; maxMemory: 19088801792
