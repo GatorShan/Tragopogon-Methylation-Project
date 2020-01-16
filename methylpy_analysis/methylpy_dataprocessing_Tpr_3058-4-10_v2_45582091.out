@@ -1,0 +1,77 @@
+Wed Jan  1 21:28:43 EST 2020
+c5a-s19.ufhpc
+/ufrc/soltis/shan158538/Methylation/SLURM
+TMPDIR is: /orange/soltis/shan158538/methylpy_temp
+Begin splitting reads for libA
+Wed Jan  1 21:28:55 2020
+
+Begin trimming reads for libA
+Thu Jan  2 03:01:15 2020
+
+Begin converting reads for libA
+Thu Jan  2 03:38:11 2020
+
+Begin Running Bowtie2 for libA
+Thu Jan  2 03:58:09 2020
+
+Processing forward strand hits
+Fri Jan  3 01:59:57 2020
+
+Processing reverse strand hits
+Sat Jan  4 03:28:08 2020
+
+Finding multimappers
+Sat Jan  4 04:45:48 2020
+
+There are 323286190 total input read pairs
+Sat Jan  4 05:50:46 2020
+
+There are 18797013 uniquely mapping read pairs, 5.81435693248 percent remaining
+Sat Jan  4 05:50:46 2020
+
+There are 15316389 non-clonal read pairs, 4.73771830464 percent remaining
+Sat Jan  4 05:50:46 2020
+
+Begin calling mCs
+Sat Jan  4 05:50:46 2020
+
+Begin flipping the strand of read 2
+Sat Jan  4 05:50:46 2020
+
+Input not indexed. Indexing...
+Sat Jan  4 06:06:20 2020
+
+Perform binomial test
+Sat Jan  4 06:53:22 2020
+
+The non-conversion rate is 0.265297886637%
+Sat Jan  4 07:08:54 2020
+
+The closest p-value cutoff for CTT at your desired FDR is 0.00538797052536 which corresponds to an FDR of 0.00996131177657
+The closest p-value cutoff for CAA at your desired FDR is 0.0071553759672 which corresponds to an FDR of 0.00998511056882
+The closest p-value cutoff for CCA at your desired FDR is 0.00532385745651 which corresponds to an FDR of 0.00995040855977
+The closest p-value cutoff for CGN at your desired FDR is 0.00793784038097 which corresponds to an FDR of 0.00793784038097
+The closest p-value cutoff for CGA at your desired FDR is 0.00952103309196 which corresponds to an FDR of 0.00968870578769
+The closest p-value cutoff for CCT at your desired FDR is 0.00456402180198 which corresponds to an FDR of 0.00996915848817
+The closest p-value cutoff for CGC at your desired FDR is 0.00952103309196 which corresponds to an FDR of 0.00969741906883
+The closest p-value cutoff for CTN at your desired FDR is 0.00793784038097 which corresponds to an FDR of 0.00832983249855
+The closest p-value cutoff for CGG at your desired FDR is 0.00976060392027 which corresponds to an FDR of 0.0099182372376
+The closest p-value cutoff for CAT at your desired FDR is 0.00582867658858 which corresponds to an FDR of 0.00998579901467
+The closest p-value cutoff for CCN at your desired FDR is 0.00793784038097 which corresponds to an FDR of 0.0091138167337
+The closest p-value cutoff for CNN at your desired FDR is 0.00793784038097 which corresponds to an FDR of 0.00887347936123
+The closest p-value cutoff for CTG at your desired FDR is 0.0091908803045 which corresponds to an FDR of 0.00972334309696
+The closest p-value cutoff for CTA at your desired FDR is 0.00702857060035 which corresponds to an FDR of 0.00998649639203
+The closest p-value cutoff for CTC at your desired FDR is 0.00545653969192 which corresponds to an FDR of 0.00988201346183
+The closest p-value cutoff for CAC at your desired FDR is 0.00575293773721 which corresponds to an FDR of 0.00997761560209
+The closest p-value cutoff for CCG at your desired FDR is 0.00845567993956 which corresponds to an FDR of 0.00992672299239
+The closest p-value cutoff for CAG at your desired FDR is 0.00938568689192 which corresponds to an FDR of 0.00990286975122
+The closest p-value cutoff for CGT at your desired FDR is 0.00976217298226 which corresponds to an FDR of 0.00996582874445
+The closest p-value cutoff for CCC at your desired FDR is 0.00435777239479 which corresponds to an FDR of 0.00997646515944
+The closest p-value cutoff for CAN at your desired FDR is 0.00793784038097 which corresponds to an FDR of 0.00890000285139
+Begin sorting file by position
+Sat Jan  4 07:31:16 2020
+
+Done
+Sat Jan  4 08:16:54 2020
+
+Sat Jan  4 08:16:54 EST 2020
