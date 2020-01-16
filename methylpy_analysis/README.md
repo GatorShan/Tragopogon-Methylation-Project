@@ -78,5 +78,12 @@ Wed Dec 25 10:05:32 2019
 ...
 Done
 ```
+## 4. Analysis of T. pratensis (3058-4-10)
+Script `methylpy_dataprocessing_Tpr_3058-4-10_v2.sh` was used. All temp files were kept to figure out why there was a such a low percentage of mapping in samples from T. pratensis.
 
+Two SAM files were generated:
+```
+269G Jan  3 01:59 T.pratensis_3058-4-10_libA_forward_strand_hits.sam
+269G Jan  4 03:28 T.pratensis_3058-4-10_libA_reverse_strand_hits.sam
+```
 
