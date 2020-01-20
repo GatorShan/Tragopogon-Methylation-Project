@@ -31,8 +31,6 @@ S4_cat_R1.fastq.gz_trimming_report.txt:Reads with adapters:               300,02
 S4_cat_R2.fastq.gz_trimming_report.txt:Reads with adapters:               349,357,798 (47.0%)
 ```
 
-Fastqc analysis was performed separately using script `Fastqc_quality_check.V2.sh`.
-
 Output files:
 ```
 43G Jan 20 03:32 S1_cat_R1_val_1.fq.gz
