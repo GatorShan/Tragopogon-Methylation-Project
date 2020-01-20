@@ -42,3 +42,6 @@ Output files:
 23G Jan 20 02:51 S3_cat_R1_val_1.fq.gz
 21G Jan 20 02:51 S3_cat_R2_val_2.fq.gz
 ```
+
+## 3. FastQC analysis of trimmed files
+Script `Fastqc_quality_check.V2.sh` etc. was used.
