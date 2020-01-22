@@ -29,16 +29,22 @@ S3_cat_R1.fastq.gz_trimming_report.txt:Reads with adapters:               127,51
 S3_cat_R2.fastq.gz_trimming_report.txt:Reads with adapters:               149,321,905 (46.2%)
 S4_cat_R1.fastq.gz_trimming_report.txt:Reads with adapters:               300,021,289 (40.3%)
 S4_cat_R2.fastq.gz_trimming_report.txt:Reads with adapters:               349,357,798 (47.0%)
+S5_cat_R1.fastq.gz_trimming_report.txt:Reads with adapters:               186,971,237 (39.3%)
+S5_cat_R2.fastq.gz_trimming_report.txt:Reads with adapters:               224,163,517 (47.2%)
 ```
 
 Output files:
 ```
-43G Jan 20 03:32 S1_cat_R1_val_1.fq.gz
-39G Jan 20 03:32 S1_cat_R2_val_2.fq.gz
-18G Jan 19 05:04 S2_cat_R1_val_1.fq.gz
-17G Jan 19 05:04 S2_cat_R2_val_2.fq.gz
-23G Jan 20 02:51 S3_cat_R1_val_1.fq.gz
-21G Jan 20 02:51 S3_cat_R2_val_2.fq.gz
+-rw-r--r-- 1 shan158538 soltis 43G Jan 20 03:32 S1_cat_R1_val_1.fq.gz
+-rw-r--r-- 1 shan158538 soltis 39G Jan 20 03:32 S1_cat_R2_val_2.fq.gz
+-rw-r--r-- 1 shan158538 soltis 18G Jan 19 05:04 S2_cat_R1_val_1.fq.gz
+-rw-r--r-- 1 shan158538 soltis 17G Jan 19 05:04 S2_cat_R2_val_2.fq.gz
+-rw-r--r-- 1 shan158538 soltis 23G Jan 20 02:51 S3_cat_R1_val_1.fq.gz
+-rw-r--r-- 1 shan158538 soltis 21G Jan 20 02:51 S3_cat_R2_val_2.fq.gz
+-rw-r--r-- 1 shan158538 soltis 52G Jan 20 12:46 S4_cat_R1_val_1.fq.gz
+-rw-r--r-- 1 shan158538 soltis 47G Jan 20 12:46 S4_cat_R2_val_2.fq.gz
+-rw-r--r-- 1 shan158538 soltis 33G Jan 21 21:43 S5_cat_R1_val_1.fq.gz
+-rw-r--r-- 1 shan158538 soltis 31G Jan 21 21:43 S5_cat_R2_val_2.fq.gz
 ```
 
 ## 3. FastQC analysis of trimmed files
