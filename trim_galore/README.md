@@ -3,7 +3,7 @@
 The method of quality control is following the protocol [here](https://www.epigenesys.eu/en/protocols/bio-informatics/483-quality-control-trimming-and-alignment-of-bisulfite-seq-data-prot-57)
 
 ## 2. Procedure
-Scripts `Trim_galore.V1.sh`, `Trim_galore.V2.sh`, and `Trim_galore.V3.sh` were used.
+Scripts `Trim_galore.V1.sh`, `Trim_galore.V2.sh`, `Trim_galore.V3.sh`, and `Trim_galore.V4.sh` were used.
 
 ```
 Trimming mode: paired-end
@@ -21,6 +21,8 @@ All sequences will be trimmed by 1 bp on their 3' end to avoid problems with inv
 Lots of reads contain adapters!
 
 ```
+HMCWKCCXY_s8_1_4981-LF_17_SL334590.fastq.gz_trimming_report.txt:Reads with adapters:               172,831,678 (40.9%)
+HMCWKCCXY_s8_2_4981-LF_17_SL334590.fastq.gz_trimming_report.txt:Reads with adapters:               177,479,219 (42.0%)
 S1_cat_R1.fastq.gz_trimming_report.txt:Reads with adapters:               250,624,136 (40.7%)
 S1_cat_R2.fastq.gz_trimming_report.txt:Reads with adapters:               278,618,910 (45.3%)
 S2_cat_R1.fastq.gz_trimming_report.txt:Reads with adapters:                98,456,178 (38.1%)
@@ -35,6 +37,8 @@ S5_cat_R2.fastq.gz_trimming_report.txt:Reads with adapters:               224,16
 
 Output files:
 ```
+-rw-r--r-- 1 shan158538 soltis 30G Jan 24 14:00 HMCWKCCXY_s8_1_4981-LF_17_SL334590_val_1.fq.gz
+-rw-r--r-- 1 shan158538 soltis 34G Jan 24 14:00 HMCWKCCXY_s8_2_4981-LF_17_SL334590_val_2.fq.gz
 -rw-r--r-- 1 shan158538 soltis 43G Jan 20 03:32 S1_cat_R1_val_1.fq.gz
 -rw-r--r-- 1 shan158538 soltis 39G Jan 20 03:32 S1_cat_R2_val_2.fq.gz
 -rw-r--r-- 1 shan158538 soltis 18G Jan 19 05:04 S2_cat_R1_val_1.fq.gz
