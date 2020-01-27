@@ -57,7 +57,7 @@ Script `Fastqc_quality_check.V2.sh` etc. was used.
 ## 4. Statistics of the trimmed files
 | Species | Sequence ID | No. of paired end reads before trimming | After trim_glore |
 | -- | -- | -- | -- |
-| T. dubius (2x); (3060-1-4; Garfield) | DES-0001 | 422567268 | |
+| T. dubius (2x); (3060-1-4; Garfield) | DES-0001 | 422567268 | 421664516 |
 | T. dubius (2x); (3040-6-2; Pullman) | S1 | 615060200 | 614845591 |
 | T. pratensis (2x); (3058-1-2; Garfield) | S2 | 258651069 | 258486470 |
 | T. pratensis (2x); (3058-4-10; Garfield) | S3 | 323286190 | 323032184 |
