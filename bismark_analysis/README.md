@@ -40,3 +40,22 @@ Script `Subsampling_V2.sh` was used to extract 10% of reads randomly from the or
 Output:
   - `S1_cat_R2_val_2_subset_0.1.fq.gz` and `S1_cat_R1_val_1_subset_0.1.fq.gz`
   - `S2_cat_R1_val_1_subset_0.1.fq.gz` and `S2_cat_R2_val_2_subset_0.1.fq.gz`
+
+#### 2.2.2 bismak alignment
+
+For S1:
+
+| Alignment job ID | S1_V1 | S1_V2 |
+| -- | -- | -- |
+| Parameters | default (100% reads) | -N 1 |
+| Mapping efficiency | 47.4% | |
+
+
+For S2:
+
+| Alignment job ID | S2_V1 | S2_V2 |
+| -- | -- | -- |
+| Parameters | default (100% reads) | -N 1 |
+| Mapping efficiency | 17.8% | |
+
+
