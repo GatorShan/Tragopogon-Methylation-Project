@@ -56,6 +56,6 @@ For S2:
 | Alignment job ID | S2_V1 | S2_V2 |
 | -- | -- | -- |
 | Parameters | default (100% reads) | -N 1 |
-| Mapping efficiency | 17.8% | |
+| Mapping efficiency | 17.8% | 13.4% |
 
 
