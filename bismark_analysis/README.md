@@ -57,5 +57,6 @@ For S2:
 | -- | -- | -- | -- |
 | Parameters | default (100% reads) | -N 1 | --score_min L,0,-0.6 |
 | Mapping efficiency | 17.8% | 13.4% | 50.9% |
-
+| Time | | | 6h 20m |
+| Results | | | C methylated in CpG context:    78.7% C methylated in CHG context:    62.6% C methylated in CHH context:    9.7% C methylated in unknown context (CN or CHN):    16.1% |
 
