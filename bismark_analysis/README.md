@@ -62,3 +62,6 @@ For S2:
 | Time | 1d 8h 52m | 3h 49m | 6h 20m |
 | Results | C methylated in CpG context:    82.6% C methylated in CHG context:    65.4% C methylated in CHH context:    9.1% C methylated in unknown context (CN or CHN):    14.2% | C methylated in CpG context:    81.5% C methylated in CHG context:    63.8% C methylated in CHH context:    8.9% C methylated in unknown context (CN or CHN):    13.8% | C methylated in CpG context:    78.7% C methylated in CHG context:    62.6% C methylated in CHH context:    9.7% C methylated in unknown context (CN or CHN):    16.1% |
 
+**After talking with Bob, we prefer to use a more conservative mapping paramter**
+
+**I would suggest you proceed cautiously.  More is not always better, especially if reads are being misplaced. This is up the user and dependent on the questions you are asking. In general, we mostly take a very conservative approach**
