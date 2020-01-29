@@ -48,9 +48,9 @@ For S1:
 | Alignment job ID | S1_V1 | S1_V2 | S1_V3 |
 | -- | -- | -- | -- |
 | Parameters | default (100% reads) | -N 1 (10% reads) | --score_min L,0,-0.6 (10% reads) |
-| Mapping efficiency | 47.4% | 44.2% | |
-| Time | 3d 8h 19m | 8h 26m | |
-| Results | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.2% | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.5% | |
+| Mapping efficiency | 47.4% | 44.2% | 65.8% |
+| Time | 3d 8h 19m | 8h 26m | 15h 34m |
+| Results | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.2% | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.5% | C methylated in CpG context:    86.6% C methylated in CHG context:    71.4% C methylated in CHH context:    12.3% C methylated in unknown context (CN or CHN):    17.5% |
 
 
 For S2:
