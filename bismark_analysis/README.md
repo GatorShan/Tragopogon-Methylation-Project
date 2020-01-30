@@ -7,31 +7,16 @@ Bismark will create two individual folders: one for a C->T converted genome and 
 Script `bismark_genome_prep_V1.sh` was used.
 
 ## 2. Alignment
-For S1, script `bismark_alignment_S1_V1.sh` was used.
-- ```
-    Final Alignment report
-    ======================
-    Sequence pairs analysed in total:       614845591
-    Number of paired-end alignments with a unique best hit: 291340988
-    Mapping efficiency:     47.4% 
-    Sequence pairs with no alignments under any condition:  277397113
-    Sequence pairs did not map uniquely:    46107490
-    Sequence pairs which were discarded because genomic sequence could not be extracted:    20738
-    ```
 
-For S2, script `bismark_alignment_S2_V1.sh` was used.
-  - ```
-    Final Alignment report
-    ======================
-    Sequence pairs analysed in total:       258486470
-    Number of paired-end alignments with a unique best hit: 46100560
-    Mapping efficiency:     17.8% 
-    Sequence pairs with no alignments under any condition:  198923920
-    Sequence pairs did not map uniquely:    13461990
-    Sequence pairs which were discarded because genomic sequence could not be extracted:    2760
-    ```
+**Here are the summary report of the alignment. We here used the default settings, for more detail about comparing different settings find section 2.1**
 
-**As the mapping efficiency is very different between Tdu and Tpr samples, I want to use a less strigent mapping method, and see if the Tpr mapping efficiency would increase a little bit**
+| Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
+| -- | -- | -- | -- | -- | -- | -- |
+| Script used | `bismark_alignment_DES1_V1.sh` | `bismark_alignment_S1_V1.sh` | `bismark_alignment_S2_V1.sh` | `bismark_alignment_S3_V1.sh` | `bismark_alignment_S4_V1.sh` | |
+| Mapping efficiency | | 47.4% | 17.8% | 17.3% | | |
+| Time | | 3d 8h | 1d 8h | 1d 15h | | |
+| Results | | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.2% | C methylated in CpG context:    82.6% C methylated in CHG context:    65.4% C methylated in CHH context:    9.1% C methylated in unknown context (CN or CHN):    14.2% | C methylated in CpG context:    84.5% C methylated in CHG context:    67.8% C methylated in CHH context:    9.9% C methylated in unknown context (CN or CHN):    15.2% | | |
+
 
 ### 2.1 Use less strigent mapping method for S1 and S2
 #### 2.2.1 Subsampling
