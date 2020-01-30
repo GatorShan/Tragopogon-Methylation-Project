@@ -12,6 +12,7 @@ Script `bismark_genome_prep_V1.sh` was used.
 
 | Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
 | -- | -- | -- | -- | -- | -- | -- |
+| Species | T. dubius (2x); (3060-1-4; Garfield) | T. dubius (2x); (3040-6-2; Pullman) | T. pratensis (2x); (3058-1-2; Garfield) | T. pratensis (2x); (3058-4-10; Garfield) | T. miscellus (4x); (3059-7-7; Garfield) | T. miscellus (4x); (3059-21-5; Garfield) |
 | Script used | `bismark_alignment_DES1_V1.sh` | `bismark_alignment_S1_V1.sh` | `bismark_alignment_S2_V1.sh` | `bismark_alignment_S3_V1.sh` | `bismark_alignment_S4_V1.sh` | |
 | Mapping efficiency | | 47.4% | 17.8% | 17.3% | | |
 | Time | | 3d 8h | 1d 8h | 1d 15h | | |
