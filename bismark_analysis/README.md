@@ -50,3 +50,11 @@ For S2:
 **After talking with Bob, we prefer to use a more conservative mapping paramter; so results from V1 mapping scripts will be used for now!**
 
 **"I would suggest you proceed cautiously.  More is not always better, especially if reads are being misplaced. This is up the user and dependent on the questions you are asking. In general, we mostly take a very conservative approach"**
+
+## 3. Deduplication
+Remove alignments to the same position in the genome from the Bismark mapping output, which can arise by e.g excessive PCR amplification; by default, the first alignment to a given position will be used irrespective of its methylation call.
+
+
+
+
+
