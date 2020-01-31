@@ -14,9 +14,9 @@ Script `bismark_genome_prep_V1.sh` was used.
 | -- | -- | -- | -- | -- | -- | -- |
 | Species | T. dubius (2x); (3060-1-4; Garfield) | T. dubius (2x); (3040-6-2; Pullman) | T. pratensis (2x); (3058-1-2; Garfield) | T. pratensis (2x); (3058-4-10; Garfield) | T. miscellus (4x); (3059-7-7; Garfield) | T. miscellus (4x); (3059-21-5; Garfield) |
 | Script used | `bismark_alignment_DES1_V1.sh` | `bismark_alignment_S1_V1.sh` | `bismark_alignment_S2_V1.sh` | `bismark_alignment_S3_V1.sh` | `bismark_alignment_S4_V1.sh` | |
-| Mapping efficiency | | 47.4% | 17.8% | 17.3% | | |
-| Time | | 3d 8h | 1d 8h | 1d 15h | | |
-| Results | | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.2% | C methylated in CpG context:    82.6% C methylated in CHG context:    65.4% C methylated in CHH context:    9.1% C methylated in unknown context (CN or CHN):    14.2% | C methylated in CpG context:    84.5% C methylated in CHG context:    67.8% C methylated in CHH context:    9.9% C methylated in unknown context (CN or CHN):    15.2% | | |
+| Mapping efficiency | 44.4% | 47.4% | 17.8% | 17.3% | | |
+| Time | 2d 10h | 3d 8h | 1d 8h | 1d 15h | | |
+| Results | C methylated in CpG context:    91.1% C methylated in CHG context:    76.1% C methylated in CHH context:    11.2% C methylated in unknown context (CN or CHN):    15.5% | C methylated in CpG context:    89.7% C methylated in CHG context:    74.3% C methylated in CHH context:    12.4% C methylated in unknown context (CN or CHN):    16.2% | C methylated in CpG context:    82.6% C methylated in CHG context:    65.4% C methylated in CHH context:    9.1% C methylated in unknown context (CN or CHN):    14.2% | C methylated in CpG context:    84.5% C methylated in CHG context:    67.8% C methylated in CHH context:    9.9% C methylated in unknown context (CN or CHN):    15.2% | | |
 
 
 ### 2.1 Use less strigent mapping method for S1 and S2
