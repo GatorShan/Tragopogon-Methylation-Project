@@ -55,11 +55,11 @@ For S2:
 ## 3. Deduplication
 Remove alignments to the same position in the genome from the Bismark mapping output, which can arise by e.g excessive PCR amplification; by default, the first alignment to a given position will be used irrespective of its methylation call.
 
-Script `bismark_deduplicate_S2_V3.sh`, `bismark_deduplicate_DES1_S1_S3_V1.sh` were used.
+Script `bismark_deduplicate_S2_V3.sh` etc. were used.
 
 | Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
 | -- | -- | -- | -- | -- | -- | -- |
-| % of deduplicated leftover sequences | | | 86.51% | 83.89% | | |
+| % of deduplicated leftover sequences | 65.82% | | 86.51% | 83.89% | | |
 
 
 
