@@ -59,7 +59,7 @@ Script `bismark_deduplicate_S2_V3.sh`, `bismark_deduplicate_DES1_S1_S3_V1.sh` we
 
 | Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
 | -- | -- | -- | -- | -- | -- | -- |
-| % of deduplicated leftover sequences | | | 86.51% | | | |
+| % of deduplicated leftover sequences | | | 86.51% | 83.89% | | |
 
 
 
