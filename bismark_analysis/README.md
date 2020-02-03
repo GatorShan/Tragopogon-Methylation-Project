@@ -62,5 +62,22 @@ Script `bismark_deduplicate_S2_V3.sh` etc. were used.
 | % of deduplicated leftover sequences | 65.82% | 72.50% | 86.51% | 83.89% | | |
 
 ## 4. Extract Bismark methylation profiles
-Script `bismark_methylation_extractor_S2_V1.sh` etc. was used.
+Script `bismark_methylation_extractor_S2_V2.sh` etc. was used.
+
+Example:
+```bash
+module purge
+module load bismark/0.22.3
+
+bismark_methylation_extractor \
+	${IN}/S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bam \
+	--paired-end \
+	--no_overlap \
+	--output ${OUT} \
+	--gzip \
+	--multicore 3 \
+	--bedGraph \
+	--scaffolds \
+	--ignore_r2 2
+```
 
