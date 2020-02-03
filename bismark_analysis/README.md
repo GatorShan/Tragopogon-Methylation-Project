@@ -61,5 +61,6 @@ Script `bismark_deduplicate_S2_V3.sh` etc. were used.
 | -- | -- | -- | -- | -- | -- | -- |
 | % of deduplicated leftover sequences | 65.82% | 72.50% | 86.51% | 83.89% | | |
 
-
+## 4. Extract Bismark methylation profiles
+Script `bismark_methylation_extractor_S2_V1.sh` etc. was used.
 
