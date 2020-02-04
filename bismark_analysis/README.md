@@ -78,7 +78,7 @@ Example output files
 -rw-r--r-- 1 shan158538 soltis  918 Feb  3 13:36 S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated_splitting_report.txt
 ```
 
-File `S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bismark.cov.gz` could be used for downstream analysis of DMRs
+File `S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bismark.cov.gz` could be used for downstream analysis of DMRs; By default, this mode will **only consider cytosines in CpG context**, but it can be extended to cytosines in any sequence context by using the option --CX
 ```
 Tdub_V1_scaffold_1	374	374	100	1	0
 Tdub_V1_scaffold_1	382	382	100	1	0
