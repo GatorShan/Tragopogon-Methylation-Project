@@ -62,6 +62,7 @@ Script `bismark_deduplicate_S2_V3.sh` etc. were used.
 | % of deduplicated leftover sequences | 65.82% | 72.50% | 86.51% | 83.89% | 72.30% | 81.51% |
 
 ## 4. Extract Bismark methylation profiles
+### 4.1 CpG context
 Script `bismark_methylation_extractor_S2_V2.sh` etc. was used.
 
 Example output files
@@ -94,3 +95,9 @@ Tdub_V1_scaffold_1	445	445	94.1176470588235	16	1
 Tdub_V1_scaffold_1	496	496	100	1	0
 Tdub_V1_scaffold_1	497	497	96.2962962962963	26	1
 ```
+### 4.2 CHG context
+Script `bismark2bedGraph_S2_CHG_V1.sh` etc. was used.
+
+Example output:
+  - `S2_CHG.gz`
+  - `S2_CHG.gz.bismark.cov.gz`
