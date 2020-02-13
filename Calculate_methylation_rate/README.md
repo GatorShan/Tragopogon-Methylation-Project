@@ -5,6 +5,9 @@ The output files of bismark were used. For each individual, there are three file
   - `S2_CHH.gz.bismark.cov`
 
 Format of each cov file:
+
+`<chromosome> <start position> <end position> <methylation percentage> <count methylated> <count unmethylated>`
+
 ```
 Tdub_V1_scaffold_1	436	436	100	12	0
 Tdub_V1_scaffold_1	444	444	100	1	0
