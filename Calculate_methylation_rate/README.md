@@ -27,7 +27,7 @@ Script `Genome_wide_methylation_rate_V1.ipynb` was used, which is modified from 
 
 ## 2. Methylation rate at different genetic features
 ### 2.1 Reformatting
-Script `Reformat_bismark_cov_V3.py` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). Example script:
+Scripts `Reformat_bismark_cov_V3.py` and `Reformat_CG_cov_files_V1.sh` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). Example script:
 
 ```
 cd /orange/soltis/shan158538/Methylation_output/bismark_coverage_files
