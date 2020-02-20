@@ -55,7 +55,7 @@ Tdub_V1_scaffold_1      38      NA      CG      15      15      NA
 Tdub_V1_scaffold_1      49      NA      CG      2       2       NA
 Tdub_V1_scaffold_1      50      NA      CG      17      17      NA
 ```
-#### 2.1 Rename the output files
+#### 2.1.1 Rename the output files
 Since I got the `argument too long` error, the following script is used to shortern filenames.
 
 ```
@@ -64,9 +64,18 @@ for file in *.tsv; do mv $file "allc_DES1_$(echo $file | cut -f 6 -d "_")"; done
 
 Output: e.g. `allc_DES1_10000.tsv`, in which `10000` is the scaffold ID.
 
-#### 2.2 Reformat the scaffold name in the gff file
+#### 2.1.2 Reformat the scaffold name in the gff file
 Since the `*.tsv` files have shorterned filenames, scaffold name in gff files should be changed accordingly for downstream analysis.
 
 ```
 sed 's/Tdub_V1_scaffold_//' Tdub.V1.rm.gff > Tdub.V1.rm.RENAME.gff
+```
+
+### 2.2 Calculate the methylation rate within gene regions across the genome
+Script `feature_methylation.ss.V1.py` (modifiled from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/feature_methylation.py#L264)) was used.
+
+`MethylationRate_feature_gene_CG_V3.sh` were used, for example, to submit the job. Example ouput `DES1_gene_CG_genes.tsv`:
+
+```
+DES1	genes	CG	0.712482
 ```
