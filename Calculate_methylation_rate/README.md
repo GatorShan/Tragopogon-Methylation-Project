@@ -26,6 +26,13 @@ Script `Genome_wide_methylation_rate_V1.ipynb` was used, which is modified from 
 | CHH | 11.1% | 12.5% | 9.3% | 10.1% | 11.0% | 10.5% |
 
 ## 2. Methylation rate at different genetic features
+
+| Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
+| -- | -- | -- | -- | -- | -- | -- |
+| gene_CpG | 71.2% | % | % | % | % | % |
+| gene_CHG | % | % | % | % | % | % |
+| gene_CHH | % | % | % | % | % | % |
+
 ### 2.1 Reformatting
 Scripts `Reformat_bismark_cov_V3.py` and `Reformat_CG_cov_files_V1.sh` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). Example script:
 
