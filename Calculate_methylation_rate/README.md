@@ -55,3 +55,18 @@ Tdub_V1_scaffold_1      38      NA      CG      15      15      NA
 Tdub_V1_scaffold_1      49      NA      CG      2       2       NA
 Tdub_V1_scaffold_1      50      NA      CG      17      17      NA
 ```
+#### 2.1 Rename the output files
+Since I got the `argument too long` error, the following script is used to shortern filenames.
+
+```
+for file in *.tsv; do mv $file "allc_DES1_$(echo $file | cut -f 6 -d "_")"; done
+```
+
+Output: e.g. `allc_DES1_10000.tsv`, in which `10000` is the scaffold ID.
+
+#### 2.2 Reformat the scaffold name in the gff file
+Since the `*.tsv` files have shorterned filenames, scaffold name in gff files should be changed accordingly for downstream analysis.
+
+```
+sed 's/Tdub_V1_scaffold_//' Tdub.V1.rm.gff > Tdub.V1.rm.RENAME.gff
+```
