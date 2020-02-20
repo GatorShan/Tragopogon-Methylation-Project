@@ -74,7 +74,7 @@ sed 's/Tdub_V1_scaffold_//' Tdub.V1.rm.gff > Tdub.V1.rm.RENAME.gff
 ### 2.2 Calculate the methylation rate within gene regions across the genome
 Script `feature_methylation.ss.V1.py` (modifiled from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/feature_methylation.py#L264)) was used.
 
-`MethylationRate_feature_gene_CG_V3.sh` were used, for example, to submit the job. Example ouput `DES1_gene_CG_genes.tsv`:
+`MethylationRate_feature_gene_CG_V4.sh` were used, for example, to submit the job. Example ouput `DES1_gene_CG_genes.tsv`:
 
 ```
 DES1	genes	CG	0.712482
