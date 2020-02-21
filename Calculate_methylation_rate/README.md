@@ -29,7 +29,7 @@ Script `Genome_wide_methylation_rate_V1.ipynb` was used, which is modified from 
 
 | Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
 | -- | -- | -- | -- | -- | -- | -- |
-| gene_CpG | 71.2% | % | % | % | % | % |
+| gene_CpG | 71.2% | 65.1% | 52.4% | 59.3% | 60.6% | 57.7% |
 | gene_CHG | % | % | % | % | % | % |
 | gene_CHH | % | % | % | % | % | % |
 
