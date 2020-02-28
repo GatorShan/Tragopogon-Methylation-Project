@@ -86,3 +86,10 @@ Script `feature_methylation.ss.V1.py` (modifiled from [here](https://github.com/
 ```
 DES1	genes	CG	0.712482
 ```
+
+## 3. Gene body methylation metaplot
+Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methylation level, which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body, and 20 bins for each region.
+
+Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input files are from step 2.1.1
+
+
