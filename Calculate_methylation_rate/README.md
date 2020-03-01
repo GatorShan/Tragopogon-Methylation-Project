@@ -98,3 +98,7 @@ Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input files 
 
 **Metaplot of CHG methylation**
 ![CHG_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHG_Feb2020.png)
+
+
+**Metaplot of CHH methylation**
+![CHH_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_Feb2020.png)
