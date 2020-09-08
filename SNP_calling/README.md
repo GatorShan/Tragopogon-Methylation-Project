@@ -5,6 +5,8 @@ The T. pratensis (2x) genome sequencing reads are mapped to the reference genome
 ### 1.1 Mapping T. pratensis reads to T. dubius reference genome using BWA
 Script `BWA_indexing_V1.sh` was used to index the reference genome. Script `BWA_mapping_V1.sh` was used for mapping.
 
+When mapping the reads, I used only the paired-end reads and discarded the unpaired reads (~1.7%). As only a small proportion of reads is unpaired, this is good based on the discussion [here](https://www.biostars.org/p/140318/)
+
 Resources:
   - [BWA manual](http://bio-bwa.sourceforge.net/bwa.shtml)
   - [Online tutorial](https://hbctraining.github.io/In-depth-NGS-Data-Analysis-Course/sessionVI/lessons/01_alignment.html)
