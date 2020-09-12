@@ -31,3 +31,5 @@ samtools \
         -@ 4
 ```
 
+## 2. Mark duplicates
+Script `Picard_MarkDuplicates_V3.sh` was used to sort the bam file and mark the duplicates.
