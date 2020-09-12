@@ -7,6 +7,8 @@ Script `BWA_indexing_V1.sh` was used to index the reference genome. Script `BWA_
 
 When mapping the reads, I used only the paired-end reads and discarded the unpaired reads (~1.7%). As only a small proportion of reads is unpaired, this is good based on the discussion [here](https://www.biostars.org/p/140318/)
 
+~90% reads mapped to the reference. The statistics of the mapping results could be found [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/MultiQC_results/Bam_file_multiqc_report.html).
+
 Resources:
   - [BWA manual](http://bio-bwa.sourceforge.net/bwa.shtml)
   - [Online tutorial](https://hbctraining.github.io/In-depth-NGS-Data-Analysis-Course/sessionVI/lessons/01_alignment.html)
