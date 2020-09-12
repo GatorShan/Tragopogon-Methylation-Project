@@ -13,4 +13,21 @@ Resources:
   - [BWA manual](http://bio-bwa.sourceforge.net/bwa.shtml)
   - [Online tutorial](https://hbctraining.github.io/In-depth-NGS-Data-Analysis-Course/sessionVI/lessons/01_alignment.html)
 
+### 1.2 Convert SAM file to BAM file
+
+Script below was used.
+```bash
+module purge
+module load samtools/1.10
+
+### CONVERT SAM FILE TO BAM FILE
+### -b: output BAM
+### -S: input format is auto-detected; must be specified as BAM file is expected
+### -@: number of threads
+samtools \
+        view \
+        -bS \
+        ${INPUT}/Tpr_${sample}.sam > ${INPUT}/Tpr_${sample}.bam \
+        -@ 4
+```
 
