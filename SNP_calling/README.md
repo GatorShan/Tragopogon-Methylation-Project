@@ -35,5 +35,5 @@ samtools \
 Script `Picard_MarkDuplicates_V3.sh` was used to sort the bam file and mark the duplicates.
 
 Tips:
-  - Requrest a few more memory (25 Gb) more than that shown in -Xmx (20 Gb) within the java script
+  - Requrest a few more memory (25 Gb) than what is allocated to the java script (-Xmx 20 Gb)
   - Set up a new TMP directory at a local directory
