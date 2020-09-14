@@ -36,4 +36,10 @@ Script `Picard_MarkDuplicates_V3.sh` was used to sort the bam file and mark the 
 
 Tips:
   - Requrest a few more memory (25 Gb) than what is allocated to the java script (-Xmx 20 Gb)
-  - Set up a new TMP directory at a local directory
+  - Set up a new TMP directory at a local directory (error with the default TMP directory)
+
+![Image_1](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/Bam_sorted_marked_file_multiqc_report_samtools_alignment_plot.png)
+
+![Image_2](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/Bam_sorted_marked_file_multiqc_report_gerneral_statistics.png)
+
+![Image_3](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/Bam_sorted_marked_file_multiqc_report_alignment_matrics.png)
