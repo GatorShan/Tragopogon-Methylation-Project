@@ -32,7 +32,7 @@ samtools \
 ```
 
 ## 2. Mark duplicates
-Script `Picard_MarkDuplicates_V3.sh` was used to sort the bam file and mark the duplicates.
+Script `Picard_MarkDuplicates_V3.sh` was used to sort the bam file and mark the duplicates. More information about Picard Markduplicates function can be found [here](https://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicates)
 
 Tips:
   - Requrest a few more memory (25 Gb) than what is allocated to the java script (-Xmx 20 Gb)
