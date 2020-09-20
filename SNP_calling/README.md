@@ -43,3 +43,8 @@ Tips:
 ![Image_2](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/Bam_sorted_marked_file_multiqc_report_gerneral_statistics.png)
 
 ![Image_3](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/Bam_sorted_marked_file_multiqc_report_alignment_matrics.png)
+
+The percentage of duplicate reads is **5-6%**.
+![Image_4](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/Duplicate_percentage.png)
+
+Then, the BAM files were indexed using the script `Index_bam.V1.sh` (only sorted and indexed bam files can be visualized by IGV). 
