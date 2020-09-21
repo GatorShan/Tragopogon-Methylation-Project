@@ -66,3 +66,4 @@ Then, the BAM files were indexed using the script `Index_bam.V1.sh` (only sorted
     - Launch the GUI program as shown above
     - Load the reference genome
     - Load the bam file
+![Image_5](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNP_calling/images/IGV_bam_example.png)
