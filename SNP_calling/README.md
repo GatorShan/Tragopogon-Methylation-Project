@@ -72,3 +72,14 @@ Then, the BAM files were indexed using the script `Index_bam.V1.sh` (only sorted
 
 ### 2.3 Combine individual BAM files
 Script `Merge_bam.V1.sh` was used to merge all sorted and dup-marked SAM files into a single SAM file, and then index the output SAM file.
+
+### 2.4 Validates the BAM file
+Script `Validate_sam_file.V1.sh` was used to validate the combined BAM file. More information about BAM file validation can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360036854731-ValidateSamFile-Picard-) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035891231-Errors-in-SAM-or-BAM-files-can-be-diagnosed-with-ValidateSamFile)
+
+The summary message is shown below:
+```
+## HISTOGRAM	java.lang.String
+Error Type	Count
+ERROR:MISSING_READ_GROUP	1
+WARNING:RECORD_MISSING_READ_GROUP	1490169017
+```
