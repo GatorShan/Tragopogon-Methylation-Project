@@ -50,7 +50,7 @@ The percentage of duplicate reads is **5-6%**.
 
 ### 2.2 Index the BAM files
 Then, the BAM files were indexed using the script `Index_bam.V1.sh` (only sorted and indexed bam files can be visualized by IGV).
-  - Run graphical user interface (GUI) applications on HiPerGator
+  - Run graphical user interface (GUI) applications on [HiPerGator](https://help.rc.ufl.edu/doc/GUI_Programs)
   ```bash
   module load gui/2
   
