@@ -74,7 +74,7 @@ Then, the BAM files were indexed using the script `Index_bam.V1.sh` (only sorted
 Script `Merge_bam.V1.sh` was used to merge all sorted and dup-marked SAM files into a single SAM file, and then index the output SAM file.
 
 ### 2.4 Validates the BAM file
-Script `Validate_sam_file.V1.sh` was used to validate the combined BAM file. More information about BAM file validation can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360036854731-ValidateSamFile-Picard-) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035891231-Errors-in-SAM-or-BAM-files-can-be-diagnosed-with-ValidateSamFile)
+Script `Validate_sam_file.V1.sh` was used to validate the combined BAM file. More information about BAM file validation can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360036854731-ValidateSamFile-Picard-) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035891231-Errors-in-SAM-or-BAM-files-can-be-diagnosed-with-ValidateSamFile). To generate more detailed information of the error message script `Validate_sam_file.V2.sh` was used.
 
 The summary message is shown below:
 ```
@@ -83,3 +83,17 @@ Error Type	Count
 ERROR:MISSING_READ_GROUP	1
 WARNING:RECORD_MISSING_READ_GROUP	1490169017
 ```
+
+### 2.5 Coverage
+Script `WgsMetrics.V1.sh` was used to collect metrics about coverage and performance of whole genome sequencing (WGS) experiments. To interpret the results use the description shown [here](https://broadinstitute.github.io/picard/picard-metric-definitions.html#CollectWgsMetrics.WgsMetrics).
+
+| Description | Result |
+| -- | -- |
+| The number of non-N bases in the genome reference over which coverage will be evaluated | 820,481,643 |
+| The mean coverage | 43.2 |
+| The standard deviation of coverage | 58.7 |
+| The median coverage | 21 |
+| The total fraction of aligned bases excluded due to all filters | 20.1% |
+| The fraction of bases that attained at least 20X sequence coverage in post-filtering bases | 54.0% |
+| The fraction of bases that attained at least 30X sequence coverage in post-filtering bases | 48.5% |
+
