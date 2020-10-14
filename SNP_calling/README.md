@@ -97,3 +97,7 @@ Script `WgsMetrics.V1.sh` was used to collect metrics about coverage and perform
 | The fraction of bases that attained at least 20X sequence coverage in post-filtering bases | 54.0% |
 | The fraction of bases that attained at least 30X sequence coverage in post-filtering bases | 48.5% |
 
+### 2.6 Add read group name to individual Bam file
+Script `AddReadGroup.V1.sh` was used to add read group names. More info of read group can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890671?id=6472) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-).
+
+Based on the information from BGI, each paired fastq files has a unique barcode, and therefore, represents a uniqe library.
