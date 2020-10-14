@@ -98,6 +98,16 @@ Script `WgsMetrics.V1.sh` was used to collect metrics about coverage and perform
 | The fraction of bases that attained at least 30X sequence coverage in post-filtering bases | 48.5% |
 
 ### 2.6 Add read group name to individual Bam file
-Script `AddReadGroup.V1.sh` was used to add read group names. More info of read group can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890671?id=6472) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-).
+Script `AddReadGroup.V1.sh` was used to add read group names. More info of read group can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890671?id=6472) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). More info about BGI seq can be found [here](https://en.wikipedia.org/wiki/DNA_nanoball_sequencing).
 
 Based on the information from BGI, each paired fastq files has a unique barcode, and therefore, represents a uniqe library.
+```
+CL100078369_L01_533_1.fq
+CL100078369_L01_533_2.fq
+CL100078369_L01_534_1.fq
+CL100078369_L01_534_2.fq
+...
+CL100078369_L01_548_1.fq
+CL100078369_L01_548_2.fq
+```
+`CL100078369_L01_533_1.fq` and `CL100078369_L01_533_2.fq` are from a single library with barcode 533. `CL100078369_L01_534_1.fq` and `CL100078369_L01_534_2.fq` are from another library with barcode 534. All libraries were sequenced on Lane 1 of flow cell CL100078369.
