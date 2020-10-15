@@ -111,3 +111,11 @@ CL100078369_L01_548_1.fq
 CL100078369_L01_548_2.fq
 ```
 `CL100078369_L01_533_1.fq` and `CL100078369_L01_533_2.fq` are from a single library with barcode 533. `CL100078369_L01_534_1.fq` and `CL100078369_L01_534_2.fq` are from another library with barcode 534. All libraries were sequenced on Lane 1 of flow cell CL100078369.
+
+### 2.7 Merge all Bam files (with read group name) and validate the combined Bam file
+Script `Merge_bam.V2.sh` was used. The mergered bam file is named as `Tpr_combined_sorted_marked_AddReadGroup.bam`. The validation output is shown below:
+```
+## HISTOGRAM    java.lang.String
+Error Type      Count
+ERROR:INVALID_PLATFORM_VALUE    16
+```
