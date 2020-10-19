@@ -98,7 +98,20 @@ Script `WgsMetrics.V1.sh` was used to collect metrics about coverage and perform
 | The fraction of bases that attained at least 30X sequence coverage in post-filtering bases | 48.5% |
 
 ### 2.6 Add read group name to individual Bam file
-Script `AddReadGroup.V1.sh` was used to add read group names. More info of read group can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890671?id=6472) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). More info about BGI seq can be found [here](https://en.wikipedia.org/wiki/DNA_nanoball_sequencing).
+Script `AddReadGroup.V2.sh` was used to add read group names. More info of read group can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890671?id=6472) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). More info about BGI seq can be found [here](https://en.wikipedia.org/wiki/DNA_nanoball_sequencing).
+
+```bash
+java -Xmx3g -jar $HPC_PICARD_DIR/picard.jar \
+	AddOrReplaceReadGroups \
+	I=${INPUT}/Tpr_${sample}_sorted_marked.bam \
+	O=${INPUT}/Tpr_${sample}_sorted_marked_AddReadGroup.bam \
+	RGID= CL100078369.L01.${sample}\
+	RGLB= LIB-${sample}\
+	RGPL=ILLUMINA \
+	RGPU= CL100078369.L01.${sample}\
+	RGSM=Tpr
+```
+**Platform is ILLUMINA, although it is actually BGISEQ**. Otherwise, `ERROR:INVALID_PLATFORM_VALUE`.
 
 Based on the information from BGI, each paired fastq files has a unique barcode, and therefore, represents a uniqe library.
 ```
@@ -115,7 +128,5 @@ CL100078369_L01_548_2.fq
 ### 2.7 Merge all Bam files (with read group name) and validate the combined Bam file
 Script `Merge_bam.V2.sh` was used. The mergered bam file is named as `Tpr_combined_sorted_marked_AddReadGroup.bam`. The validation output is shown below:
 ```
-## HISTOGRAM    java.lang.String
-Error Type      Count
-ERROR:INVALID_PLATFORM_VALUE    16
+No errors found
 ```
