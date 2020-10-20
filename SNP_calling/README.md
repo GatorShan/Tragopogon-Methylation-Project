@@ -130,3 +130,5 @@ Script `Merge_bam.V2.sh` was used. The mergered bam file is named as `Tpr_combin
 ```
 No errors found
 ```
+## 3. Call variants
+Script `HaplotypeCaller_V1.sh` was used. For more information of the method: [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels-) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller). The reference fasta file need to be indexed and a dictionary file need to be created, for more [info](https://gatk.broadinstitute.org/hc/en-us/articles/360035531652-FASTA-Reference-genome-format).
