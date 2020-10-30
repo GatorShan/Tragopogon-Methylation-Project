@@ -131,8 +131,12 @@ Script `Merge_bam.V2.sh` was used. The mergered bam file is named as `Tpr_combin
 No errors found
 ```
 ## 3. Call variants
+### 3.1 HaplotypeCaller
 Script `HaplotypeCaller_V1.sh` was used. For more information of the method: [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels-) and [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller). The reference fasta file need to be indexed and a dictionary file need to be created, for more [info](https://gatk.broadinstitute.org/hc/en-us/articles/360035531652-FASTA-Reference-genome-format).
 
 **However**, because of the long running time when analyzing all scaffolds at once (e.g. after running for 5 days with 4 CPUs and 60 gb memory, scaffold 861 is being processed), we split the scaffolds and running different jobs at the same time. For more info of the method, please find it [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035531852-Intervals-and-interval-lists).
 
 Based on the size distribution (inside the image folder) of the scaffolds, 20 sublist (`split_scaffolds.xlsx`) was gernerated. Script `HaplotypeCaller_V5.sh` was used.
+
+### 3.2 Combine gvcf files
+According to the [info](https://gatk.broadinstitute.org/hc/en-us/articles/360037593911-CombineGVCFs), script `CombineGVCFs_V1.sh` was used to merge all 20 g.vcf.gz files into one: **`Tpr_combined.g.vcf.gz`**.
