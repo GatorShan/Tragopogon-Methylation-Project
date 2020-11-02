@@ -1,5 +1,5 @@
 # SNP Calling
-The T. pratensis (2x) genome sequencing reads are mapped to the reference genome of T. dubius (2x) -- SNPs between the two species are then identified.
+The T. pratensis (2x) genome sequencing reads are mapped to the reference genome of T. dubius (2x) -- SNPs between the two species are then identified. The workflow is adapted from the information shown [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels-).
 
 ## 1. Mapping
 ### 1.1 Mapping T. pratensis reads to T. dubius reference genome using BWA
@@ -146,3 +146,6 @@ Perform [joint genotyping](https://gatk.broadinstitute.org/hc/en-us/articles/360
 
 ### 3.4 Validate formatting
 To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-ValidateVariants) the formatting of a vcf file, script `ValidateVariants_V1.sh` was used.
+
+## 4. Filter variants
+Because of the lack of the high-quality sets of known variants to use as training and truth resources, we need to use [hard-filtering](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration) instead.
