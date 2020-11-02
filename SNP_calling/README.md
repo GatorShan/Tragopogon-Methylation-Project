@@ -145,7 +145,7 @@ According to the [info](https://gatk.broadinstitute.org/hc/en-us/articles/360037
 Perform [joint genotyping](https://gatk.broadinstitute.org/hc/en-us/articles/360037057852-GenotypeGVCFs) on one sample using script `GenotypeGVCFs_V1.sh`. The output is **`Tpr_combined.vcf.gz`**.
 
 ### 3.4 Validate formatting
-To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-ValidateVariants) the formatting of a vcf file, script `ValidateVariants_V1.sh` was used.
+To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-ValidateVariants) the formatting of a vcf file, script `ValidateVariants_V1.sh` was used. No error was detected.
 
 ## 4. Filter variants
 Because of the lack of the high-quality sets of known variants to use as training and truth resources, we need to use [hard-filtering](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration) instead.
