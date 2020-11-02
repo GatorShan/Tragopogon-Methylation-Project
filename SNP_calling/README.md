@@ -140,3 +140,6 @@ Based on the size distribution (inside the image folder) of the scaffolds, 20 su
 
 ### 3.2 Combine gvcf files
 According to the [info](https://gatk.broadinstitute.org/hc/en-us/articles/360037593911-CombineGVCFs), script `CombineGVCFs_V1.sh` was used to merge all 20 g.vcf.gz files into one: **`Tpr_combined.g.vcf.gz`**.
+
+### 3.3 Joint genotyping
+Perform [joint genotyping](https://gatk.broadinstitute.org/hc/en-us/articles/360037057852-GenotypeGVCFs) on one sample using script `GenotypeGVCFs_V1.sh`. The output is **`Tpr_combined.vcf.gz`**.
