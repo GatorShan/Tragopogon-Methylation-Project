@@ -144,5 +144,5 @@ According to the [info](https://gatk.broadinstitute.org/hc/en-us/articles/360037
 ### 3.3 Joint genotyping
 Perform [joint genotyping](https://gatk.broadinstitute.org/hc/en-us/articles/360037057852-GenotypeGVCFs) on one sample using script `GenotypeGVCFs_V1.sh`. The output is **`Tpr_combined.vcf.gz`**.
 
-### Validate formatting
-To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-ValidateVariants) the formatting of a vcf file, script `ValidateVariants_v1.sh` was used.
+### 3.4 Validate formatting
+To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-ValidateVariants) the formatting of a vcf file, script `ValidateVariants_V1.sh` was used.
