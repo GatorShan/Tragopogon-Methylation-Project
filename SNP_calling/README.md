@@ -150,6 +150,10 @@ To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-Val
 ## 4. Filter variants
 Because of the lack of the high-quality sets of known variants to use as training and truth resources, we need to use [hard-filtering](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration) instead. The selection of filteration parameters is based on the suggestions shown [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035531112--How-to-Filter-variants-either-with-VQSR-or-by-hard-filtering#2). The meanning of each parameter could be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890471-Hard-filtering-germline-short-variants).
 
+Script `VariantFiltration_V1.sh` was used.
+  - In terms of the warning message: `The WARN statements simply let you know that the annotation is missing at the site. There is no need to to worry about them, as sometimes an annotation cannot be calculated for a site. As for passing sites without the requested annotation, we do not fail sites unless the annotation values fail the filters.` -- [source](https://sites.google.com/a/broadinstitute.org/legacy-gatk-forum-discussions/2013-06-06-2013-02-12/2334-Undefined-variable-VariantFiltration)
+  
+
 
 
 
