@@ -148,6 +148,8 @@ Perform [joint genotyping](https://gatk.broadinstitute.org/hc/en-us/articles/360
 To [validate](https://gatk.broadinstitute.org/hc/en-us/articles/360036898972-ValidateVariants) the formatting of a vcf file, script `ValidateVariants_V1.sh` was used. No error was detected.
 
 ## 4. Filter variants
-Because of the lack of the high-quality sets of known variants to use as training and truth resources, we need to use [hard-filtering](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration) instead. The selection of filteration parameters is based on the suggestions shown [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035531112--How-to-Filter-variants-either-with-VQSR-or-by-hard-filtering#2).
+Because of the lack of the high-quality sets of known variants to use as training and truth resources, we need to use [hard-filtering](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration) instead. The selection of filteration parameters is based on the suggestions shown [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035531112--How-to-Filter-variants-either-with-VQSR-or-by-hard-filtering#2). The meanning of each parameter could be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035890471-Hard-filtering-germline-short-variants).
+
+
 
 
