@@ -70,14 +70,16 @@ plotDMRs(bismarkBSseq.filtered.Tdu_Tpr, regions=sigRegions_Tdu_Tpr[1:4,], testCo
 write.csv(as.data.frame(sigRegions_Tdu_Tpr), 
           file="sigDMR_Tdu_Tpr_results.csv")
 ```
-Some results
+Some results:
 | Category | Number |
 | - | - |
 | Sig. regions (FDR < 0.05) | 18,298 |
 | Hyper methylated regions in Tdu | 13,419 (73.3%) |
 | Hyper methylated regions in Tpr | 4,879 (26.7%) |
 
+An example DMR between Tdu and Tpr:
 
+![DMR_Tdu_Tpr](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis/Images/4e1ad561-1a81-4855-a738-d6326a598b80.png)
 
 
 
