@@ -1,6 +1,6 @@
 # methyKit Analysis
 ## 1. Introduction
-**methylKit** is an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing. Following instructions from its the [github page](https://github.com/al2na/methylKit) and [online manual](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html#23_Reading_the_methylation_calls_from_sorted_Bismark_alignments).
+**methylKit** is an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing. Following instructions from its  [github page](https://github.com/al2na/methylKit) and [online manual](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html#23_Reading_the_methylation_calls_from_sorted_Bismark_alignments).
 ## 2. Reading the methylation calls from sorted Bismark alignments
 ### 2.1 Sort and index bam files
 Script `Bismark_bam_formatting_V1.sh` was used. Input files are deduplicated.
