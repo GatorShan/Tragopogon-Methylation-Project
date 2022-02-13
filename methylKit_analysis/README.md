@@ -24,3 +24,7 @@ Tdu_2_CpG.txt
 Tdu_2_CpG_conversionStats.txt
 ...
 ```
+### 2.3 Descriptive statistics on samples
+Percent methylation and read coverage information were calculated using scripts `methylKit_DescriptiveStatistics.r` and `methylKit_DescriptiveStatistics.sh`. Results could be found in files `methylKit_DescriptiveStatistics.pdf` and `methylKit_DescriptiveStatistics_17957860.out`.
+
+
