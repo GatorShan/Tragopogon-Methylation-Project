@@ -153,9 +153,9 @@ Because of the lack of the high-quality sets of known variants to use as trainin
 Script `VariantFiltration_V1.sh` was used.
   - In terms of the warning message: `The WARN statements simply let you know that the annotation is missing at the site. There is no need to to worry about them, as sometimes an annotation cannot be calculated for a site. As for passing sites without the requested annotation, we do not fail sites unless the annotation values fail the filters.` -- [source](https://sites.google.com/a/broadinstitute.org/legacy-gatk-forum-discussions/2013-06-06-2013-02-12/2334-Undefined-variable-VariantFiltration)
   
-Statistics of the raw and filtered vcf files.
+Statistics of the filtered vcf file.
 
-Raw file
+Statistics of all records
   - ```bash
     bcftools stats Tpr_combined.vcf.gz > Tpr_combined.vcf.gz.stats
     ```
@@ -171,7 +171,7 @@ Raw file
     SN	0	number of multiallelic SNP sites:	299015
     ```
 
-Filtered file; only show records which receive a `PASS` label in the FILTER column
+Statistics of records which receive a `PASS` label in the FILTER column
   - ```bash
     bcftools stats -f PASS Tpr_combined_filtered.vcf.gz > Tpr_combined_filtered.vcf.gz.PASS.txt
     ```
@@ -187,6 +187,10 @@ Filtered file; only show records which receive a `PASS` label in the FILTER colu
     SN	0	number of multiallelic SNP sites:	115768
     ```
 
+Generate a **filtered** vcf file with only records receive a `PASS` label in the FILTER column
+```bash
+bcftools view -f PASS Tpr_combined_filtered.vcf.gz > Tpr_combined_filtered.PASS.vcf.gz &
+```
 
 
 
