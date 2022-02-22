@@ -22,3 +22,16 @@ Output file: `SNP_file.txt`. The first few lines:
 .	Tdub_V1_scaffold_1	3439	.	A/AT
 .	Tdub_V1_scaffold_1	3447	.	T/A
 ```
+
+Add a header to the `SNP_file.txt`, and the output file is `SNP_file_header.txt`, which will be used in downstream analysis.
+```bash
+echo -e "SNP-ID\tChromosome\tPosition\tStrand\tRef/SNP" | cat - SNP_file.txt > SNP_file_header.txt
+### cat will interpret - as standard input, and will insert the output of echo before adding on the contents of SNP_file.txt
+```
+```
+SNP-ID	Chromosome	Position	Strand	Ref/SNP
+.	Tdub_V1_scaffold_1	754	.	A/G
+.	Tdub_V1_scaffold_1	2610	.	C/G
+.	Tdub_V1_scaffold_1	3431	.	A/T
+.	Tdub_V1_scaffold_1	3439	.	A/AT
+```
