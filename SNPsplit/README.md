@@ -42,7 +42,7 @@ Only accept homozygous alternative alleles in the VCF file
 ```bash
 bcftools filter -i 'GT="1/1" | GT="2/2" | GT="3/3"' Tpr_combined_filtered.PASS.vcf.gz > Tpr_combined_filtered.PASS.homo.vcf.gz
 ```
-Only accept snps from the VCF file; remove indels
+Only accept snps from the VCF file; remove indels (the example file `mgp.v5.merged.snps_all.dbSNP142.vcf.gz` doesn't include indels)
 ```bash
 bcftools view --types snps Tpr_combined_filtered.PASS.homo.vcf.gz > Tpr_combined_filtered.PASS.homo.snps.vcf.gz
 ```
