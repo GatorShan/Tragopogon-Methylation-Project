@@ -65,3 +65,5 @@ Output file is `Tdub.V1.masked.fasta`.
 ## 3. Bismark mapping
 ### 3.1 Index the masked Tdu genome
 Script `bismark_genome_prep_V2.sh` was used.
+### 3.2 Alignment
+Scripts `bismark_alignment_S4_V2.sh` and `bismark_alignment_S5_V2.sh` were used.
