@@ -35,3 +35,27 @@ SNP-ID	Chromosome	Position	Strand	Ref/SNP
 .	Tdub_V1_scaffold_1	3431	.	A/T
 .	Tdub_V1_scaffold_1	3439	.	A/AT
 ```
+
+## 2. Mask the Tdu reference genome
+### 2.1 Prepare the VCF file
+Only accept homozygous alternative alleles in the VCF file
+```bash
+bcftools filter -i 'GT="1/1" | GT="2/2" | GT="3/3"' Tpr_combined_filtered.PASS.vcf.gz > Tpr_combined_filtered.PASS.homo.vcf.gz
+```
+Only accept snps from the VCF file; remove indels
+```bash
+bcftools view --types snps Tpr_combined_filtered.PASS.homo.vcf.gz > Tpr_combined_filtered.PASS.homo.snps.vcf.gz
+```
+Statistics of the PASS, homozygous, snps only VCF file
+```
+SN      0       number of samples:      1
+SN      0       number of records:      2423349
+SN      0       number of no-ALTs:      0
+SN      0       number of SNPs: 2100512
+SN      0       number of MNPs: 0
+SN      0       number of indels:       322837
+SN      0       number of others:       0
+SN      0       number of multiallelic sites:   0
+SN      0       number of multiallelic SNP sites:       0
+```
+
