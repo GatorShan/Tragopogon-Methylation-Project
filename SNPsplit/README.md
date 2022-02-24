@@ -61,3 +61,7 @@ SN      0       number of multiallelic SNP sites:       0
 ### 2.2 Mask the Tdu genome
 [bedtools](https://bedtools.readthedocs.io/en/latest/content/tools/maskfasta.html) was used to mask the Tdu genome. The script is `Mask.Tdu.Genome_V1.sh`(very fast!).
 Output file is `Tdub.V1.masked.fasta`.
+
+## 3. Bismark mapping
+### 3.1 Index the masked Tdu genome
+Script `bismark_genome_prep_V2.sh` was used.
