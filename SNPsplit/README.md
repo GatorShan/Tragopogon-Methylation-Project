@@ -67,6 +67,69 @@ Output file is `Tdub.V1.masked.fasta`.
 Script `bismark_genome_prep_V2.sh` was used.
 ### 3.2 Alignment
 Scripts `bismark_alignment_S4_V2.sh` and `bismark_alignment_S5_V2.sh` were used.
+
+Alignment report for S4:
+```
+Final Alignment report
+======================
+Sequence pairs analysed in total:       743190004
+Number of paired-end alignments with a unique best hit: 244864209
+Mapping efficiency:     32.9% 
+Sequence pairs with no alignments under any condition:  452401417
+Sequence pairs did not map uniquely:    45924378
+Sequence pairs which were discarded because genomic sequence could not be extracted:    18884
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:   11553845192
+
+Total methylated C's in CpG context:    1499546151
+Total methylated C's in CHG context:    1020986189
+Total methylated C's in CHH context:    906489816
+Total methylated C's in Unknown context:        20063120
+
+Total unmethylated C's in CpG context:  220227247
+Total unmethylated C's in CHG context:  448522862
+Total unmethylated C's in CHH context:  7458072927
+Total unmethylated C's in Unknown context:      48189205
+
+C methylated in CpG context:    87.2%
+C methylated in CHG context:    69.5%
+C methylated in CHH context:    10.8%
+C methylated in unknown context (CN or CHN):    29.4%
+```
+
+Alignment report for S5:
+```
+Final Alignment report
+======================
+Sequence pairs analysed in total:       474830346
+Number of paired-end alignments with a unique best hit: 151115840
+Mapping efficiency:     31.8% 
+Sequence pairs with no alignments under any condition:  295055651
+Sequence pairs did not map uniquely:    28658855
+Sequence pairs which were discarded because genomic sequence could not be extracted:    11358
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:   7301285444
+
+Total methylated C's in CpG context:    931114288
+Total methylated C's in CHG context:    635993158
+Total methylated C's in CHH context:    547809871
+Total methylated C's in Unknown context:        12420757
+
+Total unmethylated C's in CpG context:  143822815
+Total unmethylated C's in CHG context:  289407940
+Total unmethylated C's in CHH context:  4753137372
+Total unmethylated C's in Unknown context:      31546186
+
+C methylated in CpG context:    86.6%
+C methylated in CHG context:    68.7%
+C methylated in CHH context:    10.3%
+C methylated in unknown context (CN or CHN):    28.3%
+```
+
 ### 3.3 Deduplication
 Scripts `bismark_deduplicate_S4_V2.sh` and `bismark_deduplicate_S5_V2.sh` were used.
 
