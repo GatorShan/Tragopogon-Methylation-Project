@@ -71,3 +71,19 @@ Scripts `bismark_alignment_S4_V2.sh` and `bismark_alignment_S5_V2.sh` were used.
 Scripts `bismark_deduplicate_S4_V2.sh` and `bismark_deduplicate_S5_V2.sh` were used.
 
 Output: `S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bam` and `S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bam`.
+
+
+Report for S4:
+```
+Total number duplicated alignments removed:     68022816 (27.78%)
+Duplicated alignments were found at:    49483432 different position(s)
+Total count of deduplicated leftover sequences: 176822509 (72.22% of total)
+```
+
+
+Report for S5:
+```
+Total number duplicated alignments removed:     28086892 (18.59%)
+Duplicated alignments were found at:    22611322 different position(s)
+Total count of deduplicated leftover sequences: 123017590 (81.41% of total)
+```
