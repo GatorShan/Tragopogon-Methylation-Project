@@ -67,3 +67,7 @@ Output file is `Tdub.V1.masked.fasta`.
 Script `bismark_genome_prep_V2.sh` was used.
 ### 3.2 Alignment
 Scripts `bismark_alignment_S4_V2.sh` and `bismark_alignment_S5_V2.sh` were used.
+### 3.3 Deduplication
+Scripts `bismark_deduplicate_S4_V2.sh` and `bismark_deduplicate_S5_V2.sh` were used.
+
+Output: `S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bam` and `S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bam`.
