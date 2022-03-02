@@ -166,3 +166,27 @@ Scripts `Bam_split_samtools_V1.sh` and `Bam_split_samtools_V2.sh` were used.
 ## 5. Running SNPsplit
 Scripts `SNPsplit_S4_new_V1.sh` and `SNPsplit_S5_new_V1.sh` were used.
 
+Allele-tagging report for S4:
+```
+Processed 353645018 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+292910221 reads were unassignable (82.83%)
+33659280 reads were specific for genome 1 (9.52%)
+25647596 reads were specific for genome 2 (7.25%)
+13680625 reads that were unassignable contained C>T SNPs preventing the assignment
+763067 reads did not contain one of the expected bases at known SNP positions (0.22%)
+1427921 contained conflicting allele-specific SNPs (0.40%)
+```
+
+Allele-tagging report for S5:
+```
+Processed 246035180 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+203138440 reads were unassignable (82.56%)
+23342868 reads were specific for genome 1 (9.49%)
+18563887 reads were specific for genome 2 (7.55%)
+9724257 reads that were unassignable contained C>T SNPs preventing the assignment
+527280 reads did not contain one of the expected bases at known SNP positions (0.21%)
+989985 contained conflicting allele-specific SNPs (0.40%)
+```
+
