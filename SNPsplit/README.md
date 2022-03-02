@@ -152,3 +152,6 @@ Total count of deduplicated leftover sequences: 123017590 (81.41% of total)
 ```
 
 ## 4. Split bam files from Bismark alignment
+As it took forever to run SNPsplit when using a single huge bam file, the output bam file from Bismark alignment was divided into small subfiles based on scaffold ID.
+
+
