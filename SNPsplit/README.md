@@ -163,5 +163,6 @@ Scripts `Bam_formatting_split_V1.sh` and `Bam_formatting_split_V2.sh` were used.
 ### 4.2 Split the bam file
 Scripts `Bam_split_samtools_V1.sh` and `Bam_split_samtools_V2.sh` were used.
 
-
+## 5. Running SNPsplit
+Scripts `SNPsplit_S4_new_V1.sh` and `SNPsplit_S5_new_V1.sh` were used.
 
