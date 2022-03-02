@@ -150,3 +150,5 @@ Total number duplicated alignments removed:     28086892 (18.59%)
 Duplicated alignments were found at:    22611322 different position(s)
 Total count of deduplicated leftover sequences: 123017590 (81.41% of total)
 ```
+
+## 4. Split bam files from Bismark alignment
