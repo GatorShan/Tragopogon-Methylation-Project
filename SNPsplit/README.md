@@ -230,5 +230,11 @@ Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_sub
 Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
 
 ### 6.4 DMR (CpG) between diploid Tdu (2x) and the Tdu subgenome in T. miscellus (4x)
+Scripts `MethylDiff_CpG_Tdu_vs_Tms-du_V1.r` and `MethylDiff_CpG_Tdu_vs_Tms-du_V1.sh` were used.
 
 ### 6.5 DMR (CpG) between diploid Tpr (2x) and the Tpr subgenome in T. miscellus (4x)
+Scripts `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.r` and `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.sh` were used.
+
+
+
+
