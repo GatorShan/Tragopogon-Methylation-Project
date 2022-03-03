@@ -224,7 +224,7 @@ S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam
 | Tms_2_pr | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
 
 #### 6.2.1 CpG methylation
-Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_subgenome_compare_CG_V1.sh` were used.
+Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_subgenome_compare_CG_V1.sh` were used. By default, minimum read coveage per base is 10.
 
 ### 6.3 DMR (CpG) between two subgenomes in T. miscellus (4x)
 Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
