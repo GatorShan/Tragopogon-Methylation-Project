@@ -36,7 +36,7 @@ SNP-ID	Chromosome	Position	Strand	Ref/SNP
 .	Tdub_V1_scaffold_1	3439	.	A/AT
 ```
 
-Lastly, generate a SNP file (**`SNP_file_homo_snps_header.txt`**) containing only snps with homozygous altnernative alleles, which will be used in downstream analysis.
+Lastly, generate a [SNP file](https://1drv.ms/t/s!AlezkjLj5kLLhMhwUJVgx_NJWA2eLA?e=jHXoDw) (**`SNP_file_homo_snps_header.txt`**) containing only snps with homozygous altnernative alleles, which will be used in downstream analysis.
 ```
 SNP-ID	Chromosome	Position	Strand	Ref/SNP
 .	Tdub_V1_scaffold_1	754	.	A/G
