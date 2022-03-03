@@ -5,7 +5,7 @@ It was used to examine the methylation profiles in two subgenomes of T. miscellu
 A specific [format](https://github.com/FelixKrueger/SNPsplit/blob/master/SNPsplit_User_Guide.md#3-storing-snp-positions) of SNP file is expected. [bcftools](https://samtools.github.io/bcftools/bcftools.html#query) was used to transform
 the VCF file  into user-defined formats.
 
-Input VCF file: `Tpr_combined_filtered.PASS.vcf.gz`; from section [SNP_calling/Filter variants](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNP_calling#4-filter-variants)
+Input VCF file: `Tpr_combined_filtered.PASS.vcf.gz`; from section [SNP_calling/Filter variants](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNP_calling#4-filter-variants); directory `/blue/soltis/shan158538/Methylation/OutPut/SNP_calling/Variant_filtration`.
 
 The following commond was used to generate the SNP file
 ```bash
