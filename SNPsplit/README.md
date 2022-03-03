@@ -205,4 +205,14 @@ Reads were unaligned and hence skipped: 0 (0.00%)
 527280 reads did not contain one of the expected bases at known SNP positions (0.21%)
 989985 contained conflicting allele-specific SNPs (0.40%)
 ```
+## 6. DMR analysis between two subgenomes of T. miscellus (4x)
+[methylkit](https://github.com/al2na/methylKit) was used to perform the DMR analysis
+### 6.1 Sort and index bam files
+Script `Bismark_bam_formatting_V2.sh` was used. Outputs are:
+```
+S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam
+S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam
+S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam
+S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam
+```
 
