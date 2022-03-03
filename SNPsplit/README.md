@@ -166,6 +166,22 @@ Scripts `Bam_split_samtools_V1.sh` and `Bam_split_samtools_V2.sh` were used.
 ## 5. Running SNPsplit
 Scripts `SNPsplit_S4_new_V1.sh` and `SNPsplit_S5_new_V1.sh` were used.
 
+**Important outputs** are:
+```
+S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1.bam
+S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2.bam
+S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1.bam
+S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2.bam
+```
+Notes:
+| ID | Meaning |
+| - | - |
+| S4 | T. miscellus (4x); (3059-7-7; Garfield) |
+| S5 | T. miscellus (4x); (3059-21-5; Garfield) |
+| genome 1 | Tdu-homeolog; reference |
+| genome 2 | Tpr-homeolog |
+
+
 Allele-tagging report for S4:
 ```
 Processed 353645018 read alignments in total
