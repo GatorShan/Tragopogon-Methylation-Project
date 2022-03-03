@@ -2,6 +2,7 @@ library(methylKit)
 setwd("/blue/soltis/shan158538/Methylation/OutPut/SNPsplit_output")
 
 # Reading the methylation calls from sorted Bismark alignments
+# mincov = 10
 my.methRaw=processBismarkAln(location=list("S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam",
                                         	"S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam",
                                             "S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam",
