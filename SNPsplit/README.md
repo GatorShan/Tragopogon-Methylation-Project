@@ -232,9 +232,16 @@ S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam
 | Tms_2_du | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam |
 | Tms_1_pr | S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
 | Tms_2_pr | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
+**By default, minimum read coveage per base is 10.**
 
 #### 6.2.1 CpG methylation
-Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_subgenome_compare_CG_V1.sh` were used. By default, minimum read coveage per base is 10.
+Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_subgenome_compare_CG_V1.sh` were used. 
+
+#### 6.2.2 CHG methylation
+Scripts `processBismarkAln_subgenome_compare_CHG_V1.r` and `processBismarkAln_subgenome_compare_CHG_V1.sh` were used.
+
+#### 6.2.3 CHH methylation
+Scripts `processBismarkAln_subgenome_compare_CHH_V1.r` and `processBismarkAln_subgenome_compare_CHH_V1.sh` were used.
 
 ### 6.3 DMR (CpG) between two subgenomes in T. miscellus (4x)
 Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
