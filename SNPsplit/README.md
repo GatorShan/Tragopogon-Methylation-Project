@@ -226,13 +226,14 @@ S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam
 S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam
 ```
 ### 6.2 Read the methylation calls from sorted Bismark alignments
+**By default, minimum read coveage per base is 10.**
+
 | Sample.id | Original file |
 | - | - |
 | Tms_1_du | S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam |
 | Tms_2_du | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam |
 | Tms_1_pr | S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
 | Tms_2_pr | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
-**By default, minimum read coveage per base is 10.**
 
 #### 6.2.1 CpG methylation
 Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_subgenome_compare_CG_V1.sh` were used. 
