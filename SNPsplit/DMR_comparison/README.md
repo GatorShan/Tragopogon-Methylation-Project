@@ -3,7 +3,7 @@ This section will perform downstream analysis after DMR identification -- find t
 
 Script `Overlap_DMR_V1.py` was used for following analyses.
 
-## 1. DMR comparision -- between parents vs between subgenomes
+## 1. DMR comparision -- between parents vs between subgenomes (CpG)
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNPsplit/images/DMR_CpG_between-parents_between-subgenomes.png" width="600"/>
 
 | Category | Number |
