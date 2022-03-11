@@ -253,6 +253,8 @@ Scripts `MethylDiff_CpG_Tdu_vs_Tms-du_V1.r` and `MethylDiff_CpG_Tdu_vs_Tms-du_V1
 ### 6.5 DMR (CpG) between diploid Tpr (2x) and the Tpr subgenome in T. miscellus (4x)
 Scripts `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.r` and `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.sh` were used.
 
+### 6.6 DMR (CHG) between two parents, two subgenomes, diploid Tdu (2x) and the Tdu subgenome, and diploid Tpr (2x) and the Tpr subgenome
+Scripts `MethylDiff_CHG_V1.r` and `MethylDiff_CHG_V1.sh` were used.
 
-
-
+### 6.7 DMR (CHH) between two parents, two subgenomes, diploid Tdu (2x) and the Tdu subgenome, and diploid Tpr (2x) and the Tpr subgenome
+Scripts `MethylDiff_CHH_V1.r` and `MethylDiff_CHH_V1.sh` were used.
