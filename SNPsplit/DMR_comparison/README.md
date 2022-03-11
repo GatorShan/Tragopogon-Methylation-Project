@@ -12,3 +12,21 @@ Script [`Overlap_DMR_V1.py`](https://github.com/GatorShan/Tragopogon-Methylation
 | Overlaping DMR with different direction of change | 44 |
 | DMR identified only between two parents | 9,703 |
 | DMR identified only between two subgenomes | 1,035 |
+
+## 2. DMR comparision -- between parents vs between subgenomes (CHG)
+
+| Category | Number |
+| - | - |
+| Overlaping DMR with same direction of change (Tdu vs Tpr) | 1,048 |
+| Overlaping DMR with different direction of change | 57 |
+| DMR identified only between two parents | 9,309 |
+| DMR identified only between two subgenomes | 849 |
+
+## 3. DMR comparision -- between parents vs between subgenomes (CHH)
+
+| Category | Number |
+| - | - |
+| Overlaping DMR with same direction of change (Tdu vs Tpr) | 189 |
+| Overlaping DMR with different direction of change | 9 |
+| DMR identified only between two parents | 4,241 |
+| DMR identified only between two subgenomes | 557 |
