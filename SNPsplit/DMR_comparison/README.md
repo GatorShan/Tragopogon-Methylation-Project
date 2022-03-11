@@ -13,7 +13,7 @@ Script [`Overlap_DMR_V1.py`](https://github.com/GatorShan/Tragopogon-Methylation
 | DMR identified only between two parents | 9,703 |
 | DMR identified only between two subgenomes | 1,035 |
 
-## 2. DMR comparision -- between parents vs between subgenomes (CHG)
+## 2. DMR comparision -- between parents vs between subgenomes (CHG) -- WRONG RESULTS
 
 | Category | Number |
 | - | - |
@@ -22,7 +22,7 @@ Script [`Overlap_DMR_V1.py`](https://github.com/GatorShan/Tragopogon-Methylation
 | DMR identified only between two parents | 9,309 |
 | DMR identified only between two subgenomes | 849 |
 
-## 3. DMR comparision -- between parents vs between subgenomes (CHH)
+## 3. DMR comparision -- between parents vs between subgenomes (CHH) -- WRONG RESULTS
 
 | Category | Number |
 | - | - |
