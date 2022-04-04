@@ -28,5 +28,5 @@ Tdu_2_CpG_conversionStats.txt
 Percent methylation and read coverage information were calculated using scripts `methylKit_DescriptiveStatistics.r` and `methylKit_DescriptiveStatistics.sh`. Results could be found in files `methylKit_DescriptiveStatistics.pdf` and `methylKit_DescriptiveStatistics_17957860.out`.
 
 ## 3. Comparative analysis
-### 3.1 DMR between Tdu and Tpr
+### 3.1 DMR between Tdu and Tpr (CpG context)
 To identify DMRs between Tdu and Tpr, scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
