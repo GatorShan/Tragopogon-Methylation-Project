@@ -1,5 +1,5 @@
 # Permutation analysis of DMR between Tdu and Tpr (CpG context)
-When analysis DMR between Tdu and Tpr, we found higher number of hyper-methylation in Tdu than that in Tpr. Is this real? We, therefore, would like to perform permutation analysis (by swithcing lables when running the scripts) to differentiate biological differences and technical differences.
+When analyzing DMR between Tdu and Tpr, we found higher number of hyper-methylation in Tdu than that in Tpr. Is this real? We, therefore, would like to perform permutation analysis (by swithcing lables when running the scripts) to differentiate biological differences and technical differences.
 
 | | Tdu_1 | Tdu_2 | Tpr_1 | Tpr_2 |
 |-|-|-|-|-|
