@@ -10,7 +10,7 @@ myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
 ```
 
 
-"difference: cutoff for ABSOLUTE VALUE of methylation percentage change between test and control (default:25)"; <span style="background-color: #FFFF00">THIS NUMBER SHOULD BE CHANGED FOR DIFFERENT CONTEXT!!!</span>
+"difference: cutoff for ABSOLUTE VALUE of methylation percentage change between test and control (default:25)"; **THIS NUMBER SHOULD BE CHANGED FOR DIFFERENT CONTEXT!!!**
 
 "type: one of the "hyper","hypo" or "all" strings. Specifies what type of differentially menthylated bases/regions should be returned. For retrieving Hyper-methylated regions/bases type="hyper", for hypo-methylated type="hypo" (default:"all")"
 
