@@ -15,3 +15,12 @@ myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
 "difference: cutoff for ABSOLUTE VALUE of methylation percentage change between test and control (default:25)"; **THIS NUMBER SHOULD BE CHANGED FOR DIFFERENT CONTEXT!!!**
 
 "type: one of the "hyper","hypo" or "all" strings. Specifies what type of differentially menthylated bases/regions should be returned. For retrieving Hyper-methylated regions/bases type="hyper", for hypo-methylated type="hypo" (default:"all")"
+
+## 2. CpG methylation
+### 2.1 DMR between Tdu and Tpr
+#### 2.1.1 Setting 1
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 |
+
+Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
