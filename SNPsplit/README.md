@@ -216,16 +216,6 @@ Reads were unaligned and hence skipped: 0 (0.00%)
 989985 contained conflicting allele-specific SNPs (0.40%)
 ```
 ## 6. DMR analysis
-
-### 6.3 DMR (CpG) between two subgenomes in T. miscellus (4x)
-Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
-
-### 6.4 DMR (CpG) between diploid Tdu (2x) and the Tdu subgenome in T. miscellus (4x)
-Scripts `MethylDiff_CpG_Tdu_vs_Tms-du_V1.r` and `MethylDiff_CpG_Tdu_vs_Tms-du_V1.sh` were used.
-
-### 6.5 DMR (CpG) between diploid Tpr (2x) and the Tpr subgenome in T. miscellus (4x)
-Scripts `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.r` and `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.sh` were used.
-
 ### 6.6 DMR (CHG) between two parents, two subgenomes, diploid Tdu (2x) and the Tdu subgenome, and diploid Tpr (2x) and the Tpr subgenome
 Setting destrand=TRUE (the default is FALSE) will merge reads on both strands of a CpG dinucleotide. This provides better coverage, but only advised when looking at CpG methylation (for CpH methylation this will cause wrong results in subsequent analyses).
 
