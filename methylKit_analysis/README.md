@@ -65,7 +65,3 @@ Tdu_2_cov1_CpG.txt
 Tms_1_du_cov1_CpG.txt
 Tms_2_du_cov1_CpG.txt
 ```
-
-## 3. Comparative analysis
-### 3.1 DMR between Tdu and Tpr (CpG context)
-To identify DMRs between Tdu and Tpr, scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
