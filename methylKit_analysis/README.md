@@ -2,7 +2,7 @@
 ## 1. Introduction
 **methylKit** is an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing. Following instructions from its  [github page](https://github.com/al2na/methylKit) and [online manual](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html#23_Reading_the_methylation_calls_from_sorted_Bismark_alignments).
 
-Using methylKit, this section is focusing on reading methylation calls from sorted Bismark alignment.
+Using methylKit, this section is focusing on reading methylation calls from sorted Bismark alignment. DMR analysis results could be found [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit#dmr-analysis-using-methylkit)
 
 ## 2. Reading the methylation calls from sorted Bismark alignments
 ### 2.1 Read Bismark alignment for T. dubius, T. pratensis, and T. miscellus; mincov = 10
