@@ -30,7 +30,7 @@ Tdu_2_CpG_conversionStats.txt
 Descriptive statistics on samples: percent methylation and read coverage information were calculated using scripts `methylKit_DescriptiveStatistics.r` and `methylKit_DescriptiveStatistics.sh`. Results could be found in files `methylKit_DescriptiveStatistics.pdf` and `methylKit_DescriptiveStatistics_17957860.out`.
 
 ### 2.2 Read Bismark alignment for two subgenomes; mincov = 10
-Sort and index bam files (results from runing SNPsplit; check [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNPsplit/README.md#5-running-snpsplit)). Script `Bismark_bam_formatting_V2.sh` was used. **By default, minimum read coveage per base is 10.**
+Start with **results from [SNPsplit](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNPsplit/README.md#5-running-snpsplit)**, script `Bismark_bam_formatting_V2.sh` was used to sort and index bam files. **By default, minimum read coveage per base is 10.**
 | Sample.id | Original file |
 | - | - |
 | Tms_1_du | S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam |
