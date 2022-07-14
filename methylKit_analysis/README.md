@@ -52,6 +52,12 @@ Tdu_2_cov5_CpG.txt
 Tms_1_du_cov5_CpG.txt
 Tms_2_du_cov5_CpG.txt
 ```
+#### 2.4.2 CpG methylation; identify overlapping bases cross diploid parents and subgenomes
+The output from this step is used for downstream DMR comparing analysis: identify unique/overlapping DMRs between DMRs from diploid parents and DMRs from two subgenomes. The output is located at folder `/blue/soltis/shan158538/Methylation/OutPut/Overlap_bases/CpG_mincov_5`.
+
+The script that I used is `Overlap_bases.V1.py Tms_1_du_cov5_CpG.txt Tms_2_du_cov5_CpG.txt Tms_1_pr_cov5_CpG.txt Tms_2_pr_cov5_CpG.txt Tdu_1_cov5_CpG.txt Tdu_2_cov5_CpG.txt Tpr_1_cov5_CpG.txt Tpr_2_cov5_CpG.txt &`. The python code is not universal (process 8 files; have to rename the input files for different purposes), but it works! May re-write the code later.
+
+
 ### 2.5 Read Bismark alignment with the minimum read coverage to call a mehtylation status for a base is 1 (mincov = 1)
 #### 2.5.1 CpG methylation
 **The purpose of this step is to collect all base information at the very beginning of the analysis, and then may apply the filter for minimum coverage in following steps.** For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-1_V1.r` and `processBismarkAln_CG_minCOV-1_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.sh` were used.
