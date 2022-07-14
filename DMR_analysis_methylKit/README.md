@@ -24,3 +24,30 @@ myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
 | 10 | no | 3 | 1000 | 1000 | 10 |
 
 Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
+
+### 2.2 DMR between two subgenomes
+#### 2.2.1 Setting 1
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 |
+
+Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
+
+### 2.3 DMR between diploid Tdu (2x) and the Tdu subgenome in T. miscellus (4x)
+#### 2.3.1 Setting 1
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 |
+
+Scripts `MethylDiff_CpG_Tdu_vs_Tms-du_V1.r` and `MethylDiff_CpG_Tdu_vs_Tms-du_V1.sh` were used.
+
+### 2.4 DMR between diploid Tpr (2x) and the Tpr subgenome in T. miscellus (4x)
+#### 2.4.1 Setting 1
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 |
+
+Scripts `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.r` and `MethylDiff_CpG_Tpr_vs_Tms-pr_V1.sh` were used.
+
+
+
