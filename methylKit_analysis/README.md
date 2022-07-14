@@ -18,8 +18,6 @@ myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
 ## 2. Reading the methylation calls from sorted Bismark alignments
 ### 2.1 Read Bismark alignment for T. dubius, T. pratensis, and T. miscellus; mincov = 10
 Sort and index bam files first; script `Bismark_bam_formatting_V1.sh` was used. Input files are deduplicated. **By default, the minimum read coverage to call a mehtylation status for a base is 10 (mincov = 10)**
-#### 2.1.1 CpG methylation
-Script `processBismarkAln_CG_V1.r` and `processBismarkAln_CG_V1.sh` were used.
 
 |Sample.id|Original file|
 |--|--|
@@ -30,13 +28,15 @@ Script `processBismarkAln_CG_V1.r` and `processBismarkAln_CG_V1.sh` were used.
 |Tms_1|S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated_PosSorted.bam|
 |Tms_2|S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated_PosSorted.bam|
 
+#### 2.1.1 CpG methylation
+Script `processBismarkAln_CG_V1.r` and `processBismarkAln_CG_V1.sh` were used.
+
 Example saved/output files:
 ```
 Tdu_1_CpG.txt
 Tdu_1_CpG_conversionStats.txt
 Tdu_2_CpG.txt
 Tdu_2_CpG_conversionStats.txt
-...
 ```
 Descriptive statistics on samples: percent methylation and read coverage information were calculated using scripts `methylKit_DescriptiveStatistics.r` and `methylKit_DescriptiveStatistics.sh`. Results could be found in files `methylKit_DescriptiveStatistics.pdf` and `methylKit_DescriptiveStatistics_17957860.out`.
 
