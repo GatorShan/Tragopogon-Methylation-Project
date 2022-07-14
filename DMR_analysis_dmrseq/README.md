@@ -79,7 +79,7 @@ Some results:
 
 An example DMR between Tdu and Tpr:
 
-![DMR_Tdu_Tpr](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis/Images/4e1ad561-1a81-4855-a738-d6326a598b80.png)
+![DMR_Tdu_Tpr](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_dmrseq/images/4e1ad561-1a81-4855-a738-d6326a598b80.png?raw=true)
 
 
 
