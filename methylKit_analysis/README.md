@@ -19,7 +19,7 @@ myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
 ### 2.1 Sort and index bam files
 Script `Bismark_bam_formatting_V1.sh` was used. Input files are deduplicated.
 ### 2.2 Read Bismark alignment
-Script `processBismarkAln_CG_V1.r` and `processBismarkAln_CG_V1.sh` were used.
+Script `processBismarkAln_CG_V1.r` and `processBismarkAln_CG_V1.sh` were used. **By default, the minimum read coverage to call a mehtylation status for a base is 10; mincov = 10**
 
 |Sample.id|Original file|
 |--|--|
@@ -40,6 +40,21 @@ Tdu_2_CpG_conversionStats.txt
 ```
 ### 2.3 Descriptive statistics on samples
 Percent methylation and read coverage information were calculated using scripts `methylKit_DescriptiveStatistics.r` and `methylKit_DescriptiveStatistics.sh`. Results could be found in files `methylKit_DescriptiveStatistics.pdf` and `methylKit_DescriptiveStatistics_17957860.out`.
+
+### 2.4 Read Bismark alignment with the minimum read coverage to call a mehtylation status for a base is 5 (mincov = 5)
+#### 2.4.1 CpG methylation
+For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-5_V1.r` and `processBismarkAln_CG_minCOV-5_V1.sh` were used.
+
+For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.sh` were used.
+
+Example output files:
+```
+Tdu_1_cov5_CpG.txt
+Tdu_2_cov5_CpG.txt
+Tms_1_du_cov5_CpG.txt
+Tms_2_du_cov5_CpG.txt
+```
+
 
 ## 3. Comparative analysis
 ### 3.1 DMR between Tdu and Tpr (CpG context)
