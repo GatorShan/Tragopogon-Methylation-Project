@@ -29,9 +29,24 @@ Tdu_2_CpG_conversionStats.txt
 ```
 Descriptive statistics on samples: percent methylation and read coverage information were calculated using scripts `methylKit_DescriptiveStatistics.r` and `methylKit_DescriptiveStatistics.sh`. Results could be found in files `methylKit_DescriptiveStatistics.pdf` and `methylKit_DescriptiveStatistics_17957860.out`.
 
-### 2.2 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 5
-The minimum read coverage to call a mehtylation status for a base is 5 (mincov = 5)
+### 2.2 Read Bismark alignment for two subgenomes; mincov = 10
+Sort and index bam files (results from runing SNPsplit; check [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/SNPsplit/README.md#5-running-snpsplit)). Script `Bismark_bam_formatting_V2.sh` was used. **By default, minimum read coveage per base is 10.**
+| Sample.id | Original file |
+| - | - |
+| Tms_1_du | S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam |
+| Tms_2_du | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome1_PosSorted.bam |
+| Tms_1_pr | S4_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
+| Tms_2_pr | S5_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.genome2_PosSorted.bam |
 #### 2.2.1 CpG methylation
+Scripts `processBismarkAln_subgenome_compare_CG_V1.r` and `processBismarkAln_subgenome_compare_CG_V1.sh` were used. 
+#### 2.2.2 CHG methylation
+Scripts `processBismarkAln_subgenome_compare_CHG_V1.r` and `processBismarkAln_subgenome_compare_CHG_V1.sh` were used.
+#### 2.2.3 CHH methylation
+Scripts `processBismarkAln_subgenome_compare_CHH_V1.r` and `processBismarkAln_subgenome_compare_CHH_V1.sh` were used.
+
+### 2.3 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 5
+The minimum read coverage to call a mehtylation status for a base is 5 (mincov = 5)
+#### 2.3.1 CpG methylation
 For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-5_V1.r` and `processBismarkAln_CG_minCOV-5_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.sh` were used.
 
 Example output files:
@@ -41,7 +56,7 @@ Tdu_2_cov5_CpG.txt
 Tms_1_du_cov5_CpG.txt
 Tms_2_du_cov5_CpG.txt
 ```
-#### 2.2.2 CpG methylation; identify overlapping bases cross diploid parents and subgenomes
+#### 2.3.2 CpG methylation; identify overlapping bases cross diploid parents and subgenomes
 The output from this step is used for downstream DMR comparing analysis: identify unique/overlapping DMRs between DMRs from diploid parents and DMRs from two subgenomes. The output is located at folder `/blue/soltis/shan158538/Methylation/OutPut/Overlap_bases/CpG_mincov_5`.
 
 The script that I used is `Overlap_bases.V1.py Tms_1_du_cov5_CpG.txt Tms_2_du_cov5_CpG.txt Tms_1_pr_cov5_CpG.txt Tms_2_pr_cov5_CpG.txt Tdu_1_cov5_CpG.txt Tdu_2_cov5_CpG.txt Tpr_1_cov5_CpG.txt Tpr_2_cov5_CpG.txt &`. The python code is not universal (process 8 files; have to rename the input files for different purposes), but it works! May re-write the code later. **In total, there are 1,083,850 shared bases.**
@@ -53,9 +68,9 @@ Tdu_2_cov5_CpG_overlap.txt
 Tms_1_du_cov5_CpG_overlap.txt
 ```
 
-### 2.3 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 1
+### 2.4 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 1
 The minimum read coverage to call a mehtylation status for a base is 1 (mincov = 1). **The purpose of this step is to collect all base information at the very beginning of the analysis, and then may apply the filter for minimum coverage in following steps.**
-#### 2.3.1 CpG methylation
+#### 2.4.1 CpG methylation
 For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-1_V1.r` and `processBismarkAln_CG_minCOV-1_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.sh` were used.
 
 Example output files:
