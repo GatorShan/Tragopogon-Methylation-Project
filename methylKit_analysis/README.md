@@ -43,9 +43,7 @@ Percent methylation and read coverage information were calculated using scripts 
 
 ### 2.4 Read Bismark alignment with the minimum read coverage to call a mehtylation status for a base is 5 (mincov = 5)
 #### 2.4.1 CpG methylation
-For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-5_V1.r` and `processBismarkAln_CG_minCOV-5_V1.sh` were used.
-
-For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.sh` were used.
+For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-5_V1.r` and `processBismarkAln_CG_minCOV-5_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-5_V1.sh` were used.
 
 Example output files:
 ```
@@ -54,7 +52,17 @@ Tdu_2_cov5_CpG.txt
 Tms_1_du_cov5_CpG.txt
 Tms_2_du_cov5_CpG.txt
 ```
+### 2.5 Read Bismark alignment with the minimum read coverage to call a mehtylation status for a base is 1 (mincov = 1)
+#### 2.5.1 CpG methylation
+**The purpose of this step is to collect all base information at the very beginning of the analysis, and then may apply the filter for minimum coverage in following steps.** For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-1_V1.r` and `processBismarkAln_CG_minCOV-1_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.sh` were used.
 
+Example output files:
+```
+Tdu_1_cov1_CpG.txt
+Tdu_2_cov1_CpG.txt
+Tms_1_du_cov1_CpG.txt
+Tms_2_du_cov1_CpG.txt
+```
 
 ## 3. Comparative analysis
 ### 3.1 DMR between Tdu and Tpr (CpG context)
