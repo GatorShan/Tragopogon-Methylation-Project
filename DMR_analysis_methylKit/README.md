@@ -30,7 +30,7 @@ Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
 |--|--|--|--|--|--|
 | 5 | yes | 10 (default) | 300 | 300 | 1 |
 
-Scripts `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and ``MethylDiff_Tdu-Tpr_CpG_mincov5_V1.sh` were used.
+Scripts `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.sh` were used.
 
 ### 2.2 DMR between two subgenomes
 #### 2.2.1 Setting 1
