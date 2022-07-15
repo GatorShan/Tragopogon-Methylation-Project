@@ -88,3 +88,13 @@ Tms_2_du_cov1_CpG.txt
 ### 2.5 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 3
 #### 2.5.1 CpG methylation
 For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-3_V1.r` and `processBismarkAln_CG_minCOV-3_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-3_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-3_V1.sh` were used.
+
+#### 2.5.2 CpG methylation; identify overlapping bases cross diploid parents and subgenomes
+The output from this step is used for downstream DMR comparing analysis. Scirpt `Overlap_bases.V2.py` and `Overlap_bases.V2-1.sh` were used. The output is located at folder `/blue/soltis/shan158538/Methylation/OutPut/Overlap_bases/CpG_mincov_3`. **In total, there are 2,048,198 shared bases.**
+
+Example outputs:
+```
+Tdu_1_cov3_CpG_overlap.txt
+Tdu_2_cov3_CpG_overlap.txt
+Tms_1_du_cov3_CpG_overlap.txt
+```
