@@ -6,6 +6,9 @@
 
 Scripts:
 ```r
+meth=unite(tiles, destrand=TRUE)
+### By default, unite function produces bases/regions covered in all samples
+
 myDiff25p.hyper_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01,type="hyper", save.db = TRUE)
 myDiff25p.hypo_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01,type="hypo", save.db = TRUE)
 myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
