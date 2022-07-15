@@ -59,7 +59,11 @@ Tms_2_du_cov5_CpG.txt
 #### 2.3.2 CpG methylation; identify overlapping bases cross diploid parents and subgenomes
 The output from this step is used for downstream DMR comparing analysis: identify unique/overlapping DMRs between DMRs from diploid parents and DMRs from two subgenomes. The output is located at folder `/blue/soltis/shan158538/Methylation/OutPut/Overlap_bases/CpG_mincov_5`.
 
-The script that I used is `Overlap_bases.V1.py Tms_1_du_cov5_CpG.txt Tms_2_du_cov5_CpG.txt Tms_1_pr_cov5_CpG.txt Tms_2_pr_cov5_CpG.txt Tdu_1_cov5_CpG.txt Tdu_2_cov5_CpG.txt Tpr_1_cov5_CpG.txt Tpr_2_cov5_CpG.txt &`. The python code is not universal (process 8 files; have to rename the input files for different purposes), but it works! May re-write the code later. **In total, there are 1,083,850 shared bases.**
+The script that I used is:
+```bash
+Overlap_bases.V1.py Tms_1_du_cov5_CpG.txt Tms_2_du_cov5_CpG.txt Tms_1_pr_cov5_CpG.txt Tms_2_pr_cov5_CpG.txt Tdu_1_cov5_CpG.txt Tdu_2_cov5_CpG.txt Tpr_1_cov5_CpG.txt Tpr_2_cov5_CpG.txt &
+``` 
+The python code is not universal (process 8 files; have to rename the input files for different purposes), but it works! May re-write the code later. **In total, there are 1,083,850 shared bases.**
 
 Example outputs:
 ```
