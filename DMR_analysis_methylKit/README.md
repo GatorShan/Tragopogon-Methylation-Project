@@ -86,7 +86,7 @@ Scripts `MethylDiff_CHG_V1.r` and `MethylDiff_CHG_V1.sh` were used.
 
 ## 4. CHH methylation
 ### 4.1 DMR (CHH) between two parents, two subgenomes, diploid Tdu (2x) and the Tdu subgenome, and diploid Tpr (2x) and the Tpr subgenome
-Setting destrand=TRUE (the default is FALSE) will merge reads on both strands of a CpG dinucleotide. This provides better coverage, but only advised when looking at CpG methylation (for CpH methylation this will cause wrong results in subsequent analyses). **This result is wrong, since we should use a lower cutoff for DMR analysis in CHH context. See [Section 1. Introduction](https://github.com/GatorShan/Tragopogon-Methylation-Project/edit/master/DMR_analysis_methylKit/README.md#1-introduction) for more information.**
+Setting destrand=TRUE (the default is FALSE) will merge reads on both strands of a CpG dinucleotide. This provides better coverage, but only advised when looking at CpG methylation (for CpH methylation this will cause wrong results in subsequent analyses). **This result is wrong, since we should use a lower cutoff for DMR analysis in CHH context. See [Section 1. Introduction](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_methylKit/README.md#1-introduction) for more information.**
 
 Scripts `MethylDiff_CHH_V1.r` and `MethylDiff_CHH_V1.sh` were used.
 
