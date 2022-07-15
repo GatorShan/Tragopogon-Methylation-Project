@@ -2,7 +2,7 @@
 ## 1. Introduction
 **methylKit** is an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing. Following instructions from its  [github page](https://github.com/al2na/methylKit) and [online manual](https://bioconductor.org/packages/release/bioc/vignettes/methylKit/inst/doc/methylKit.html#23_Reading_the_methylation_calls_from_sorted_Bismark_alignments).
 
-Using methylKit, this section is focusing on reading methylation calls from sorted Bismark alignment. DMR analysis results could be found [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit#dmr-analysis-using-methylkit)
+**Using methylKit, this section is focusing on reading methylation calls from sorted Bismark alignment**. DMR analysis results could be found **[here](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit#dmr-analysis-using-methylkit)**.
 
 ## 2. Reading the methylation calls from sorted Bismark alignments
 ### 2.1 Read Bismark alignment for T. dubius, T. pratensis, and T. miscellus; mincov = 10
@@ -69,7 +69,7 @@ Tms_1_du_cov5_CpG_overlap.txt
 ```
 
 ### 2.4 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 1
-The minimum read coverage to call a mehtylation status for a base is 1 (mincov = 1). **The purpose of this step is to collect all base information at the very beginning of the analysis, and then may apply the filter for minimum coverage in following steps.**
+The minimum read coverage to call a mehtylation status for a base is 1 (mincov = 1). **The purpose of this step is to collect all base information at the very beginning of the analysis, and then may apply the filter for minimum coverage in following steps. However, after identify overlapping bases across the diploid parents and the two subgenomes, if then apply mincov = 3 when using function methRead, the bases left won't be found in all samples. Therefore, it seems like the mincov = 3 filter should be applied when calling methylation from Bismark alignment (check out section 2.5).**
 #### 2.4.1 CpG methylation
 For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-1_V1.r` and `processBismarkAln_CG_minCOV-1_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-1_V1.sh` were used.
 
@@ -80,3 +80,7 @@ Tdu_2_cov1_CpG.txt
 Tms_1_du_cov1_CpG.txt
 Tms_2_du_cov1_CpG.txt
 ```
+
+### 2.5 Read Bismark alignment for T. dubius, T. pratensis, T. miscellus, and two subgenomes; mincov = 3
+#### 2.5.1 CpG methylation
+For T. dubius, T. pratensis, and T. miscellus, scripts `processBismarkAln_CG_minCOV-3_V1.r` and `processBismarkAln_CG_minCOV-3_V1.sh` were used. For the subgneomes of T. miscellus, scripts `processBismarkAln_subgenome_compare_CG_minCOV-3_V1.r` and `processBismarkAln_subgenome_compare_CG_minCOV-3_V1.sh` were used.
