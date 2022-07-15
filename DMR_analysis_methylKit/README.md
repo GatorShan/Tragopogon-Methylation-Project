@@ -33,6 +33,20 @@ Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
 
 Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
 
+#### 2.2.2 Setting 2
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 5 | yes | 10 (default) | 300 | 300 | 1 |
+
+Scripts `MethylDiff_Tms_subgenome_compare_mincov5_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov5_V1.sh` were used.
+
+#### 2.2.3 Setting 3
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 3 | yes | 3 | 1000 | 1000 | 10 |
+
+Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V1.sh` were used.
+
 ### 2.3 DMR between diploid Tdu (2x) and the Tdu subgenome in T. miscellus (4x)
 #### 2.3.1 Setting 1
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
