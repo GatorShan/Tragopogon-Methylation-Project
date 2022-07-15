@@ -25,6 +25,13 @@ myDiff25p_1 = getMethylDiff(myDiff_1,difference=25,qvalue=0.01, save.db = TRUE)
 
 Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
 
+#### 2.1.2 Setting 2
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 5 | yes | 10 (default) | 300 | 300 | 1 |
+
+Scripts `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and ``MethylDiff_Tdu-Tpr_CpG_mincov5_V1.sh` were used.
+
 ### 2.2 DMR between two subgenomes
 #### 2.2.1 Setting 1
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
