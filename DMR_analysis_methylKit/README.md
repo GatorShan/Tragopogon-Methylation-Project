@@ -32,6 +32,13 @@ Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
 
 Scripts `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.sh` were used.
 
+#### 2.1.3 Setting 3
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
+|--|--|--|--|--|--|
+| 3 | yes | 3 | 1000 | 1000 | 10 |
+
+Scripts `MethylDiff_Tdu-Tpr_CpG_mincov3_V1.r` and `MethylDiff_Tdu-Tpr_CpG_mincov3_V1.sh` were used.
+
 ### 2.2 DMR between two subgenomes
 #### 2.2.1 Setting 1
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
