@@ -21,112 +21,32 @@ myDiff25p = getMethylDiff(myDiff,difference=25,qvalue=0.01, save.db = TRUE)
 "type: one of the "hyper","hypo" or "all" strings. Specifies what type of differentially menthylated bases/regions should be returned. For retrieving Hyper-methylated regions/bases type="hyper", for hypo-methylated type="hypo" (default:"all")"
 
 ## 2. CpG methylation
+### 2.1 DMR between Tdu and Tpr, and DMR between two subgenomes
+**SUMMARY OF DIFFERENT SETTINGS**
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference | DMR between parents | DMR between subgenomes | Overlapping DMR (both direaction) | Script |
+|--|--|--|--|--|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 | 25% | 10,558 | 1,890 | 855 | `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tms_subgenome_compare_V1.r` |
+| 10 | no | 3 | 1000 | 1000 | setting removed | 25% | 52,319 | 23,088 |  | `MethylDiff_Tdu_Tpr_V2.r` and `MethylDiff_Tms_subgenome_compare_V2.r` |
+| 5 | yes | 10 | 300 | 300 | 1 | 25% | | | | `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov5_V1.r` |
+| 10 | yes | 10 | 1000 | 1000 | 10 | 25% | | | | `MethylDiff_Tdu-Tpr_CpG_mincov10_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov10_V1.r` |
+| 3 | yes | 3 | 1000 | 1000 | 10 | 25% | | | | `MethylDiff_Tdu-Tpr_CpG_mincov3_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V1.r` |
+| 3 | yes | 3 | 1000 | 1000 | 10 | 35% | 4,763 | 3,919 | 2,771 | `MethylDiff_Tdu-Tpr_CpG_mincov3_V2.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V2.r` |
+| 3 | yes | 3 | 1000 | 1000 | 20 | 35% | | | | `MethylDiff_Tdu-Tpr_CpG_mincov3_V3.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V3.r` |
+| 3 | yes | 3 | 300 | 300 | 10 | 35% | 3,549 | 3,262 | 2,360 | `MethylDiff_Tdu-Tpr_CpG_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V4.r` |
 
-Summary
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference | DMR between parents | DMR between subgenomes | Overlapping DMR (both direaction) |
-|--|--|--|--|--|--|--|--|--|--|
-| 10 | no | 3 | 1000 | 1000 | 10 | 25% | 10,558 | 1,890 | 855 |
-| 3 | yes | 3 | 1000 | 1000 | 10 | 35% | 4,763 | 3,919 | 2,771 |
-| 3 | yes | 3 | 300 | 300 | 10 | 35% | 3,549 | 3,262 | 2,360 |
+**The results from scripts `MethylDiff_Tdu-Tpr_CpG_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V4.r` look reliable, so use these results for downstream analysis.**
 
 
-### 2.1 DMR between Tdu and Tpr
-#### 2.1.1 Setting 1
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
-|--|--|--|--|--|--|
-| 10 | no | 3 | 1000 | 1000 | 10 |
-
-Scripts `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tdu_Tpr.sh` were used.
-
-#### 2.1.2 Setting 2
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
-|--|--|--|--|--|--|
-| 5 | yes | 10 (default) | 300 | 300 | 1 |
-
-Scripts `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.sh` were used.
-
-#### 2.1.3 Setting 3
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
-|--|--|--|--|--|--|
-| 3 | yes | 3 | 1000 | 1000 | 10 |
-
-Scripts `MethylDiff_Tdu-Tpr_CpG_mincov3_V1.r` and `MethylDiff_Tdu-Tpr_CpG_mincov3_V1.sh` were used.
-
-#### 2.1.4 Setting 4
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 3 | yes | 3 | 300 | 300 | 10 | 35% |
-
-Scripts `MethylDiff_Tdu-Tpr_CpG_mincov3_V4.r` and `MethylDiff_Tdu-Tpr_CpG_mincov3_V4.sh` were used. **The results from this setting look reliable, so use these results for downstream analysis.**
-
-### 2.2 DMR between two subgenomes
+### 2.2 DMR between diploid Tdu (2x) and the Tdu subgenome in T. miscellus (4x)
 #### 2.2.1 Setting 1
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 10 | no | 3 | 1000 | 1000 | 10 | 25% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
-
-#### 2.2.2 Setting 2
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 10 | no | 3 | 1000 | 1000 | setting removed | 25% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_V2.r` and `MethylDiff_Tms_subgenome_compare_V2.sh` were used.
-
-#### 2.2.3 Setting 3
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 5 | yes | 10 (default) | 300 | 300 | 1 | 25% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_mincov5_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov5_V1.sh` were used.
-
-#### 2.2.4 Setting 4
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 10 | yes | 10 | 1000 | 1000 | 10 | 25% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_mincov10_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov10_V1.sh` were used.
-
-#### 2.2.5 Setting 5
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 3 | yes | 3 | 1000 | 1000 | 10 | 25% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V1.sh` were used.
-
-#### 2.2.6 Setting 6
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 3 | yes | 3 | 1000 | 1000 | 10 | 35% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V2.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V2.sh` were used.
-
-#### 2.2.7 Setting 7
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 3 | yes | 3 | 1000 | 1000 | 20 | 35% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V3.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V3.sh` were used.
-
-#### 2.2.8 Setting 8
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
-|--|--|--|--|--|--|--|
-| 3 | yes | 3 | 300 | 300 | 10 | 35% |
-
-Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V4.sh` were used. **The results from this setting look reliable, so use these results for downstream analysis.**
-
-
-### 2.3 DMR between diploid Tdu (2x) and the Tdu subgenome in T. miscellus (4x)
-#### 2.3.1 Setting 1
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
 |--|--|--|--|--|--|
 | 10 | no | 3 | 1000 | 1000 | 10 |
 
 Scripts `MethylDiff_CpG_Tdu_vs_Tms-du_V1.r` and `MethylDiff_CpG_Tdu_vs_Tms-du_V1.sh` were used.
 
-### 2.4 DMR between diploid Tpr (2x) and the Tpr subgenome in T. miscellus (4x)
-#### 2.4.1 Setting 1
+### 2.3 DMR between diploid Tpr (2x) and the Tpr subgenome in T. miscellus (4x)
+#### 2.3.1 Setting 1
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
 |--|--|--|--|--|--|
 | 10 | no | 3 | 1000 | 1000 | 10 |
