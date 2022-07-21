@@ -27,8 +27,8 @@ myDiff25p = getMethylDiff(myDiff,difference=25,qvalue=0.01, save.db = TRUE)
 |--|--|--|--|--|--|--|--|--|--|--|
 | 10 | no | 3 | 1000 | 1000 | 10 | 25% | 10,558 | 1,890 | 855 | `MethylDiff_Tdu_Tpr.r` and `MethylDiff_Tms_subgenome_compare_V1.r` |
 | 10 | no | 3 | 1000 | 1000 | setting removed | 25% | 52,319 | 23,088 |  | `MethylDiff_Tdu_Tpr_V2.r` and `MethylDiff_Tms_subgenome_compare_V2.r` |
-| 5 | yes | 10 | 300 | 300 | 1 | 25% | | | | `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov5_V1.r` |
-| 10 | yes | 10 | 1000 | 1000 | 10 | 25% | | | | `MethylDiff_Tdu-Tpr_CpG_mincov10_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov10_V1.r` |
+| 5 | yes | 10 | 300 | 300 | 1 | 25% | 23,321 | 17,138 | 8,684 | `MethylDiff_Tdu-Tpr_CpG_mincov5_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov5_V1.r` |
+| 10 | yes | 10 | 1000 | 1000 | 10 | 25% | 283 | 253 | 175 | `MethylDiff_Tdu-Tpr_CpG_mincov10_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov10_V1.r` |
 | 3 | yes | 3 | 1000 | 1000 | 10 | 25% | 7,319 | 5,996 | 4,179 | `MethylDiff_Tdu-Tpr_CpG_mincov3_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V1.r` |
 | 3 | yes | 3 | 1000 | 1000 | 10 | 35% | 4,763 | 3,919 | 2,771 | `MethylDiff_Tdu-Tpr_CpG_mincov3_V2.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V2.r` |
 | 3 | yes | 3 | 1000 | 1000 | 20 | 35% | 1,487 | 1,285 | 914 | `MethylDiff_Tdu-Tpr_CpG_mincov3_V3.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V3.r` |
