@@ -21,6 +21,15 @@ myDiff25p = getMethylDiff(myDiff,difference=25,qvalue=0.01, save.db = TRUE)
 "type: one of the "hyper","hypo" or "all" strings. Specifies what type of differentially menthylated bases/regions should be returned. For retrieving Hyper-methylated regions/bases type="hyper", for hypo-methylated type="hypo" (default:"all")"
 
 ## 2. CpG methylation
+
+Summary
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference | DMR between parents | DMR between subgenomes | Overlapping DMR (both direaction) |
+|--|--|--|--|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 | 25% | 10,558 | 1,890 | 855 |
+| 3 | yes | 3 | 1000 | 1000 | 10 | 35% | 4,763 | 3,919 | 2,771 |
+| 3 | yes | 3 | 300 | 300 | 10 | 35% | 3,549 | 3,262 | 2,360 |
+
+
 ### 2.1 DMR between Tdu and Tpr
 #### 2.1.1 Setting 1
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
@@ -52,27 +61,55 @@ Scripts `MethylDiff_Tdu-Tpr_CpG_mincov3_V4.r` and `MethylDiff_Tdu-Tpr_CpG_mincov
 
 ### 2.2 DMR between two subgenomes
 #### 2.2.1 Setting 1
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
-|--|--|--|--|--|--|
-| 10 | no | 3 | 1000 | 1000 | 10 |
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | 10 | 25% |
 
 Scripts `MethylDiff_Tms_subgenome_compare_V1.r` and `MethylDiff_Tms_subgenome_compare_V1.sh` were used.
 
 #### 2.2.2 Setting 2
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
-|--|--|--|--|--|--|
-| 5 | yes | 10 (default) | 300 | 300 | 1 |
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 10 | no | 3 | 1000 | 1000 | setting removed | 25% |
+
+Scripts `MethylDiff_Tms_subgenome_compare_V2.r` and `MethylDiff_Tms_subgenome_compare_V2.sh` were used.
+
+#### 2.2.3 Setting 3
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 5 | yes | 10 (default) | 300 | 300 | 1 | 25% |
 
 Scripts `MethylDiff_Tms_subgenome_compare_mincov5_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov5_V1.sh` were used.
 
-#### 2.2.3 Setting 3
-| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases |
-|--|--|--|--|--|--|
-| 3 | yes | 3 | 1000 | 1000 | 10 |
+#### 2.2.4 Setting 4
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 10 | yes | 10 | 1000 | 1000 | 10 | 25% |
+
+Scripts `MethylDiff_Tms_subgenome_compare_mincov10_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov10_V1.sh` were used.
+
+#### 2.2.5 Setting 5
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 3 | yes | 3 | 1000 | 1000 | 10 | 25% |
 
 Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V1.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V1.sh` were used.
 
-#### 2.2.4 Setting 4
+#### 2.2.6 Setting 6
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 3 | yes | 3 | 1000 | 1000 | 10 | 35% |
+
+Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V2.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V2.sh` were used.
+
+#### 2.2.7 Setting 7
+| processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
+|--|--|--|--|--|--|--|
+| 3 | yes | 3 | 1000 | 1000 | 20 | 35% |
+
+Scripts `MethylDiff_Tms_subgenome_compare_mincov3_V3.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V3.sh` were used.
+
+#### 2.2.8 Setting 8
 | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference |
 |--|--|--|--|--|--|--|
 | 3 | yes | 3 | 300 | 300 | 10 | 35% |
