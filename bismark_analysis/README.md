@@ -79,7 +79,7 @@ Example output files
 -rw-r--r-- 1 shan158538 soltis  918 Feb  3 13:36 S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated_splitting_report.txt
 ```
 
-File `S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bismark.cov.gz` could be used for downstream analysis of DMRs; By default, this mode will **only consider cytosines in CpG context**, but it can be extended to cytosines in any sequence context by using the option --CX
+File `S2_cat_R1_val_1_bismark_bt2_pe_nameSorted.deduplicated.bismark.cov.gz` could be used for downstream analysis of **CG-DMRs**; By default, this mode will **only consider cytosines in CpG context**, but it can be extended to cytosines in any sequence context by using the option --CX
 
 `<chromosome> <start position> <end position> <methylation percentage> <count methylated> <count unmethylated>`
 
@@ -96,8 +96,20 @@ Tdub_V1_scaffold_1	496	496	100	1	0
 Tdub_V1_scaffold_1	497	497	96.2962962962963	26	1
 ```
 ### 4.2 CHG context
-Script `bismark2bedGraph_S2_CHG_V1.sh` etc. was used.
+For example, script `bismark2bedGraph_S2_CHG_V1.sh` etc. were used.
 
-Example output:
+Example outputs:
   - `S2_CHG.gz`
   - `S2_CHG.gz.bismark.cov.gz`
+
+### 4.3 CHH context
+For example, script `bismark2bedGraph_S1_S3_CHH_V1.sh` etc. were used.
+
+Example outputs:
+  - `DES1_CHH.gz`
+  - `DES1_CHH.gz.bismark.cov`
+
+## 5. Average depth at cytosine sites
+The python code `Cytosine_coverage_V1.py` and associated bash code `Cytosine_sites_coverage_V1.sh` and `Cytosine_sites_coverage_V2.sh` were used.
+
+ 
