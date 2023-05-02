@@ -112,4 +112,7 @@ Example outputs:
 ## 5. Average depth at cytosine sites
 The python code `Cytosine_coverage_V1.py` and associated bash code `Cytosine_sites_coverage_V1.sh` and `Cytosine_sites_coverage_V2.sh` were used.
 
+| Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
+| -- | -- | -- | -- | -- | -- | -- |
+| Average depth at cytosine sites | 17.0 | 27.2 | 14.0 | 15.5 | 22.8 | 16.4 |
  
