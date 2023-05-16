@@ -116,6 +116,14 @@ The python code `Cytosine_coverage_V1.py` and associated bash code `Cytosine_sit
 | -- | -- | -- | -- | -- | -- | -- |
 | Average depth at cytosine sites | 17.0 | 27.2 | 14.0 | 15.5 | 22.8 | 16.4 |
  
-## 6. Non-conversion rate
-Spiked in unmethylated lambda DNA was used to calculate non-conversion rate.
+## 6. Bisulfite conversion rate
+| Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
+| -- | -- | -- | -- | -- | -- | -- |
+| Bisulfite conversion rate | 99.8% |  |  |  |  |  |
+
+Spiked in unmethylated lambda DNA was used to calculate bisulfite conversion rate. If 100% of cytosines in the lambda DNA were converted to T after bisulfite treatment, the methylation level should be 0%.
+
+- Script `bismark_genome_prep_V2.sh` was used to convert the lambda reference DNA into two different bisulfite converted versions and index them for alignment with Bowtie 2
+- Script `bismark_alignment_DES1_lambda.sh` etc. were used to map the reads from each sample to the lambda reference DNA
+- The alignment reports, e.g. `HMCWKCCXY_s8_1_4981-LF_17_SL334590_val_1_bismark_bt2_PE_report.txt`, were used to calculte the bisulfite conversion rate for each sample
 
