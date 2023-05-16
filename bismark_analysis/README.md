@@ -116,3 +116,6 @@ The python code `Cytosine_coverage_V1.py` and associated bash code `Cytosine_sit
 | -- | -- | -- | -- | -- | -- | -- |
 | Average depth at cytosine sites | 17.0 | 27.2 | 14.0 | 15.5 | 22.8 | 16.4 |
  
+## 6. Non-conversion rate
+Spiked in unmethylated lambda DNA was used to calculate non-conversion rate.
+
