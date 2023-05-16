@@ -127,3 +127,20 @@ Spiked in unmethylated [lambda DNA](https://github.com/GatorShan/Tragopogon-Meth
 - Script `bismark_alignment_DES1_lambda.sh` etc. were used to map the reads from each sample to the lambda reference DNA
 - The alignment reports, e.g. `HMCWKCCXY_s8_1_4981-LF_17_SL334590_val_1_bismark_bt2_PE_report.txt`, were used to calculte the bisulfite conversion rate for each sample
 
+An example alignment report (from sample DES1):
+```
+Total number of C's analysed:	14970774
+
+Total methylated C's in CpG context:	7745
+Total methylated C's in CHG context:	8952
+Total methylated C's in CHH context:	18384
+Total methylated C's in Unknown context:	1
+
+Total unmethylated C's in CpG context:	3428445
+Total unmethylated C's in CHG context:	3592318
+Total unmethylated C's in CHH context:	7914930
+Total unmethylated C's in Unknown context:	1589
+```
+The bisulfite conversion rate = Total unmethylated C's / Total number of C's analysed = (3428445+3592318+7914930)/14970774 = 99.8%
+
+Total number of C's analysed = 14970774 = 7745+8952+18384+3428445+3592318+7914930 (methylated C's in Unknown context were not counted)
