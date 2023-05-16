@@ -121,7 +121,7 @@ The python code `Cytosine_coverage_V1.py` and associated bash code `Cytosine_sit
 | -- | -- | -- | -- | -- | -- | -- |
 | Bisulfite conversion rate | 99.8% |  |  |  |  |  |
 
-Spiked in unmethylated lambda DNA was used to calculate bisulfite conversion rate. If 100% of cytosines in the lambda DNA were converted to T after bisulfite treatment, the methylation level should be 0%.
+Spiked in unmethylated [lambda DNA](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/bismark_analysis/lambda.fa) was used to calculate bisulfite conversion rate. If 100% of cytosines in the lambda DNA were converted to T after bisulfite treatment, the methylation level should be 0%.
 
 - Script `bismark_genome_prep_V2.sh` was used to convert the lambda reference DNA into two different bisulfite converted versions and index them for alignment with Bowtie 2
 - Script `bismark_alignment_DES1_lambda.sh` etc. were used to map the reads from each sample to the lambda reference DNA
