@@ -1,5 +1,5 @@
 # Calculate methylation rate
-The output files of bismark were used. For each individual, there are three files (in folder `bismark_coverage_files`):
+The output files of bismark were used. For each individual, there are three files (in folder `/orange/soltis/shan158538/Methylation_output/bismark_coverage_files`):
   - `S2_CpG.gz.bismark.cov`
   - `S2_CHG.gz.bismark.cov`
   - `S2_CHH.gz.bismark.cov`
