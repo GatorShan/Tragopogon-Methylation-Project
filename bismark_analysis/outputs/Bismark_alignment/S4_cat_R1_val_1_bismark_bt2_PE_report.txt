@@ -1,0 +1,42 @@
+Bismark report for: /orange/soltis/shan158538/Methylation_output/trim_galore/S4_cat_R1_val_1.fq.gz and /orange/soltis/shan158538/Methylation_output/trim_galore/S4_cat_R2_val_2.fq.gz (version: v0.22.3)
+Bismark was run with Bowtie 2 against the bisulfite genome of /orange/soltis/shan158538/Methylation_output/bismark_genome_prep/ with the specified options: -q --score-min L,0,-0.2 --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--directional' specified (default mode): alignments to complementary strands (CTOT, CTOB) were ignored (i.e. not performed)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	743190004
+Number of paired-end alignments with a unique best hit:	238997030
+Mapping efficiency:	32.2% 
+Sequence pairs with no alignments under any condition:	457246896
+Sequence pairs did not map uniquely:	46946078
+Sequence pairs which were discarded because genomic sequence could not be extracted:	16533
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	119587445	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	119393052	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	11367695528
+
+Total methylated C's in CpG context:	1476549598
+Total methylated C's in CHG context:	1007502708
+Total methylated C's in CHH context:	896660201
+Total methylated C's in Unknown context:	828241
+
+Total unmethylated C's in CpG context:	216531258
+Total unmethylated C's in CHG context:	442915288
+Total unmethylated C's in CHH context:	7327536475
+Total unmethylated C's in Unknown context:	4653167
+
+C methylated in CpG context:	87.2%
+C methylated in CHG context:	69.5%
+C methylated in CHH context:	10.9%
+C methylated in unknown context (CN or CHN):	15.1%
+
+
+Bismark completed in 4d 1h 52m 43s

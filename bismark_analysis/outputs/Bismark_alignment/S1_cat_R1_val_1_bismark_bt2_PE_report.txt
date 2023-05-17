@@ -1,0 +1,42 @@
+Bismark report for: /orange/soltis/shan158538/Methylation_output/trim_galore/S1_cat_R1_val_1.fq.gz and /orange/soltis/shan158538/Methylation_output/trim_galore/S1_cat_R2_val_2.fq.gz (version: v0.22.3)
+Bismark was run with Bowtie 2 against the bisulfite genome of /orange/soltis/shan158538/Methylation_output/bismark_genome_prep/ with the specified options: -q --score-min L,0,-0.2 --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--directional' specified (default mode): alignments to complementary strands (CTOT, CTOB) were ignored (i.e. not performed)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	614845591
+Number of paired-end alignments with a unique best hit:	291340988
+Mapping efficiency:	47.4% 
+Sequence pairs with no alignments under any condition:	277397113
+Sequence pairs did not map uniquely:	46107490
+Sequence pairs which were discarded because genomic sequence could not be extracted:	20738
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	145585584	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	145734666	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	13478872623
+
+Total methylated C's in CpG context:	1856801837
+Total methylated C's in CHG context:	1301343048
+Total methylated C's in CHH context:	1198809640
+Total methylated C's in Unknown context:	787062
+
+Total unmethylated C's in CpG context:	212988929
+Total unmethylated C's in CHG context:	450687151
+Total unmethylated C's in CHH context:	8458242018
+Total unmethylated C's in Unknown context:	4070344
+
+C methylated in CpG context:	89.7%
+C methylated in CHG context:	74.3%
+C methylated in CHH context:	12.4%
+C methylated in unknown context (CN or CHN):	16.2%
+
+
+Bismark completed in 3d 8h 19m 9s
