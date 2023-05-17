@@ -1,0 +1,42 @@
+Bismark report for: /orange/soltis/shan158538/Methylation_output/trim_galore/S3_cat_R1_val_1.fq.gz and /orange/soltis/shan158538/Methylation_output/trim_galore/S3_cat_R2_val_2.fq.gz (version: v0.22.3)
+Bismark was run with Bowtie 2 against the bisulfite genome of /orange/soltis/shan158538/Methylation_output/bismark_lambda_genome_prep/ with the specified options: -q --score-min L,0,-0.2 --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--directional' specified (default mode): alignments to complementary strands (CTOT, CTOB) were ignored (i.e. not performed)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	323032184
+Number of paired-end alignments with a unique best hit:	593261
+Mapping efficiency:	0.2% 
+Sequence pairs with no alignments under any condition:	322438923
+Sequence pairs did not map uniquely:	0
+Sequence pairs which were discarded because genomic sequence could not be extracted:	1856
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	312416	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	278989	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	39099626
+
+Total methylated C's in CpG context:	39182
+Total methylated C's in CHG context:	45025
+Total methylated C's in CHH context:	73676
+Total methylated C's in Unknown context:	12
+
+Total unmethylated C's in CpG context:	9410349
+Total unmethylated C's in CHG context:	9810865
+Total unmethylated C's in CHH context:	19720529
+Total unmethylated C's in Unknown context:	4203
+
+C methylated in CpG context:	0.4%
+C methylated in CHG context:	0.5%
+C methylated in CHH context:	0.4%
+C methylated in unknown context (CN or CHN):	0.3%
+
+
+Bismark completed in 0d 0h 46m 37s

@@ -1,0 +1,42 @@
+Bismark report for: /orange/soltis/shan158538/Methylation_output/trim_galore/S4_cat_R1_val_1.fq.gz and /orange/soltis/shan158538/Methylation_output/trim_galore/S4_cat_R2_val_2.fq.gz (version: v0.22.3)
+Bismark was run with Bowtie 2 against the bisulfite genome of /orange/soltis/shan158538/Methylation_output/bismark_lambda_genome_prep/ with the specified options: -q --score-min L,0,-0.2 --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--directional' specified (default mode): alignments to complementary strands (CTOT, CTOB) were ignored (i.e. not performed)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	743190004
+Number of paired-end alignments with a unique best hit:	1501457
+Mapping efficiency:	0.2% 
+Sequence pairs with no alignments under any condition:	741688547
+Sequence pairs did not map uniquely:	0
+Sequence pairs which were discarded because genomic sequence could not be extracted:	4483
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	786047	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	710927	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	98613896
+
+Total methylated C's in CpG context:	95487
+Total methylated C's in CHG context:	109793
+Total methylated C's in CHH context:	179712
+Total methylated C's in Unknown context:	41
+
+Total unmethylated C's in CpG context:	23594923
+Total unmethylated C's in CHG context:	24613058
+Total unmethylated C's in CHH context:	50020923
+Total unmethylated C's in Unknown context:	10491
+
+C methylated in CpG context:	0.4%
+C methylated in CHG context:	0.4%
+C methylated in CHH context:	0.4%
+C methylated in unknown context (CN or CHN):	0.4%
+
+
+Bismark completed in 0d 1h 48m 29s

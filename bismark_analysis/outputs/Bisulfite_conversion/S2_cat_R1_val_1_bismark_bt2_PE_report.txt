@@ -1,0 +1,42 @@
+Bismark report for: /orange/soltis/shan158538/Methylation_output/trim_galore/S2_cat_R1_val_1.fq.gz and /orange/soltis/shan158538/Methylation_output/trim_galore/S2_cat_R2_val_2.fq.gz (version: v0.22.3)
+Bismark was run with Bowtie 2 against the bisulfite genome of /orange/soltis/shan158538/Methylation_output/bismark_lambda_genome_prep/ with the specified options: -q --score-min L,0,-0.2 --ignore-quals --no-mixed --no-discordant --dovetail --maxins 500
+Option '--directional' specified (default mode): alignments to complementary strands (CTOT, CTOB) were ignored (i.e. not performed)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	258486470
+Number of paired-end alignments with a unique best hit:	746410
+Mapping efficiency:	0.3% 
+Sequence pairs with no alignments under any condition:	257740060
+Sequence pairs did not map uniquely:	0
+Sequence pairs which were discarded because genomic sequence could not be extracted:	1557
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	398068	((converted) top strand)
+GA/CT/CT:	0	(complementary to (converted) top strand)
+GA/CT/GA:	0	(complementary to (converted) bottom strand)
+CT/GA/GA:	346785	((converted) bottom strand)
+
+Number of alignments to (merely theoretical) complementary strands being rejected in total:	0
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	51743308
+
+Total methylated C's in CpG context:	49723
+Total methylated C's in CHG context:	55864
+Total methylated C's in CHH context:	87398
+Total methylated C's in Unknown context:	22
+
+Total unmethylated C's in CpG context:	12852811
+Total unmethylated C's in CHG context:	13336177
+Total unmethylated C's in CHH context:	25361335
+Total unmethylated C's in Unknown context:	6220
+
+C methylated in CpG context:	0.4%
+C methylated in CHG context:	0.4%
+C methylated in CHH context:	0.3%
+C methylated in unknown context (CN or CHN):	0.4%
+
+
+Bismark completed in 0d 0h 38m 21s
