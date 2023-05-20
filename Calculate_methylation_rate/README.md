@@ -16,6 +16,17 @@ Tdub_V1_scaffold_1	496	496	100	1	0
 Tdub_V1_scaffold_1	497	497	96.2962962962963	26	1
 ```
 
+Additionally, I identified the loci with **minimum coverage of 3 across all samples. Therefore, the different efficiency of alignment between species won't affect the results from downstream analyses**.Script `overlap_min-cov_4.py` and `overlap_min-cov_CG.sh`, for example, were used. Outputs are (using CG context as example):
+```
+DES1_CpG.gz.bismark_shared_filtered.cov
+S1_CpG.gz.bismark_shared_filtered.cov
+S2_CpG.gz.bismark_shared_filtered.cov
+S3_CpG.gz.bismark_shared_filtered.cov
+S4_CpG.gz.bismark_shared_filtered.cov
+S5_CpG.gz.bismark_shared_filtered.cov
+```
+
+
 ## 1. Genome-wide methylation rate
 Script `Genome_wide_methylation_rate_V1.ipynb` was used, which is modified from [here](https://github.com/niederhuth/Widespread-natural-variation-of-DNA-methylation-within-angiosperms/blob/c9966e4e9df6d37649c3923509874bce0dd3ad80/mC_pyTools.py#L31); the results are consistent with the report from bismark!
 
