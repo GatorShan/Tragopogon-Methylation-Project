@@ -16,7 +16,7 @@ Tdub_V1_scaffold_1	496	496	100	1	0
 Tdub_V1_scaffold_1	497	497	96.2962962962963	26	1
 ```
 
-Additionally, I identified the loci with **minimum coverage of 3 across all samples. Therefore, the different efficiency of alignment between species won't affect the results from downstream analyses**.Script `overlap_min-cov_4.py` and `overlap_min-cov_CG.sh`, for example, were used. Outputs are (using CG context as example):
+Additionally, I identified the loci with **minimum coverage of 3 across all samples. Therefore, the different efficiency of alignment between species won't affect the results from downstream analyses**. Script `overlap_min-cov_4.py` and `overlap_min-cov_CG.sh`, for example, were used. Outputs are (using CG context as example):
 ```
 DES1_CpG.gz.bismark_shared_filtered.cov
 S1_CpG.gz.bismark_shared_filtered.cov
@@ -26,6 +26,16 @@ S4_CpG.gz.bismark_shared_filtered.cov
 S5_CpG.gz.bismark_shared_filtered.cov
 ```
 
+**Summary**
+| Sample ID | CG_loci | CG_loci_shared | CHG_loci | CHG_loci_shared | CHH_loci | CHH_loci_shared |
+| -- | -- | -- | -- | -- | -- | -- |
+| DES1 | 40,707,284 | 8,378,772 | 34,991,145 | 7,308,535 | 200,938,529 | 39,359,361 |
+| S1 | 41,715,737 | 8,378,772 | 35,899,048 | 7,308,535 | 209,104,719 | 39,359,361 |
+| S2 | 17,066,881 | 8,378,772 | 14,922,781 | 7,308,535 | 83,856,112 | 39,359,361 |
+| S3 | 17,373,091 | 8,378,772 | 15,145,705 | 7,308,535 | 85,113,050 | 39,359,361 |
+| S4 | 41,890,596 | 8,378,772 | 36,066,828 | 7,308,535 | 210,162,748 | 39,359,361 |
+| S5 | 41,680,189 | 8,378,772 | 35,885,330 | 7,308,535 | 209,237,140 | 39,359,361 |
+* Note: shared loci were found in all six samples and with a min coverage of 3 in each sample.
 
 ## 1. Genome-wide methylation rate
 Script `Genome_wide_methylation_rate_V1.ipynb` was used, which is modified from [here](https://github.com/niederhuth/Widespread-natural-variation-of-DNA-methylation-within-angiosperms/blob/c9966e4e9df6d37649c3923509874bce0dd3ad80/mC_pyTools.py#L31); the results are consistent with the report from bismark!
