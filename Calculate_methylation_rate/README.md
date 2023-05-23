@@ -63,7 +63,7 @@ Script `Genome_wide_methylation_rate_V1.ipynb` was used (using all loci), which 
 | gene_CHH | % | % | % | % | % | % |
 
 ### 2.1 Reformatting
-Scripts `Reformat_bismark_cov_V3.py` and `Reformat_CG_cov_files_V1.sh` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). Example script:
+Scripts `Reformat_bismark_cov_V3.py` and `Reformat_CG_cov_files_V1.sh` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). **When only include shared loci with minimum coverage of 3**, script `Reformat_CG_cov_files_shared_V1.sh` was used. Example script:
 
 ```
 cd /orange/soltis/shan158538/Methylation_output/bismark_coverage_files
