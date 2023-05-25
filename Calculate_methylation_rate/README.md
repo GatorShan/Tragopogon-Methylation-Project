@@ -121,6 +121,8 @@ Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methy
 
 Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input files are from step 2.1.1
 
+**When only include shared loci with minimum coverage of 3**, scripts `Gbm_metaplot_CG_shared_V1.sh`, `Gbm_metaplot_CHG_shared_V1.sh`, and `Gbm_metaplot_CHH_shared_V1.sh` were used.
+
 **Metaplot of CG methylation**
 ![CG_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_Feb2020.png)
 
