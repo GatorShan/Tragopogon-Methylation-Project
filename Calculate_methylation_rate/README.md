@@ -98,12 +98,13 @@ Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methy
 Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input files are from step 2.1.1
 
 **Metaplot of CG methylation**
-![CG_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_Feb2020.png)
 
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_Feb2020.png" width=500 height=300>
 
 **Metaplot of CHG methylation**
-![CHG_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHG_Feb2020.png)
 
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHG_Feb2020.png" width=500 height=300>
 
 **Metaplot of CHH methylation**
-![CHH_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_Feb2020.png)
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_Feb2020.png" width=500 height=300>
