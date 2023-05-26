@@ -1,4 +1,7 @@
 # Calculate methylation rate
+
+### The following text showed the results from previous analysis. After discussing with co-authors, to eliminate the mapping efficiency biases between different species, we think the calculation should only include loci that are shared by all samples. The updated results can be found in directory [Shared_min-cov_sites](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/Calculate_methylation_rate/Shared_min-cov_sites).
+
 The output files of bismark were used. For each individual, there are three files (in folder `/orange/soltis/shan158538/Methylation_output/bismark_coverage_files`):
   - `S2_CpG.gz.bismark.cov`
   - `S2_CHG.gz.bismark.cov`
@@ -16,27 +19,6 @@ Tdub_V1_scaffold_1	496	496	100	1	0
 Tdub_V1_scaffold_1	497	497	96.2962962962963	26	1
 ```
 
-Additionally, I identified the loci with **minimum coverage of 3 across all samples. Therefore, the different efficiency of alignment between species won't affect the results from downstream analyses**. Script `overlap_min-cov_4.py` and `overlap_min-cov_CG.sh`, for example, were used. Outputs are (using CG context as example):
-```
-DES1_CpG.gz.bismark_shared_filtered.cov
-S1_CpG.gz.bismark_shared_filtered.cov
-S2_CpG.gz.bismark_shared_filtered.cov
-S3_CpG.gz.bismark_shared_filtered.cov
-S4_CpG.gz.bismark_shared_filtered.cov
-S5_CpG.gz.bismark_shared_filtered.cov
-```
-
-**Summary**
-| Sample ID | CG_loci | CG_loci_shared | CHG_loci | CHG_loci_shared | CHH_loci | CHH_loci_shared |
-| -- | -- | -- | -- | -- | -- | -- |
-| DES1 | 40,707,284 | 8,378,772 | 34,991,145 | 7,308,535 | 200,938,529 | 39,359,361 |
-| S1 | 41,715,737 | 8,378,772 | 35,899,048 | 7,308,535 | 209,104,719 | 39,359,361 |
-| S2 | 17,066,881 | 8,378,772 | 14,922,781 | 7,308,535 | 83,856,112 | 39,359,361 |
-| S3 | 17,373,091 | 8,378,772 | 15,145,705 | 7,308,535 | 85,113,050 | 39,359,361 |
-| S4 | 41,890,596 | 8,378,772 | 36,066,828 | 7,308,535 | 210,162,748 | 39,359,361 |
-| S5 | 41,680,189 | 8,378,772 | 35,885,330 | 7,308,535 | 209,237,140 | 39,359,361 |
-* Note: shared loci were found in all six samples and with a min coverage of 3 in each sample.
-
 ## 1. Genome-wide weighted methylation level
 Script `Genome_wide_methylation_rate_V1.ipynb` was used (using all loci), which is modified from [here](https://github.com/niederhuth/Widespread-natural-variation-of-DNA-methylation-within-angiosperms/blob/c9966e4e9df6d37649c3923509874bce0dd3ad80/mC_pyTools.py#L31); the results are consistent with the report from bismark!
 
@@ -45,14 +27,6 @@ Script `Genome_wide_methylation_rate_V1.ipynb` was used (using all loci), which 
 | CpG | 91.6% | 90.3% | 83.0% | 84.9% | 87.7% | 87.3% |
 | CHG | 76.3% | 74.7% | 65.7% | 68.1% | 69.8% | 69.1% |
 | CHH | 11.1% | 12.5% | 9.3% | 10.1% | 11.0% | 10.5% |
-
-**Using only shared loci with minimum coverage of 3 as input**, script `Genome_wide_methylation_rate_V2.ipynb` was used to calculate genome-wide weighted methylation level. The following results were included in the manuscript.
-| Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
-| -- | -- | -- | -- | -- | -- | -- |
-| CpG | 90.2% | 89.1% | 84.5% | 85.9% | 87.1% | 86.6% |
-| CHG | 74.0% | 72.4% | 67.4% | 69.3% | 68.9% | 68.2% |
-| CHH | 10.0% | 11.6% | 9.4% | 10.1% | 10.6% | 10.3% |
-
 
 ## 2. Methylation rate at different genetic features
 
@@ -63,7 +37,7 @@ Script `Genome_wide_methylation_rate_V1.ipynb` was used (using all loci), which 
 | gene_CHH | % | % | % | % | % | % |
 
 ### 2.1 Reformatting
-Scripts `Reformat_bismark_cov_V3.py` and `Reformat_CG_cov_files_V1.sh` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). **When only include shared loci with minimum coverage of 3**, script `Reformat_CG_cov_files_shared_V1.sh` was used. Example script:
+Scripts `Reformat_bismark_cov_V3.py` and `Reformat_CG_cov_files_V1.sh` was used. The format is changed from `bismark` to `allC`; output files are written into separate files based on the scaffold number (correct format for downstream analysis). Example script:
 
 ```
 cd /orange/soltis/shan158538/Methylation_output/bismark_coverage_files
@@ -122,8 +96,6 @@ DES1	genes	CG	0.712482
 Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
 
 Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input files are from step 2.1.1
-
-**When only include shared loci with minimum coverage of 3**, scripts `Gbm_metaplot_CG_shared_V1.sh`, `Gbm_metaplot_CHG_shared_V1.sh`, and `Gbm_metaplot_CHH_shared_V1.sh` were used.
 
 **Metaplot of CG methylation**
 ![CG_methylation](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_Feb2020.png)
