@@ -117,7 +117,7 @@ DES1	genes	CG	0.712482
 ```
 
 ## 3. Gene body methylation metaplot
-![CDS_metaplot_demo](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CDS_metaplot_demo.pdf)
+![CDS_metaplot_demo](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CDS_metaplot_demo.png)
 
 Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
 
