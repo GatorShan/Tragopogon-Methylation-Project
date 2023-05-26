@@ -49,6 +49,17 @@ Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methy
 
 Scripts `Gbm_metaplot_CG_shared_V1.sh`, `Gbm_metaplot_CHG_shared_V1.sh`, and `Gbm_metaplot_CHH_shared_V1.sh` were used. Input files are from step 3.2
 
+### CG gene metaplot
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_gene_metaplot_shared_loci.png" width=600 height=400>
+
+### CHG gene metaplot
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHG_gene_metaplot_shared_loci.png" width=600 height=400>
+
+### CHH gene metaplot
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_gene_metaplot_shared_loci.png" width=600 height=400>
 
 
 
