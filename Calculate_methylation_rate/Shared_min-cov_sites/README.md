@@ -61,5 +61,5 @@ Scripts `Gbm_metaplot_CG_shared_V1.sh`, `Gbm_metaplot_CHG_shared_V1.sh`, and `Gb
 
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_gene_metaplot_shared_loci.png" width=600 height=400>
 
-
-
+### Statistical test
+The methylation level difference between 3 species at each bin for each context was tested using **one-way ANOVA**. The script and results are in `gbm_ANOVA_CG.ipynb`, `gbm_ANOVA_CHG.ipynb`, and `gbm_ANOVA_CHH.ipynb`. Using 0.01 as P-value cutoff, **the three species showed no difference in all bins for all context**.
