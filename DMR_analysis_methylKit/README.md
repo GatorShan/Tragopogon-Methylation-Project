@@ -28,4 +28,10 @@ myDiff25p = getMethylDiff(myDiff,difference=25,qvalue=0.01, save.db = TRUE)
 | CHG | 3 | yes | 3 | 300 | 300 | 10 | 10% |  |  |  | `MethylDiff_Tdu-Tpr_CHG_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_CHG_mincov3_V4.r` |
 | CHH | 3 | yes | 3 | 300 | 300 | 10 | 10% |  |  |  | `MethylDiff_Tdu-Tpr_CHH_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_CHH_mincov3_V4.r` |
 
+Notes:
+
+-- To decompress methylDiff output: `gunzip -c methylDiff_hyper.txt.bgz > methylDiff_hyper.txt`
+
+-- To identify shared and unique DMRs, script `Overlap_DMR_V1.py` was used. Outputs are located at `/blue/soltis/shan158538/Methylation/OutPut/DMR_methylkit`.
+
 ## 3. [Previous analyses](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit/Previous_analyses)
