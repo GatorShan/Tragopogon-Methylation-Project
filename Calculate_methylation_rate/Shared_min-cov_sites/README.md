@@ -1,7 +1,7 @@
 # Calculate methylation rate using shared loci across all samples
 
 ## 1. Identify shared loci
-I identified loci with **minimum coverage of 3 across all samples. Therefore, the different efficiency of alignment between species won't affect the results from downstream analyses**. Script `overlap_min-cov_4.py` and `overlap_min-cov_CG.sh`, for example, were used. Outputs are (using CG context as example):
+I identified loci with **minimum coverage of 3 across all samples. Therefore, the different efficiency of alignment between species won't affect the results from downstream analyses**. Script `overlap_min-cov_4.py` and `overlap_min-cov_CG.sh`, for example, were used. Outputs can be found at `/orange/soltis/shan158538/Methylation_output/bismark_coverage_files`. Example:
 ```
 DES1_CpG.gz.bismark_shared_filtered.cov
 S1_CpG.gz.bismark_shared_filtered.cov
