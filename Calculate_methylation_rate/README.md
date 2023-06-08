@@ -1,7 +1,7 @@
 # Calculate methylation rate
 ### After discussing with co-authors, to eliminate the mapping efficiency biases between different species, we think the calculation should only include loci that are shared by all samples. Previous analyses using all loci can be found [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/Calculate_methylation_rate/previous_analyses).
 
-The starting bismark files are from [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/bismark_analysis#4-extract-bismark-methylation-profiles). For each individual, there are three files, e.g.:
+The starting bismark files are from [bismark analysis step 4](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/bismark_analysis#4-extract-bismark-methylation-profiles). For each individual, there are three files, e.g.:
   - `S2_CpG.gz.bismark.cov`
   - `S2_CHG.gz.bismark.cov`
   - `S2_CHH.gz.bismark.cov`
@@ -38,7 +38,7 @@ S5_CpG.gz.bismark_shared_filtered.cov
 | S3 | 17,373,091 | 8,378,772 | 15,145,705 | 7,308,535 | 85,113,050 | 39,359,361 |
 | S4 | 41,890,596 | 8,378,772 | 36,066,828 | 7,308,535 | 210,162,748 | 39,359,361 |
 | S5 | 41,680,189 | 8,378,772 | 35,885,330 | 7,308,535 | 209,237,140 | 39,359,361 |
-* Note: shared loci were found in all six samples and with a min coverage of 3 in each sample.
+* Note: shared loci were found in all six samples and with a min coverage of 3 in each sample; the overall loci number is from outputs in bismark analysis step 4.
 
 ## 2. Genome-wide weighted methylation level
 **Using only shared loci with minimum coverage of 3 as input**, script `Genome_wide_methylation_rate_V2.ipynb` was used to calculate genome-wide weighted methylation level. The following results were included in the manuscript.
