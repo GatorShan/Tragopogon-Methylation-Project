@@ -34,4 +34,9 @@ Notes:
 
 -- To identify shared and unique DMRs, script `Overlap_DMR_V1.py` was used. Outputs are located at `/blue/soltis/shan158538/Methylation/OutPut/DMR_methylkit`.
 
-## 3. [Previous analyses](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit/Previous_analyses)
+## 3. DMR heatmap
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_methylKit/images/Heatmap_DMRs.png" width=900 height=450>
+
+Scripts `DMR_heatmap_v1.ipynb`, `DMR_heatmap_v1_CHG-Copy1.ipynb`, `DMR_heatmap_v1_CHH.ipynb`, `DMR_heatmap_v2.ipynb`, `DMR_heatmap_v2-CHG-Copy1.ipynb`, and `DMR_heatmap_v2-CHH.ipynb` were used to format the input files; scripts `DMR_heatmap.R`, `DMR_CHG_heatmap.R`, and `DMR_CHH_heatmap.R` were used to generate the heatmap.
+
+## 4. [Previous analyses](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit/Previous_analyses)
