@@ -25,7 +25,7 @@ myDiff25p = getMethylDiff(myDiff,difference=25,qvalue=0.01, save.db = TRUE)
 | Context | processBismarkAln mincov | using shared bases? | methRead mincov | Window size | Window step | Window cov.bases | Difference | DMR between parents (A) | DMR between subgenomes | Overlapping DMR (both direaction) | Overlapping DMR (same direaction) (B) | Polyploid DMRs that are inherited from diploids (B/A%) | Scripts |
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | CpG | 3 | yes | 3 | 300 | 300 | 10 | 35% | 3,549 | 3,262 | 2,360 | 2,300 | 64.8% | `MethylDiff_Tdu-Tpr_CpG_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_mincov3_V4.r` |
-| CHG | 3 | yes | 3 | 300 | 300 | 10 | 10% | 13,738 | 10,941 | 7,963 | 7,414 | 54.0% | `MethylDiff_Tdu-Tpr_CHG_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_CHG_mincov3_V4.r` |
+| CHG | 3 | yes | 3 | 300 | 300 | 10 | 25% |  |  |  |  | % | `MethylDiff_Tdu-Tpr_CHG_mincov3_V5.r` and `MethylDiff_Tms_subgenome_compare_CHG_mincov3_V5.r` |
 | CHH | 3 | yes | 3 | 300 | 300 | 10 | 10% | 18,143 | 14,535 | 7,676 | 7,440 | 41.0% | `MethylDiff_Tdu-Tpr_CHH_mincov3_V4.r` and `MethylDiff_Tms_subgenome_compare_CHH_mincov3_V4.r` |
 
 Notes:
