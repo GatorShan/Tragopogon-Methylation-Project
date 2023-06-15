@@ -48,10 +48,22 @@ S5_CpG.gz.bismark_shared_filtered.cov
 | CHG | 74.0% | 72.4% | 67.4% | 69.3% | 68.9% | 68.2% |
 | CHH | 10.0% | 11.6% | 9.4% | 10.1% | 10.6% | 10.3% |
 
-## 3. File reformatting
-### 3.1 Bismark format to allC format
+## 3. Proportions of methylated cytosine in different contexts
+Extract the results from `/orange/soltis/shan158538/Methylation_output/bismark_coverage_files/Genome_wide_methylation.report_shared_loci.txt`.
+
+| Sample ID | Total number of methylated C's | Total methylated C's in CpG context | Total methylated C's in CHG context | Total methylated C's in CHH context | %CpG | %CHG | %CHH |
+| -- | -- | -- | -- | -- | -- | -- | -- |
+| DES1 | 495871480| 231239678| 159681869| 104949933| 46.6%| 32.2%| 21.2%|
+| S1 | 812668675 | 357807030| 246129920| 208731725| 44.0%| 30.3%| 25.7%|
+| S2 | 402793108 | 183181182| 127033908| 92578018| 45.5%| 31.5%| 23.0%|
+| S3 | 477609409| 214420539 | 149453906| 113734964| 44.9%| 31.3%| 23.8%|
+| S4 | 942064832 | 419643657 | 285325595| 237095580| 44.5%| 30.3%| 25.2%|
+| S5 | 659780963 | 295351703 | 200702819| 163726441| 44.8%| 30.4%| 24.8%|
+
+## 4. File reformatting
+### 4.1 Bismark format to allC format
 For example, script `Reformat_CG_cov_files_shared_V1.sh` was used.
-### 3.2 Rename the output files
+### 4.2 Rename the output files
 Since I got the `argument too long` error, the following script is used to shortern filenames.
 
 ```
@@ -60,7 +72,7 @@ for file in *.tsv; do mv $file "allc_DES1_$(echo $file | cut -f 6 -d "_")"; done
 
 Output: e.g. `allc_DES1_10000.tsv`, in which `10000` is the scaffold ID.
 
-## 4. Gene body methylation metaplot
+## 5. Gene body methylation metaplot
 ![CDS_metaplot_demo](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CDS_metaplot_demo.png)
 
 Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
