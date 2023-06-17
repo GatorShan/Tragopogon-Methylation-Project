@@ -40,8 +40,11 @@ cut -f 1 Tdub.V1.transcripts_length.txt > Background_gene_id.txt
 ```
 The output file contains all 30,325 genes.
 ## 3. GO enrichment analysis on DMGs
-The following script was used:
+The following script was used (need to load R version 3.6 to avoid error):
 ```
+module load gcc/5.2.0
+module load trinity/r20180213-2.6.5
+module load R/3.6
 ${TRINITY_HOME}/Analysis/DifferentialExpression/run_GOseq.pl \
     --genes_single_factor DMG_file.txt \
     --GO_assignments ../Tdu_go_annotation_no_ancestral.txt \
