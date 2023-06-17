@@ -44,8 +44,8 @@ The following script was used:
 ```
 ${TRINITY_HOME}/Analysis/DifferentialExpression/run_GOseq.pl \
     --genes_single_factor DMG_file.txt \
-    --GO_assignments Tdu_go_annotation_no_ancestral.txt \
-    --lengths Tdub.V1.transcripts_length.txt \
-    --background Background_gene_id.txt
+    --GO_assignments ../Tdu_go_annotation_no_ancestral.txt \
+    --lengths ../Tdub.V1.transcripts_length.txt \
+    --background ../Background_gene_id.txt
 ```
 ### 3.1 CG context
