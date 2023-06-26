@@ -73,10 +73,18 @@ DES1	genes	CG	0.712482
 ## 3. Gene body methylation metaplot
 ![CDS_metaplot_demo](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CDS_metaplot_demo.png)
 
-Script `gbm_metaplot_pe_ss.V3.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
+Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
 
-Scripts ( e.g. `Gbm_metaplot_CHH_V3.sh` ) were used to submit jobs. Input methylation coverage files are from step 2.1.1
+Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input methylation coverage files are from step 2.1.1
+
+**Metaplot of CG methylation**
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_Feb2020.png" width=500 height=300>
+
+**Metaplot of CHG methylation**
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHG_Feb2020.png" width=500 height=300>
+
+**Metaplot of CHH methylation**
 
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_Feb2020.png" width=500 height=300>
-
-## 4. TE methylation metaplot
