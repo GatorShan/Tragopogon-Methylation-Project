@@ -79,7 +79,7 @@ Script **`gbm_metaplot_pe_ss.V3.py`** is used to generate the metaplot for CDS m
 
 To confirm that `gbm_metaplot_pe_ss.V3.py` is correct, I tested the script using selected genes. For more information, see `Gbm_metaplot_CG_shared_V2_test3.sh` and `metaplot_test_v3.ipynb`. 
 
-Scripts `Gbm_metaplot_CG_shared_V3.sh`, `Gbm_metaplot_CHG_shared_V3.sh`, and `Gbm_metaplot_CHH_shared_V3.sh` were used to generate the metaplot using shared sites. Input files are from step 4.2
+Scripts `Gbm_metaplot_CG_shared_V3.sh`, `Gbm_metaplot_CHG_shared_V3.sh`, and `Gbm_metaplot_CHH_shared_V3.sh` were used to generate the metaplot using shared sites. Input files are from step 4.2. Example outputs are `DES1_CG_new2_gbm_metaplot.tsv`, `DES1_CHG_new2_gbm_metaplot.tsv`, and `DES1_CHH_new2_gbm_metaplot.tsv`.
 
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/metaplot_shared_loci_06262023.png" width=800 height=434>
 
