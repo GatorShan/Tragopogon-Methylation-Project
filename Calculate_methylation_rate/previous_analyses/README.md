@@ -45,7 +45,7 @@ Tdub_V1_scaffold_1      38      NA      CG      15      15      NA
 Tdub_V1_scaffold_1      49      NA      CG      2       2       NA
 Tdub_V1_scaffold_1      50      NA      CG      17      17      NA
 ```
-#### 2.1.1 Rename the output files
+#### 2.1.1 Rename the methylation coverage output files
 Since I got the `argument too long` error, the following script is used to shortern filenames.
 
 ```
@@ -54,7 +54,7 @@ for file in *.tsv; do mv $file "allc_DES1_$(echo $file | cut -f 6 -d "_")"; done
 
 Output: e.g. `allc_DES1_10000.tsv`, in which `10000` is the scaffold ID.
 
-#### 2.1.2 Reformat the scaffold name in the gff file
+#### 2.1.2 Reformat the scaffold name in the gff file for genes
 Since the `*.tsv` files have shorterned filenames, scaffold name in gff files should be changed accordingly for downstream analysis.
 
 ```
@@ -73,18 +73,10 @@ DES1	genes	CG	0.712482
 ## 3. Gene body methylation metaplot
 ![CDS_metaplot_demo](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CDS_metaplot_demo.png)
 
-Script `gbm_metaplot_pe_ss.V1.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
+Script `gbm_metaplot_pe_ss.V3.py` is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
 
-Scripts ( e.g. `Gbm_metaplot_CHH_V1.sh` ) were used to submit jobs. Input files are from step 2.1.1
-
-**Metaplot of CG methylation**
-
-<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CG_Feb2020.png" width=500 height=300>
-
-**Metaplot of CHG methylation**
-
-<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHG_Feb2020.png" width=500 height=300>
-
-**Metaplot of CHH methylation**
+Scripts ( e.g. `Gbm_metaplot_CHH_V3.sh` ) were used to submit jobs. Input methylation coverage files are from step 2.1.1
 
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/CHH_Feb2020.png" width=500 height=300>
+
+## 4. TE methylation metaplot
