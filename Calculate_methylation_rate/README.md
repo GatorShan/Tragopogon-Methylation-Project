@@ -77,7 +77,9 @@ Output: e.g. `allc_DES1_10000.tsv`, in which `10000` is the scaffold ID.
 
 Script **`gbm_metaplot_pe_ss.V3.py`** is used to generate the metaplot for CDS methylation level (for a gene, only count sites within CDS regions), which is modified from [here](https://github.com/bhofmei/analysis-scripts/blob/master/methyl/gbm_metaplot_pe.py) (**the changes include: 1. use all cytosine sites for upstream and downstream calculations; 2. correct the method of combining pos and neg strands methylation status in upstream and downstream regions**). Default: 1 kb upstream and downstream of gene body (delimited by the start and stop site of a gene, but not the CDS), and 20 bins for each region.
 
-Scripts `Gbm_metaplot_CG_shared_V3.sh`, `Gbm_metaplot_CHG_shared_V3.sh`, and `Gbm_metaplot_CHH_shared_V3.sh` were used. Input files are from step 3.2
+To confirm that `gbm_metaplot_pe_ss.V3.py` is correct, I tested the script using selected genes. For more information, see `Gbm_metaplot_CG_shared_V2_test3.sh` and `metaplot_test_v3.ipynb`. 
+
+Scripts `Gbm_metaplot_CG_shared_V3.sh`, `Gbm_metaplot_CHG_shared_V3.sh`, and `Gbm_metaplot_CHH_shared_V3.sh` were used to generate the metaplot using shared sites. Input files are from step 4.2
 
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/metaplot_shared_loci_06262023.png" width=800 height=434>
 
