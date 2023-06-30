@@ -106,6 +106,9 @@ Tdub2_rnd3_50aa.LINE.maker.rm.RENAME.gff
 Tdub2_rnd3_50aa.DNA-transposon.maker.rm.RENAME.gff
 ```
 
+### 6.2 Metaplot analysis
+To confirm that `TE_metaplot_pe_ss.V3.py` is correct, I tested the script using selected genes. For more information, see `TE_metaplot_CHG_shared_V1_test1.sh` and `metaplot_TE_test_v1.ipynb`. 
+
 
 
 
