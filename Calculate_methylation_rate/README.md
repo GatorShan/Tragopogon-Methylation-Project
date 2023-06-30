@@ -87,3 +87,27 @@ Scripts `Gbm_metaplot_CG_shared_V3.sh`, `Gbm_metaplot_CHG_shared_V3.sh`, and `Gb
 The methylation level difference between 3 species at each bin for each context was tested using **one-way ANOVA**. The script and results are in `gbm_ANOVA_CG.ipynb`, `gbm_ANOVA_CHG.ipynb`, and `gbm_ANOVA_CHH.ipynb`. Using 0.01 as P-value cutoff, **the three species showed no difference in all bins for all context**.
 
 ## 6. TE methylation metaplot
+### 6.1 Prepare TE gff file
+The TE gff file is extracted from `Tdub2_rnd3_50aa.all.maker.gff`, which contains the 30,325 genes (same as the final gene gff file) after 3 rounds of annotation. The ID is changed according to `ID_old_new.table`, and the output is `Tdub2_rnd3_50aa.all.maker.rm.gff`.
+
+Using `Tdu_repeat_gff_formatting_v2.ipynb` and `Tdub2_rnd3_50aa.all.maker.rm.gff`, I got the TE gff file `Tdub2_rnd3_50aa.TE.maker.rm.gff`. The individual TE type files (e.g., `Tdub2_rnd3_50aa.LTR.maker.rm.gff` and `Tdub2_rnd3_50aa.DNA-transposon.maker.rm.gff`) were derived from `Tdub2_rnd3_50aa.TE.maker.rm.gff`.
+
+Finally, the scaffold name is shortened for the downstream metaplot analysis. Example script is:
+```
+sed 's/Tdub_V1_scaffold_//' Tdub2_rnd3_50aa.TE.maker.rm.gff > Tdub2_rnd3_50aa.TE.maker.rm.RENAME.gff
+```
+
+Final TE gff files are:
+```
+Tdub2_rnd3_50aa.TE.maker.rm.RENAME.gff
+Tdub2_rnd3_50aa.LTR.maker.rm.RENAME.gff
+Tdub2_rnd3_50aa.SINE.maker.rm.RENAME.gff
+Tdub2_rnd3_50aa.LINE.maker.rm.RENAME.gff
+Tdub2_rnd3_50aa.DNA-transposon.maker.rm.RENAME.gff
+```
+
+
+
+
+
+
