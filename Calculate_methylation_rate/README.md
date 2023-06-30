@@ -81,7 +81,7 @@ To confirm that `gbm_metaplot_pe_ss.V3.py` is correct, I tested the script using
 
 Scripts `Gbm_metaplot_CG_shared_V3.sh`, `Gbm_metaplot_CHG_shared_V3.sh`, and `Gbm_metaplot_CHH_shared_V3.sh` were used to generate the metaplot using shared sites. Input files are from step 4.2. Example outputs are `DES1_CG_new2_gbm_metaplot.tsv`, `DES1_CHG_new2_gbm_metaplot.tsv`, and `DES1_CHH_new2_gbm_metaplot.tsv`.
 
-<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/metaplot_shared_loci_06262023.png" width=800 height=434>
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/Gene_TE_metaplot_shared_loci_06302023.png" width=800 height=434>
 
 ### Statistical test
 The methylation level difference between 3 species at each bin for each context was tested using **one-way ANOVA**. The script and results are in `gbm_ANOVA_CG.ipynb`, `gbm_ANOVA_CHG.ipynb`, and `gbm_ANOVA_CHH.ipynb`. Using 0.01 as P-value cutoff, **the three species showed no difference in all bins for all context**.
@@ -108,6 +108,11 @@ Tdub2_rnd3_50aa.DNA-transposon.maker.rm.RENAME.gff
 
 ### 6.2 Metaplot analysis
 To confirm that `TE_metaplot_pe_ss.V3.py` is correct, I tested the script using selected genes. For more information, see `TE_metaplot_CHG_shared_V1_test1.sh` and `metaplot_TE_test_v1.ipynb`. 
+
+**TE as a whole**
+
+Scripts `TE_metaplot_CG_shared_V2.sh`, `TE_metaplot_CHG_shared_V2.sh`, and `TE_metaplot_CHH_shared_V2.sh` were used to generate the metaplot using shared sites. Example outputs are `DES1_CG_TE_new_gbm_metaplot.tsv`, `DES1_CHG_TE_new_gbm_metaplot.tsv`, and `DES1_CHH_TE_new_gbm_metaplot.tsv`.
+
 
 
 
