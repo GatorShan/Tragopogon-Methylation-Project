@@ -1,7 +1,7 @@
 # SNP Calling
 The T. pratensis (2x) genome sequencing reads are mapped to the reference genome of T. dubius (2x) -- SNPs between the two species are then identified. The workflow is adapted from the information shown [here](https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels-).
 
-Genomic DNA of T. pratensis (3058-4-3) was extracted at the Florida Museum of Natura History (Gainesville, FL, USA); gDNA libraries preparation and sequencing were performed at BGI (Shenzhen, China). The information of raw and trimmed paired-end reads can be found here.
+Genomic DNA of T. pratensis (3058-4-3) was extracted at the Florida Museum of Natura History (Gainesville, FL, USA); gDNA libraries preparation and sequencing were performed at BGI (Shenzhen, China). The information of raw and trimmed paired-end reads can be found [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNP_calling/Output). `Trimmomatic_1.0.sh` was used to trim the raw reads.
 
 ## 1. Mapping
 ### 1.1 Mapping T. pratensis reads to T. dubius reference genome using BWA
