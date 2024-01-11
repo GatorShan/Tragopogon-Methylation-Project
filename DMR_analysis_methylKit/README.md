@@ -35,8 +35,13 @@ Notes:
 -- To identify shared and unique DMRs, script `Overlap_DMR_V1.py` was used. Outputs are located at `/blue/soltis/shan158538/Methylation/OutPut/DMR_methylkit`.
 
 ## 3. DMR heatmap
-<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_methylKit/images/Heatmap_DMRs.png" width=900 height=450>
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_methylKit/images/Heatmap_DMRs_updated.png" width=900 height=600>
 
 Scripts `DMR_heatmap_v1.ipynb`, `DMR_heatmap_v1_CHG-Copy1.ipynb`, `DMR_heatmap_v1_CHH.ipynb`, `DMR_heatmap_v2.ipynb`, `DMR_heatmap_v2-CHG-Copy1.ipynb`, and `DMR_heatmap_v2-CHH.ipynb` were used to format the input files; scripts `DMR_heatmap.R`, `DMR_CHG_heatmap.R`, and `DMR_CHH_heatmap.R` were used to generate the heatmap. Settings when saving the figure from R can be found [here](https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_methylKit/images/Settings_saving_figure_from_R.png).
 
-## 4. [Previous analyses](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit/Previous_analyses)
+## 4. Quantitative analysis of DMRs showing parental legacy
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMR_analysis_methylKit/images/Quantitative_analysis_DMR_parental-legacy.png" width=900 height=300>
+
+We quantitatively examined these DMRs in each cytosine context to answer the question: how does the difference in methylation level between the diploids compare to that between the two subgenomes in the polyploid? For each DMR showing parental legacy, the difference in methylation level between the two subgenomes (represented by A) was subtracted from the difference between the diploid parents (B); the resulting absolute value (|B-A|) was used to construct the density distribution plot (Fig. S1). In CG, CHG, and CHH contexts, 8.2%, 16.4%, and 14.2% of the DMRs showing parental legacy exhibited substantial alteration in methylation level differences following polyploidy, respectively (Fig. S1). That is, |B-A| was greater than the cutoff defining DMR (i.e., 35%, 25%, and 10% in CG, CHG, and CHH contexts, respectively). Script `DMR_parental_legacy_abs_diff_density.V2.R` was used to construct the figure.
+
+## 5. [Previous analyses (not used in the manuscript)](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit/Previous_analyses)
