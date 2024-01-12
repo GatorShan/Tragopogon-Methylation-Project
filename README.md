@@ -16,7 +16,7 @@ The trimming process and statistics can be found in the [trim_galore section](ht
 [Bismark analysis section](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/bismark_analysis) showed the alignment process.
 
 ## 4. Methylation level
-Section [Calculate_methylation_rate](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/Calculate_methylation_rate) includes analyses of genome-wide methylation rate, methylation rate at different genetic features, and gene body methylation metaplot.
+Section [Calculate_methylation_rate](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/Calculate_methylation_rate) includes analyses of genome-wide methylation rate, proportions of methylated cytosines in different contexts, methylation metaplots at gene bodies and TEs (including various types) and their flanking regions.
 
 ## 5. Differentiation of the subgenome origin of *T. miscellus* reads
 Section [SNP_calling](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNP_calling) identified SNPs between *T. dubius* and *T. pratensis*. Section [SNPsplit](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNPsplit) differentiate *T. dubius*- and *T.pratensis*-derived reads in *T. miscellus*.
