@@ -60,7 +60,7 @@ Extract the results from `/orange/soltis/shan158538/Methylation_output/bismark_c
 | S4 | 942064832 | 419643657 | 285325595| 237095580| 44.5%| 30.3%| 25.2%|
 | S5 | 659780963 | 295351703 | 200702819| 163726441| 44.8%| 30.4%| 24.8%|
 
-## 4. File reformatting
+## 4. File reformatting for the following metaplot analysis
 ### 4.1 Bismark format to allC format
 For example, script `Reformat_CG_cov_files_shared_V1.sh` was used.
 ### 4.2 Rename the output files
