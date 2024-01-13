@@ -110,6 +110,15 @@ Scripts `TE_metaplot_CG_shared_V3.sh`, `TE_metaplot_CHG_shared_V3.sh`, and `TE_m
 
 TE types include Copia elements, Gypsy elements, LINEs, and DNA transposons. Example scripts: `Copia_metaplot_CHG_shared_V3.sh` and `DNA_metaplot_CG_shared_V3.sh`. Example outputs are `DES1_CG_LINE_new2_gbm_metaplot.tsv` and `DES1_CG_Gypsy_new2_gbm_metaplot.tsv`.
 
+### 6.3 Statistical test
+**Comparison between species within each region & between the polyploid and the MPV**
+
+Following arcsine square root data transformation, one-way ANOVA and post hoc Tukey tests were used to compare the methylation levels among species within each region (i.e., upstream, TE, and downstream). A one-sample t-test was conducted to compare the methylation level of T. miscellus to the MPV. The following scripts were used `Statistical_test_TE_metaplot_transformed_data.ipynb`, `Statistical_test_Copia_metaplot_transformed_data.ipynb`, `Statistical_test_Gypsy_metaplot_transformed_data.ipynb`, `Statistical_test_LINE_metaplot_transformed_data.ipynb`, `Statistical_test_DNA_metaplot_transformed_data.ipynb`.
+
+**Comparison between TE body and the flanking regions**
+
+The following scripts were used: `Statistical_test_TE_body_elevation.ipynb`, `Statistical_test_Copia_body_elevation.ipynb`, `Statistical_test_Gypsy_body_elevation.ipynb`, `Statistical_test_LINE_body_elevation.ipynb`, `Statistical_test_DNA_body_elevation.ipynb`.
+
 
 
 
