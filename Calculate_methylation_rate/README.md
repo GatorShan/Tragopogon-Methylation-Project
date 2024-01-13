@@ -100,7 +100,7 @@ repeat_annotation_combined_DNA.final.gff (these are DNA transposons)
 ```
 
 ### 6.2 Metaplot analysis
-To confirm that `TE_metaplot_pe_ss.V3.py` is correct, I tested the script using selected genes. For more information, see `TE_metaplot_CHG_shared_V1_test1.sh` and `metaplot_TE_test_v1.ipynb`. 
+To confirm that `TE_metaplot_pe_ss.V3.py` is correct, I tested the script using selected genes. For more information, see `TE_metaplot_CHG_shared_V1_test1.sh` and `metaplot_TE_test_v1.ipynb`. **For the actual analysis below, I used script `TE_metaplot_pe_ss.V4.py` (the upstream and downstream window size is 2,000 bp, which is 1,000 bp in V3)**.
 
 **TE as a whole**
 
