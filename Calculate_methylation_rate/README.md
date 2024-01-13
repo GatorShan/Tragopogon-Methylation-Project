@@ -88,22 +88,15 @@ The methylation levels were compared among the three species within each of the 
 
 ## 6. TE methylation metaplot
 ### 6.1 Prepare TE gff file
-The TE gff file is extracted from `Tdub2_rnd3_50aa.all.maker.gff`, which contains the 30,325 genes (same as the final gene gff file) after 3 rounds of annotation. The ID is changed according to `ID_old_new.table`, and the output is `Tdub2_rnd3_50aa.all.maker.rm.gff`.
+These results are based on the new analysis from Jon Spoelhof. 
 
-Using `Tdu_repeat_gff_formatting_v2.ipynb` and `Tdub2_rnd3_50aa.all.maker.rm.gff`, I got the TE gff file `Tdub2_rnd3_50aa.TE.maker.rm.gff`. The individual TE type files (e.g., `Tdub2_rnd3_50aa.LTR.maker.rm.gff` and `Tdub2_rnd3_50aa.DNA-transposon.maker.rm.gff`) were derived from `Tdub2_rnd3_50aa.TE.maker.rm.gff`.
-
-Finally, the scaffold name is shortened for the downstream metaplot analysis. Example script is:
+gff files are (`/blue/soltis/shan158538/Methylation/OutPut/TE_annotation_new/`):
 ```
-sed 's/Tdub_V1_scaffold_//' Tdub2_rnd3_50aa.TE.maker.rm.gff > Tdub2_rnd3_50aa.TE.maker.rm.RENAME.gff
-```
-
-Final TE gff files are:
-```
-Tdub2_rnd3_50aa.TE.maker.rm.RENAME.gff
-Tdub2_rnd3_50aa.LTR.maker.rm.RENAME.gff
-Tdub2_rnd3_50aa.SINE.maker.rm.RENAME.gff
-Tdub2_rnd3_50aa.LINE.maker.rm.RENAME.gff
-Tdub2_rnd3_50aa.DNA-transposon.maker.rm.RENAME.gff
+repeat_annotation_combined_TE.final.gff (all types of TEs included)
+repeat_annotation_combined_Copia.final.gff
+repeat_annotation_combined_Gypsy.final.gff
+repeat_annotation_combined_LINE.final.gff
+repeat_annotation_combined_DNA.final.gff (these are DNA transposons)
 ```
 
 ### 6.2 Metaplot analysis
@@ -111,7 +104,11 @@ To confirm that `TE_metaplot_pe_ss.V3.py` is correct, I tested the script using 
 
 **TE as a whole**
 
-Scripts `TE_metaplot_CG_shared_V2.sh`, `TE_metaplot_CHG_shared_V2.sh`, and `TE_metaplot_CHH_shared_V2.sh` were used to generate the metaplot using shared sites. Example outputs are `DES1_CG_TE_new_gbm_metaplot.tsv`, `DES1_CHG_TE_new_gbm_metaplot.tsv`, and `DES1_CHH_TE_new_gbm_metaplot.tsv`.
+Scripts `TE_metaplot_CG_shared_V3.sh`, `TE_metaplot_CHG_shared_V3.sh`, and `TE_metaplot_CHH_shared_V3.sh` were used to generate the metaplot using shared sites. Example outputs are `DES1_CG_TE_new2_gbm_metaplot.tsv`, `DES1_CHG_TE_new2_gbm_metaplot.tsv`, and `DES1_CHH_TE_new2_gbm_metaplot.tsv`.
+
+**Each type of TE**
+
+TE types include Copia elements, Gypsy elements, LINEs, and DNA transposons. Example scripts: `Copia_metaplot_CHG_shared_V3.sh` and `DNA_metaplot_CG_shared_V3.sh`. Example outputs are `DES1_CG_LINE_new2_gbm_metaplot.tsv` and `DES1_CG_Gypsy_new2_gbm_metaplot.tsv`.
 
 
 
