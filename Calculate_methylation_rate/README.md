@@ -41,7 +41,7 @@ S5_CpG.gz.bismark_shared_filtered.cov
 * Note: shared loci were found in all six samples and with a min coverage of 3 in each sample; the overall loci number is from outputs in bismark analysis step 4.
 
 ## 2. Genome-wide weighted methylation level
-**Using only shared loci with minimum coverage of 3 as input**, script `Genome_wide_methylation_rate_V2.ipynb` was used to calculate genome-wide weighted methylation level. The following results were included in the manuscript.
+**Using only shared loci with minimum coverage of 3 as input**, script `Genome_wide_methylation_rate_V2.ipynb` was used to calculate the genome-wide weighted methylation level. The following results were included in the manuscript. Additionally, following arcsine square root data transformation, ANOVA and post hoc Tukey analyses were employed to determine if genome-wide weighted DNA methylation levels were significantly different between species. The methylation level for T. miscellus was compared with the mid-parent value (MPV; the average of T. dubius and T. pratensis) at different cytosine contexts using a one-sample t-test. Script `Statistical_test_genome-wide_methylation_levels_transformed_data.ipynb` was used.
 | Sample ID | DES1 | S1 | S2 | S3 | S4 | S5 |
 | -- | -- | -- | -- | -- | -- | -- |
 | CpG | 90.2% | 89.1% | 84.5% | 85.9% | 87.1% | 86.6% |
@@ -49,7 +49,7 @@ S5_CpG.gz.bismark_shared_filtered.cov
 | CHH | 10.0% | 11.6% | 9.4% | 10.1% | 10.6% | 10.3% |
 
 ## 3. Proportions of methylated cytosine in different contexts
-Extract the results from `/orange/soltis/shan158538/Methylation_output/bismark_coverage_files/Genome_wide_methylation.report_shared_loci.txt`.
+Extract the results from `/orange/soltis/shan158538/Methylation_output/bismark_coverage_files/Genome_wide_methylation.report_shared_loci.txt`. For the statistical test, script `Statistical_test_proportion_methylated_cytosines_transformed_data.ipynb` was used.
 
 | Sample ID | Total number of methylated C's | Total methylated C's in CpG context | Total methylated C's in CHG context | Total methylated C's in CHH context | %CpG | %CHG | %CHH |
 | -- | -- | -- | -- | -- | -- | -- | -- |
