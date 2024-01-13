@@ -119,6 +119,11 @@ Following arcsine square root data transformation, one-way ANOVA and post hoc Tu
 
 The following scripts were used: `Statistical_test_TE_body_elevation.ipynb`, `Statistical_test_Copia_body_elevation.ipynb`, `Statistical_test_Gypsy_body_elevation.ipynb`, `Statistical_test_LINE_body_elevation.ipynb`, `Statistical_test_DNA_body_elevation.ipynb`.
 
+### 6.4 Distance between TEs and their closest genes.
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/Distance_TE-gene_01122024.png" width=750 height=600>
+The distance was calculated individually for each TE type: Copia, Gypsy, LINE, and DNA transposons. Scripts `RTE_gene_distance_copia_ss.py`, `RTE_gene_distance_gypsy_ss.py`, `RTE_gene_distance_LINE_ss.py`, `RTE_gene_distance_DNA_ss.py` were used. Additionally, a statistical test was performed (script `Statistics_distance_TE-gene_v2.ipynb`); Gypsy elements were significantly further from genes than other TE types.
+
+
 
 
 
