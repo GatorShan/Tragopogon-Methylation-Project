@@ -4,10 +4,11 @@
 ### 1.1 Inputs
 Input files are located at `/blue/soltis/shan158538/Methylation/OutPut/DMR_methylkit`. For instance, files containing CHG-DMRs include:
 ```
+parents_CHG_methylDiff_all.txt
+subgenomes_CHG_methylDiff_all.txt
 Overlap_same_direction_parents_CHG_methylDiff_all_subgenomes_CHG_methylDiff_all.txt
 Unique_parents_CHG_methylDiff_all.txt
 Unique_subgenomes_CHG_methylDiff_all.txt
-Overlap_diff_direction_parents_CHG_methylDiff_all_subgenomes_CHG_methylDiff_all.txt
 ```
 ### 1.2 Identify DMGs
 Script `DMG_V1.py` was used. Usage: `DMG_V1.py Tdub.V1.rm.gff Unique_subgenomes_methylDiff_all.txt`. The output is `DMG_Unique_subgenomes_methylDiff_all.txt`:
@@ -17,8 +18,8 @@ TragDub19346-RA
 TragDub29136-RA
 TragDub30060-RA
 ```
-## 2. Prepare files for GO enrichment analysis
-GOseq pipeline included in Trinity (version r20180213-2.6.5) was used for GO enrichment analysis by using GO terms derived from the annotation of T. dubius reference genome (FDR < 0.05). The method has been used in Trag inflorescence transcriptome paper and can be found [here](https://github.com/GatorShan/Tragopogon-Inflorescence-RNA-seq-Analysis/tree/master/Annotation/GO_enrichment#gene-ontology-enrichment-analysis).
+## 2. GO enrichment analysis of DMGs
+The output files can be found at `/blue/soltis/shan158538/Methylation/OutPut/DMG_GO_analysis`. GOseq pipeline included in Trinity (version r20180213-2.6.5) was used for GO enrichment analysis by using GO terms derived from the annotation of T. dubius reference genome (FDR < 0.05). The method has been used in Trag inflorescence transcriptome paper and can be found [here](https://github.com/GatorShan/Tragopogon-Inflorescence-RNA-seq-Analysis/tree/master/Annotation/GO_enrichment#gene-ontology-enrichment-analysis).
 ### 2.1 Extract GO assignment
 Xiaoxian's previous work has annotated the Tdu ref genome using Trinotate, and the result can be found in `Tdub.trinotate.annotation.xls`.
 ```
