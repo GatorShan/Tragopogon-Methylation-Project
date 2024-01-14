@@ -21,5 +21,5 @@ Section [Calculate_methylation_rate](https://github.com/GatorShan/Tragopogon-Met
 ## 5. Differentiation of the subgenome origin of *T. miscellus* reads
 Section [SNP_calling](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNP_calling) identified SNPs between *T. dubius* and *T. pratensis*. Section [SNPsplit](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/SNPsplit) differentiate *T. dubius*- and *T.pratensis*-derived reads in *T. miscellus*.
 
-## 6. DMR analysis
-Section [methylKit_analysis](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/methylKit_analysis) described the process of reading methylation calls from sorted Bismark alignment files using methylKit. Section [DMR_analysis_methylKit](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit) described the process of DMR analysis and comparison, and GO enrichment analysis of DMGs.
+## 6. DMR and DMG analysis
+Section [methylKit_analysis](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/methylKit_analysis) described the process of reading methylation calls from sorted Bismark alignment files using methylKit. Section [DMR_analysis_methylKit](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMR_analysis_methylKit) described the process of DMR analysis and comparison. Section [DMG](https://github.com/GatorShan/Tragopogon-Methylation-Project/tree/master/DMG) includes the identification of DMGs and GO enrichment analysis of these DMGs.
