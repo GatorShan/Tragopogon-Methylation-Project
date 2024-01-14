@@ -2,7 +2,7 @@
 
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/Sampling.png" width=320 height=300>
 
-<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/WGBS.png" width=750 height=350>
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/WGBS.png" width=750 height=330>
 
 ## 1. Materials
 | Species | Sequence ID |
