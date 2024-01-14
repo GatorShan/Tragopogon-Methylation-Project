@@ -11,6 +11,8 @@ Unique_parents_CHG_methylDiff_all.txt
 Unique_subgenomes_CHG_methylDiff_all.txt
 ```
 ### 1.2 Identify DMGs
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMG/images/DMG_summary.png" width=600 height=370>
+
 Script `DMG_V1.py` was used. Usage: `DMG_V1.py Tdub.V1.rm.gff Unique_subgenomes_methylDiff_all.txt`. The output is `DMG_Unique_subgenomes_methylDiff_all.txt`:
 ```
 TragDub24505-RA
@@ -19,6 +21,9 @@ TragDub29136-RA
 TragDub30060-RA
 ```
 ## 2. GO enrichment analysis of DMGs
+
+<img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/DMG/images/DMG_GO_enrichment_analysis.png" width=600 height=370>
+
 The output files can be found at `/blue/soltis/shan158538/Methylation/OutPut/DMG_GO_analysis`. GOseq pipeline included in Trinity (version r20180213-2.6.5) was used for GO enrichment analysis by using GO terms derived from the annotation of T. dubius reference genome (FDR < 0.05). The method has been used in Trag inflorescence transcriptome paper and can be found [here](https://github.com/GatorShan/Tragopogon-Inflorescence-RNA-seq-Analysis/tree/master/Annotation/GO_enrichment#gene-ontology-enrichment-analysis).
 ### 2.1 Extract GO assignment
 Xiaoxian's previous work has annotated the Tdu ref genome using Trinotate, and the result can be found in `Tdub.trinotate.annotation.xls`.
@@ -40,7 +45,7 @@ ${TRINITY_HOME}/util/misc/fasta_seq_length.pl Tdub.V1.transcripts.fasta > Tdub.V
 cut -f 1 Tdub.V1.transcripts_length.txt > Background_gene_id.txt
 ```
 The output file contains all 30,325 genes.
-## 3. GO enrichment analysis on DMGs
+### 2.4 Perform GO enrichment analysis on DMGs
 The following script was used (need to load R version 3.6 to avoid error):
 ```
 module load gcc/5.2.0
@@ -52,4 +57,3 @@ ${TRINITY_HOME}/Analysis/DifferentialExpression/run_GOseq.pl \
     --lengths ../Tdub.V1.transcripts_length.txt \
     --background ../Background_gene_id.txt
 ```
-### 3.1 CG context
