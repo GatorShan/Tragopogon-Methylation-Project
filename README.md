@@ -1,8 +1,11 @@
 # *Tragopogon* Methylation Project
-
+<p align="center">
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/Sampling.png" width=320 height=300>
+</p>
 
+<p align="center">
 <img src="https://github.com/GatorShan/Tragopogon-Methylation-Project/blob/master/Calculate_methylation_rate/images/WGBS.png" width=750 height=330>
+</p>
 
 ## 1. Materials
 | Species | Sequence ID |
